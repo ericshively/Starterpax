@@ -12,9 +12,9 @@ export default function Navbar() {
   return (
     <>
         <Link href="/">
-          <h1 className="text-3xl p-4"> Starterpax </h1>
+          <h1 className="text-3xl p-4"> Starter Pax </h1>
         </Link>
-        <div className="flex">
+        <div className="flex flex-wrap">
           {Object.keys(categories).map((category) => (
               <Link key={category} href={category}>
                 <div className={"m-4 rounded " + (pathname === ("/" + category) ? "border-4 border-blue-500" : "") }>

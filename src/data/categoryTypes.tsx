@@ -7,3 +7,7 @@ export type CategoryData = {
 export type Categories = {
     [key: string]: CategoryData[]
 }
+
+export type CategoryFriendlyNames = {
+    [key: string]: string
+}

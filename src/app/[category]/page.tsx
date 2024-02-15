@@ -24,7 +24,7 @@ export async function generateStaticParams() {
 export default function CategoryPage({ params }: { params: { category: string } }) {
     return (
       <div>
-        <h1 className="text-center text-xl p-4"> {(categoryFriendlyNames as CategoryFriendlyNames)[params.category]} Starter Pack </h1>
+        <h1 className="text-center text-md lg:text-xl p-2 lg:p-4"> {(categoryFriendlyNames as CategoryFriendlyNames)[params.category]} Starter Pack </h1>
         <ItemList categoryName={params.category}/>
         <Description description={params.category}/>
       </div>

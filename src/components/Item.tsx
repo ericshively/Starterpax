@@ -4,11 +4,11 @@ import Image from 'next/image'
 
 export default function Item({ item }: { item: CategoryData }) {
     return (
-        <div className="m-4 rounded max-w-96 hover:border hover:border-green-500">
+        <div className="m-2 lg:m-4 rounded max-w-96 hover:border hover:border-green-500">
             <Link href={item.link}>
-                <Image className="max-h-44 m-2 object-scale-down" src={`/images/` + item.image} alt={""} width={172} height={172} />
+                <Image className="max-h-16 max-w-16 md:max-h-32 md:max-w-32 lg:max-h-44 lg:max-w-44 m-2 object-scale-down" src={`/images/` + item.image} alt={""} width={172} height={172} />
             </Link>
-            <center className="max-w-48"> {item.name} </center>
+            <center className="text-sm max-w-16 md: md:max-h-32 md:max-w-32 lg:text-md lg:max-w-44"> {item.name} </center>
         </div>
     )
   }

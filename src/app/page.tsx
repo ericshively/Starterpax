@@ -1,7 +1,8 @@
 export default function RootPage() {
   return (
-    <main className="flex flex-col items-center justify-between p-24 text-2xl">
-       <h1> What&apos;s the best items to get started? </h1> <br></br>
+    <main className="flex flex-col items-center justify-between pt-4 md:p-4 lg:p-12 xl:p-20 md:text-lg lg:text-xl xl:text-2xl">
+       <h1> What are the best items to get started? </h1>
+       <br></br> &nbsp; <br></br>
        <h2> Starter Pax is a curated collection of high value starter items, or &quot;starter packs&quot;, for various hobbies. </h2> <br></br>
        <br></br> &nbsp; <br></br>
        <h3> Select one of the categories above </h3>

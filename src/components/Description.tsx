@@ -25,7 +25,9 @@ const categoryDescriptions: CategoryDescriptions = {
                Then, a moisturizer with sunscreen. Finally, a toner.`,
   "hometools": `Home improvement tools can be daunting and could take time to build up a collection.
                 Here are the core needs to get started on most projects around the house. An upfront investment here will save you a lot of money down the line by
-                being able to mow, fix clogged drains, and various other ad-hoc tasks a handyman would do.`
+                being able to mow, fix clogged drains, and various other ad-hoc tasks a handyman would do.`,
+  "mensfashion": `How do you immediately level up your fashion sense from logo T shirts, Walmart jeans, and dad shoes? This starter pack includes some great value options
+                  to start looking a bit more stylish and less like you rolled out of bed. Pieces like a flannel, henley, and Levi's blue jeans are some casual classics.`
 }
 
 

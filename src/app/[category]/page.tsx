@@ -14,6 +14,7 @@ export async function generateStaticParams() {
         "pc",
         "skincare",
         "hometools",
+        "mensfashion",
       ]
    
     return categories.map((category) => ({

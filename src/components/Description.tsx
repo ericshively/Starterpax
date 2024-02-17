@@ -27,7 +27,9 @@ export const categoryDescriptions: CategoryDescriptions = {
                 Here are the core needs to get started on most projects around the house. An upfront investment here will save you a lot of money down the line by
                 being able to mow, fix clogged drains, and various other ad-hoc tasks a handyman would do.`,
   "mensfashion": `How do you immediately level up your fashion sense from logo T shirts, Walmart jeans, and dad shoes? This starter pack includes some great value options
-                  to start looking a bit more stylish and less like you rolled out of bed. Pieces like a flannel, henley, and Levi's blue jeans are some casual classics.`
+                  to start looking a bit more stylish and less like you rolled out of bed. Pieces like a flannel, henley, and Levi's blue jeans are some casual classics.`,
+  "cooking": `A cooking starter pack will get you the must-haves for a well-stocked kitchen without much clutter like an unnecessary 14-item stainless set will.
+              Essential are some quality pans covering almost all uses, a few great knives, and the boards and sharpener to use them on.`
 }
 
 

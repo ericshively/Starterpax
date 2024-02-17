@@ -12,6 +12,7 @@ export default function RootPage() {
        Most importantly, we are looking towards the most value for the money, &quot;bang for the buck&quot;, so you can get started efficiently.<br></br>&nbsp; <br></br>
        Items aren&apos;t the cheapest in their category but they&apos;re neither the premium overpriced options.<br></br>
        When you view our starter packs, you can rest easy knowing you can immediately dive into a new hobby without feeling overwhelmed by the options. <br></br>
+       {new Date().toLocaleString()}
     </main>
   );
 }

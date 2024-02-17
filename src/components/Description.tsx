@@ -2,7 +2,7 @@ export type CategoryDescriptions = {
   [key: string]: string
 }
 
-const categoryDescriptions: CategoryDescriptions = {
+export const categoryDescriptions: CategoryDescriptions = {
   "homebar": `A starter pack for a home bar can be pricy to get started. Here are some high value items to hit the ground running. You need to include
          a bourbon whiskey, scotch whisky, gin, vodka, tequila blanco, white rum, and a a couple mixers like vermouth and bitters for classic cocktails.
          You'll also need a shaker, a measuring jigger, strainer, and a stirring spoon found in a pack. To finish it off, a large ice cube tray.`,

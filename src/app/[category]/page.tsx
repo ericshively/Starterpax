@@ -16,7 +16,7 @@ export async function generateMetadata(
 ): Promise<Metadata> {
  
   return {
-    title: (categoryFriendlyNames as CategoryFriendlyNames)[params.category],
+    title: (categoryFriendlyNames as CategoryFriendlyNames)[params.category] + " Starter Pack",
     description: categoryDescriptions[params.category],
   }
 }

@@ -29,7 +29,11 @@ export const categoryDescriptions: CategoryDescriptions = {
   "mensfashion": `How do you immediately level up your fashion sense from logo T shirts, Walmart jeans, and dad shoes? This starter pack includes some great value options
                   to start looking a bit more stylish and less like you rolled out of bed. Pieces like a flannel, henley, and Levi's blue jeans are some casual classics.`,
   "cooking": `A cooking starter pack will get you the must-haves for a well-stocked kitchen without much clutter like an unnecessary 14-item stainless set will.
-              Essential are some quality pans covering almost all uses, a few great knives, and the boards and sharpener to use them on.`
+              Essential are some quality pans covering almost all uses, a few great knives, and the boards and sharpener to use them on.`,
+  "classicbooks": `A classic books starter pack is a collection of the most influential and timeless books.
+                   These books have been around for a long time and are tried and true throughout history.`,
+  "scifibooks": `A Science Fiction books starter pack is a collection of the most influential and timeless books in the Sci-Fi genre.`,
+  "selfimprovementbooks": `A self-improvement books starter pack is a collection of the most influential and timeless books in the self-improvement genre.`,            
 }
 
 

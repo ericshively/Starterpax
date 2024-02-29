@@ -17,9 +17,7 @@ export default function Navbar() {
         <div className="flex flex-wrap justify-center">
           {Object.keys(categories).map((category) => (
               <Link key={category} href={category}>
-                <div className={"m-1 md:m-2 lg:m-3 xl:m-4 rounded " + (pathname === ("/" + category) ? "border-4 border-blue-500" : "") }>
-                  <Category categoryName={category} />
-                </div>
+                  <Category categoryName={category} currentlySelected={pathname === ("/" + category)} />
               </Link>
           ))}
         </div>

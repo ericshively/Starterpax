@@ -4,11 +4,11 @@ import Image from 'next/image'
 
 export default function Item({ item }: { item: CategoryData }) {
     return (
-        <div className="flex flex-col justify-between m-1 lg:m-4 rounded max-w-96 border border-black hover:border-green-500">
+        <div className="flex flex-col justify-between m-1 lg:m-4 rounded max-w-96 border-2 border-black hover:border-green-500">
             <Link href={item.link}>
-                <Image className="max-h-16 max-w-16 md:max-h-32 md:max-w-32 lg:max-h-44 lg:max-w-44 m-2 object-scale-down" src={`/images/` + item.image} alt={""} width={172} height={172} />
+                <Image className="w-20 h-20 sm:w-26 sm:h-26 md:w-32 md:h-32 lg:w-44 lg:h-44 object-fill" src={`/images/` + item.image} alt={""} width={176} height={176}/>
             </Link>
-            <center className="text-sm max-w-16 md: md:max-h-32 md:max-w-32 lg:text-md lg:max-w-44"> {item.name} </center>
+            <center className="text-xs w-20 sm:w-26 md:text-sm md:w-32 lg:text-md lg:w-44"> {item.name} </center>
         </div>
     )
   }

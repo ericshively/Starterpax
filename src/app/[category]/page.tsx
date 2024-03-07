@@ -48,7 +48,7 @@ export default function CategoryPage({
 }) {
   return (
     <div>
-      <h1 className="text-center text-md lg:text-xl p-2 lg:p-4">
+      <h1 className="text-md p-2 text-center lg:p-4 lg:text-xl">
         {" "}
         {(categoryFriendlyNames as CategoryFriendlyNames)[params.category]}{" "}
         Starter Pack{" "}

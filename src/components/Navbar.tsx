@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <>
       <Link href="/">
-        <h1 className="sm:text-lg md:text-xl lg:text-2xl xl:text-3xl p-2 lg:p-4">
+        <h1 className="p-2 sm:text-lg md:text-xl lg:p-4 lg:text-2xl xl:text-3xl">
           {" "}
           Starter Pax{" "}
         </h1>

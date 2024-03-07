@@ -38,7 +38,7 @@ export const categoryDescriptions: CategoryDescriptions = {
 
 export default function Description({ description }: { description: string }) {
   return (
-    <div className="text-center text-md lg:text-lg xl:text-xl mt-8 xl:mt-12 mx-4 md:mx-8 lg:mx-20 xl:mx-60 mb-20">
+    <div className="text-md mx-4 mb-20 mt-8 text-center md:mx-8 lg:mx-20 lg:text-lg xl:mx-60 xl:mt-12 xl:text-xl">
       {categoryDescriptions[description]}
     </div>
   );

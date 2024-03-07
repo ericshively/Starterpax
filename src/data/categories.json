@@ -1,126 +1,650 @@
 {
-    "homebar": [{ "name": "Wild Turkey Bourbon", "image": "wild_turkey.webp", "link": "https://www.totalwine.com/spirits/bourbon/wild-turkey-101/p/1862750?s=1115&igrules=true" },
-            { "name": "Monkey Shoulder Scotch", "image": "monkey_shoulder.webp", "link": "https://www.totalwine.com/spirits/scotch/blended-scotch/monkey-shoulder-scotch-whisky/p/127093750?s=1115&igrules=true" },
-            { "name": "Plantation 3 Rum", "image": "plantation_3.webp", "link": "https://www.totalwine.com/spirits/rum/silver-rum/plantation-3-stars-artisanal-rum/p/173123750?s=1115&igrules=true" },
-            { "name": "Gran Centenario Tequila", "image": "gran_centenario.webp", "link": "https://www.totalwine.com/spirits/tequila/blancosilver/gran-centenario-plata-tequila/p/97668750?s=1115&igrules=true" },
-            { "name": "Beefeater Gin", "image": "beefeater.webp", "link": "https://www.totalwine.com/spirits/gin/beefeater/p/3639750" },
-            { "name": "Stoli Vodka", "image": "stoli.webp", "link": "https://www.totalwine.com/spirits/vodka/vodka/stoli-premium/p/3720175-1" },
-            { "name": "Cointreau Triple Sec", "image": "cointreau.webp", "link": "https://www.totalwine.com/spirits/liqueurscordialsschnapps/citrus-triple-sec/orange/cointreau-liqueur/p/532750" },
-            { "name": "Cocchi Sweet Vermouth", "image": "cocchi.webp", "link": "https://www.totalwine.com/spirits/amaro-aperitif-vermouth/vermouth/sweet/cocchi-vermouth-di-torino/p/116922750" },
-            { "name": "Dolin Dry Vermouth", "image": "dolin.webp", "link": "https://www.totalwine.com/spirits/amaro-aperitif-vermouth/vermouth/dry/dolin-vermouth-de-chambery-dry/p/106922375-1" },
-            { "name": "Angostura bitters", "image": "bitters.webp", "link": "https://www.totalwine.com/accessories-more/mixers-water-soda/bitters/angostura-bitters/p/2961804?s=1115&igrules=true" },
-            { "name": "Lime Juice", "image": "lime_juice.jpg", "link": "https://www.amazon.com/365-Everyday-Value-Organic-Concentrate/dp/B074H8KLVL/ref=sr_1_3?crid=1FSPVAA8PP26T&dib=eyJ2IjoiMSJ9.rRgOvD2aPkAnq1hr3KE3cc_7rhgo1r-PHtOSmfhUOm_snba6a-5kAtlRO5DxUOiPLffblEaklaBaKHuMTXMvvKN8R4Z3SYAkMWJ-cXNmvHuISUJdU18dbuP5yDkswOWuoYp5lbCWHnBO8wZliomtpuosfjt9Rw9wLjfMB02gUrE1dzizfBJEhgIEuH_BmnJJIHaLsKAuOaQs66zMw4NKieI6JPInYRRvwSbRgCWSwUewfOvbDMufmnsKzs4KCvPwFu9qyKkOfWSkvCjtx6D9NKBbwi0B5vWorjoXzSmrfZE.qm1yPsaFKRbsfgt5MQZOUEsqZEsbtolpmLsULkRCH-w&dib_tag=se&keywords=lime+juice&qid=1707896772&sprefix=lime+ju%2Caps%2C338&sr=8-3" },
-            { "name": "Lemon Juice", "image": "lemon_juice.jpg", "link": "https://www.amazon.com/365-Everyday-Value-Organic-Concentrate/dp/B074J5WZS8/ref=sr_1_6?crid=3C6B2FGMP1ER4&dib=eyJ2IjoiMSJ9.ujcI8UbYRQPvNykufJGhrf3AhO4hLFjTKFD3uEaiBayHTJ1MQfi8RJG-BN4oIGg1xaurhVq3G1MYhQ88reRJ45hEWcyjC_uyAnJaU6XWuodBYnBXWi8WXZmsGzwIvzbzn4sWw_jLaeDaw_gTj9YtNFnEGvpMgCkmyWCu03TFGGvT7JTk1_LxNYgSQSepzxU-rHBJknqzZ_MRyAZ0EFCEr-HjohKkbGgBgYEGJR9pMSGEhrwlxwHmHx8E_UYdalaXkVU__6mutLnDYDG6KTlL4_Qn_n14svu9XoJjlOcKUlk.2jLmtLWBQfAtHvKxyuzskYQmp6Gw8mDEIqrEPP3avOY&dib_tag=se&keywords=lemon+juice&qid=1707896832&sprefix=lemon+juice%2Caps%2C329&sr=8-6" },
-            { "name": "Simple Syrup", "image": "simple_syrup.webp", "link": "https://www.totalwine.com/accessories-more/mixers-water-soda/syrups/simple-syrup/master-of-mixes-simple-syrup/p/113379233" },
-            { "name": "Bar tools set", "image": "bar_tools.jpg", "link": "https://www.amazon.com/Houdini-5-Pc-Perfect-Making-Serving/dp/B07ND3JL37?th=1" },
-            { "name": "Ice tray", "image": "ice_tray.jpg", "link": "https://www.amazon.com/Adoric-Silicone-Sphere-Whiskey-Reusable/dp/B07L4MLZT3/ref=sr_1_1?crid=1VG6G49CPNXVD&dib=eyJ2IjoiMSJ9.yTCSbLICFJKxDx8g32rcNXr3-lHi-9gyBJQpWODTZ_4TF5Br1wwiDF_rNEfiVoZfvN9o_bLh6tJjxrvahkGi2k5ew0Zh7Up_BHsGzwQS4DgDHr7Wi_n1mXv7pbjZ-tz4IVprnB_JCHCdi2-VgoUvMPsWJHkbQof798BTxJyWJbUSn3RX-R9SD3X7L12uL5l5yoODBk2-XL7aKwNDKbCBbY0ntdA_ZO0d7uj4qZ8WrohkWOIFGh6tsJXvv6TkuCZrBZELCqAwB5Od8aiCGd19V2WqcdU2rxUhD_QiV5A4iLg.xscMEgM369sSOSqx4bnI63-3qDSSQnK3j-pzV7x14_k&dib_tag=se&keywords=old+fashioned+ice&qid=1707897246&sprefix=old+fashioned+i%2Caps%2C287&sr=8-1" },
-            { "name": "Bogle Red Wine", "image": "bogle.webp", "link": "https://www.totalwine.com/wine/red-wine/red-blend/bogle-essential-red/p/124440750?s=1115&igrules=true" },
-            { "name": "Coors Beer", "image": "coors.webp", "link": "https://www.totalwine.com/beer/lager/americanstyle-lager/coors-banquet/p/132486126?_pxhc=1587804040172&bvstate=pg:6/ct:r" }],
-    "whiskey": [{ "name": "Wild Turkey 101", "image": "wild_turkey.webp", "link": "https://www.totalwine.com/spirits/bourbon/wild-turkey-101/p/1862750?s=1115&igrules=true" },
-                { "name": "Rittenhouse Rye", "image": "rittenhouse.webp", "link": "https://www.totalwine.com/spirits/american-whiskey/rye-whiskey/rittenhouse-rye-100/p/109259750" },
-                { "name": "Laphroiag 10", "image": "laphroaig.webp", "link": "https://www.totalwine.com/spirits/scotch/single-malt/laphroaig-10-yr/p/3697750" },
-                { "name": "Glenlivet 12", "image": "glenlivet.webp", "link": "https://www.totalwine.com/spirits/scotch/single-malt/glenlivet-12-yr/p/2792750" },
-                { "name": "Tullamore Dew", "image": "tullamore.webp", "link": "https://www.totalwine.com/spirits/irish-whiskey/tullamore-dew-irish-whiskey/p/7658750-1" },
-                { "name": "Buffalo Trace", "image": "buffalo.webp", "link": "https://www.totalwine.com/spirits/bourbon/small-batch-bourbon/buffalo-trace-kentucky-straight-bourbon-whiskey/p/102882750" },
-                { "name": "Johnnie Walker Black", "image": "johnnie_black.webp", "link": "https://www.totalwine.com/spirits/scotch/blended-scotch/johnnie-walker-black-label/p/636750" }],
-    "weightlifting": [{ "name": "Squat", "image": "squat.jpg", "link": "https://stronglifts.com/squat/" },
-                      { "name": "Bench Press", "image": "benchpress.jpg", "link": "https://stronglifts.com/bench-press/" },
-                      { "name": "Deadlift", "image": "deadlift.jpg", "link": "https://stronglifts.com/deadlift/" },
-                      { "name": "Overhead Press", "image": "overhead.jpg", "link": "https://stronglifts.com/overhead-press/" },
-                      { "name": "Barbell Row", "image": "barbell_row.jpg", "link": "https://stronglifts.com/barbell-row/" }],
-    "skateboard": [{ "name": "Baker Deck 8.25\"", "image": "baker.jpg", "link": "https://www.amazon.com/Baker-Brand-Logo-Deck-White/dp/B00U2G2OO2/ref=sr_1_1?crid=12H3HNVUD4TCF&dib=eyJ2IjoiMSJ9.kqaQH3TGWgmBNn5Vny4d4nks6igYBVr6MnMZ3qVE0WdJGcgufjqoGMPorEYEQjkgEiJACuwxY65BizrSjbx8hyW8016lITViMJA4I51Qk7ADI3ekJtnrpLtu8m74hJuJcP-6RHCRL5lq1_SDlN-GMKiSU3DlOAywKcROl51hMupLk5kN_Fg5sd2HBlpwNkLtf195XjNbNlz5ETCx4OpawrMlKjN-M5rDThFgtI_G6WC3FNArIcuHq_6Lxj5M-1nmYeVa7LHTZwatxE4yhebdGVErShUrqjZZfnQC-0CkzaM.UNePB-gphGjm_sPWGGJJa4jKVW0rU5AbsMk0I03GDgI&dib_tag=se&keywords=baker+deck&qid=1707945227&sprefix=baker+de%2Caps%2C338&sr=8-1" },
-                   { "name": "Independent Trucks 139", "image": "independent.jpg", "link": "https://www.amazon.com/Independent-Stage-11-Skateboard-trucks/dp/B06XCGNKYN/ref=sr_1_3?crid=47YAWFTYWQKH&dib=eyJ2IjoiMSJ9.bQLsEiZHR2v9Hc_KlLUlpkqQkeVmJProhSXad1oQXm7_O5vrIi4a6HmyVVPfb1c5jvCqOzlSoRZ5KesRAIrSVKH5vo5uPoF1Pe0VfZxDE0b1RuW6xJWvEvWn72LUqjg_7KyU8Z94i1iiJH5pLF28CCXVFd2hYH3SxQ2yTpjf3qpi9ugC0HzLH2x2Z-V3op9wSpk5iYfa6h1eZuOmsvYsEEAtBiSZJ1ti43gShm17E9c-DaQcPSoXsVkg6BsdAEBbu9Mz67Sc4XU-naxzFW09xc3Fx0k08wa-1YrBPVLlAqw.W8E5I1aUoDynEqgpNgMMHRpJ85AxqmpmLpLIC2sz8TM&dib_tag=se&keywords=independent%2Btrucks%2B139&qid=1707945140&sprefix=independent%2Btrucks%2B1%2Caps%2C312&sr=8-3&th=1&psc=1" },
-                   { "name": "Spitfire F4 Wheels 53mm", "image": "spitfire.webp", "link": "https://www.amazon.com/Spitfire-Formula-Conical-Skateboard-Wheels/dp/B00OO8UL8A/ref=sr_1_2?crid=1ODT7HYN8OZ20&dib=eyJ2IjoiMSJ9.tw0mzfgqJSxZvphJ0JxtZurWig6cujLP6AFOE6JLKMSAk1EBE0HJYBxnKa0hS17OFQ4K2QtmdHgcaXFBMSxNAvQldm8hH6Y9thHi6jLMc71TwnN_3HRXV5I-q8lTjfI1XB1VVQKCMb4zglklXDlzdWq6awG8xTKJvw243CJI7nIVBXjDY8VDnvcKv0U_fPO-4GE5BF2MpAM-hrHXzGSiXzhPx22K_tkrmiiqaYMeHPalvEb58hlIviebR64a3Yepvu9LJUFOjkJawfPL7RK9s2ZFfFkwZXsTQqpf2pUDh9I.tEUpfuoLTIGZhebZOrFrGw-OKRrdv1wCR-aMxcU1fnE&dib_tag=se&keywords=spitfire+skateboard+wheels+formula+4&qid=1707944998&sprefix=spitfire+skateboard+wheels+formula+%2Caps%2C275&sr=8-2" },
-                   { "name": "Bones Reds Bearings", "image": "bones_reds.jpg", "link": "https://www.amazon.com/Bones-Reds-Bearings/dp/B000FDRQ1S?th=1" },
-                   { "name": "Mob Griptape", "image": "mob_griptape.jpg", "link": "https://www.amazon.com/Mob-Skateboard-Grip-Sheet-Black/dp/B002E0B2BK/ref=sr_1_2_mod_primary_new?crid=12H0SMZJ8TD7&dib=eyJ2IjoiMSJ9.k2KSQfy0rX2hnrQ0s5Qt_gOfG60HNqbPTye6W5pfXx36VVFYkrpD7zCH6mWjvV9EgtFjETj0Da6c3R8MC9HwABCLHfUqPKfZrkM-_hZ07mwRJyvZlJoBhpw7JJr2nM8awfCvVni-H45BT-EoRDJM2MWMb8eABjODknBJZjCtRAK9YYPTd3wJi_HW4doab5JwbzHn8RajiX-qNxVhtwiXXgmzp3Jpg3dvnhpG-erv7FdgMndgYnEuu-FO7atvzuNQ2o38Rh6C5Y9i12GtI9H-kIVN-Tdb_1UXZFffqo8bbNg.M21OMKkPAramXaSixXucmFrzLQraOir1BNLMC6ila6A&dib_tag=se&keywords=mob+griptape&qid=1707945398&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=mob+gripta%2Caps%2C303&sr=8-2" },
-                   { "name": "Vans Old Skool Shoes", "image": "vans.webp", "link": "https://www.amazon.com/Vans-Unisex-Skool-Black-White/dp/B000R3UCB2/ref=sr_1_1?crid=2QWCZSJH86X3M&dib=eyJ2IjoiMSJ9.6wErHhd4c6AhJbu1mqd5Pqcly1UwUS7Jatb8GR86o4Q_Z88mYywEHmYn5OHqGh-m17ZGpIj_NquIWYgwnMiE_BnJHC7XZl8IExxK1Te_TaeYwGjF-FgkAoVhhIH8fQ2ytz37x0y7WUjvJfU9H60SVpI-I7Iu-CkbzW_7SOmKcn6UbUSB1sNU6K2mRnRna_pHlmx4esJRjLpAgXla1TpQ9II-bUjTmu8rKAtncMHX6ygZGktjUunaM2KgBeiumw4E1Ea83GXYGYHYZWX2Xy7eF2PzSkyA9Kddv_b2XjMPV6M.fRuEbk-yjjWCK6qRwIKxPuSpJP6di3G-9ERPvOnjnYw&dib_tag=se&keywords=vans+old+skool&qid=1707945588&sprefix=vans+old+skool%2Caps%2C296&sr=8-1" },
-                   { "name": "Hardware bolts", "image": "hardware_bolts.jpg", "link": "https://www.amazon.com/INDEPENDENT-Genuine-Phillips-Hardware-Independent/dp/B00YFU5B6E/ref=sr_1_5?crid=MA695XW58APQ&dib=eyJ2IjoiMSJ9.aV8nnCvY90eJxRtBdjEABZ3GpuyVbRCl8L9IiSizRK7zFopZaZMttTXYjbmdwE77WC2Q1-ti5dAa385FA0309kIGhalF64M1LNH-W9GgB7eYBtvWcyUk2V79gHXipBlANPXFh3i3ez7Q8eb_AiJeZ9ET_e56FWWXsge3_tEuTCKITfKs4E4A_H-PmzEpl-cnhTgc-dxZTVw1O96Asi3zzOrS5nAvnOHmF-cKNKwl8duAnrQFp45fPThWhXT7Bg4DTvh3MuOdVXC6qXxPokc3-PK16jJdmx6c8JGqJW5eDpw.xHaoSE9nn0gJsNMQhgCgY3Qz5RgjJ7nNy9VCBwc90d0&dib_tag=se&keywords=skateboard+hardware&qid=1707945464&sprefix=skateboard+hardwa%2Caps%2C302&sr=8-5" }],
-    "coffee": [{ "name": "Ninja Drip Machine", "image": "ninja_drip.jpg", "link": "https://www.amazon.com/Ninja-12-Cup-Programmable-CE251-Stainless/dp/B07S98411N/ref=sr_1_1?crid=3LEQEN3HHOQ1A&dib=eyJ2IjoiMSJ9.yO8XWHEDk9SS6gyZnKcHYeVfagvFQrkvaxThl4IAwommrPwNFePgJzZBboUqBgrkChIITB8T9BLtnBHPXgxG0FuwxC5yqIAYA2eO4_9d8k3PyIXV3RKTSj-CT99H3ysERCqC4OAUDSrAij3aus99kH_MqcnHFRrJfGMaJows1i32OCBbfrLOmEulEyaiiDngbUCLKf8V9j9ioRB8DZPpuvZ7fdLB-oucE9UD29jumps9BMSUkcYSqJT8kGRZUvdy3BEgN-sRlBEaEJXApVh6CmPfsHsAsYvcq9aBlcCHorY.RLuR0LUEGjlhhDeJfovnFp1TfyDRR4A-e7qyHL_5Xr8&dib_tag=se&keywords=ninja+drip+coffee&qid=1707948684&sprefix=ninja+drip+coff%2Caps%2C384&sr=8-1&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc" },
-                { "name": "Filters", "image": "coffee_filters.jpg", "link": "https://www.amazon.com/Amazon-Basics-Basket-Coffee-Filters/dp/B0C4Z6SKCS/ref=sr_1_5?crid=17MY0UF7DJUAA&dib=eyJ2IjoiMSJ9.qen7cKYOPp-XMxxhaI5XtjQT_RvaInaEGBzYR0G5YcWXdIyITTXc09IWjSbf5HnP9xRJw-Frqr8v3m5i7n2-PfcKuNBXfSf0IKrlnwh3gWPgcB8slSpdWp6ZmhF3yYIAeENoza_S73qCjiXmZ52Y1WZ_APuSPrcU3vAgAklYzw_X83ZFzjp_EYBXFRvkZ9PHfO-ABjDRZJGUNO9NHS_DE7cn160klwom91Y8ElQX2xrx7JEFU_ip8k8SL2pp3JqJKQeSlvYU3Lx54d9dwGYMr8iWiEMRsHZ1yRhyBET9osI.nDr2s-dbbytVcFvpz5sjv1MrzcYSi_aSgDWwI0OxpiQ&dib_tag=se&keywords=coffee+filters&qid=1707948749&sprefix=coffee+filt%2Caps%2C301&sr=8-5" },
-                { "name": "De Longhi Espresso", "image": "delonghi.avif", "link": "https://www.amazon.com/DeLonghi-Espresso-Cappuccino-Stainless-EC260BK/dp/B08C96BG9H/ref=sr_1_2?crid=19HW2T4JM734G&dib=eyJ2IjoiMSJ9.7UFyqO51KQ0WTfNFxbnUpsiSaIxzQrmvSFunVMcJSMwA370-eUVwculolHmPSchW9EuIZRGsqeLnXwWqnLxgMTWgI-q974G3rQPJwCpl75umy0VbVb7xu6Dui64tHtx7Ns7LBoth4s_ChdT1x-nM7zobD8uCVvrWyWNdV-dEmG-ZaXTpR1jy1HCl05n0iPv6_vfOnSz3ahGFcGIsfoI6cJQ0pMaLIWjyVICInwf7kgzT-yN4DGm4PLWVM3oDSGcBCKKUJ0Uocw3YFAGNL--fw_ibH3DMGGgArGqmIboq17M.Yx1bIGoTDJ3084xECCsW6VSIr2-OKDuXy4cLj6TS9fw&dib_tag=se&keywords=de+longhi+espresso&qid=1707949146&sprefix=de+longhi+espres%2Caps%2C347&sr=8-2" },
-                { "name": "Aeropress", "image": "aeropress.jpg", "link": "https://www.amazon.com/AeroPress-Coffee-Espresso-Maker-Bitterness/dp/B000GXZ2GS/ref=sr_1_5?crid=1BBFLELX9UEYF&dib=eyJ2IjoiMSJ9.uNvA_16Ou8kOznTBoCfkwdWhelz_E-jOnw_11Spx_GoYrm47Uocr0Fs96_gIMmcE7fshP50oHdw-xCaVm4YHWSaUP9NJ1pwQGo5CvbVWJ5graOxWvMPzNyyhCh6IrNb1b4m1K_9v0kovDbANvix2CPS8MFrCikDyjKTAIs7EtfTBFl-GsMJ3XbOX9wEdkgikW03V-WwJO7B-hgsZUGKPrS71jOFQdzCRu-Y_SwPEKCEO3YW7OhcDxT6DZf4oqxX7EIza3qVxiT8JcLMjl1Xowmp-kce-hFTUSbRQPPTbt78.G3jiHPJhDGvHLf693rbmlIXaSMBAZX9mcYG01CDDfQg&dib_tag=se&keywords=aeropress&qid=1707949164&sprefix=aeropre%2Caps%2C329&sr=8-5" },
-                { "name": "Krups Grinder", "image": "krups.webp", "link": "https://www.amazon.com/AeroPress-Coffee-Espresso-Maker-Bitterness/dp/B000GXZ2GS/ref=sr_1_5?crid=1BBFLELX9UEYF&dib=eyJ2IjoiMSJ9.uNvA_16Ou8kOznTBoCfkwdWhelz_E-jOnw_11Spx_GoYrm47Uocr0Fs96_gIMmcE7fshP50oHdw-xCaVm4YHWSaUP9NJ1pwQGo5CvbVWJ5graOxWvMPzNyyhCh6IrNb1b4m1K_9v0kovDbANvix2CPS8MFrCikDyjKTAIs7EtfTBFl-GsMJ3XbOX9wEdkgikW03V-WwJO7B-hgsZUGKPrS71jOFQdzCRu-Y_SwPEKCEO3YW7OhcDxT6DZf4oqxX7EIza3qVxiT8JcLMjl1Xowmp-kce-hFTUSbRQPPTbt78.G3jiHPJhDGvHLf693rbmlIXaSMBAZX9mcYG01CDDfQg&dib_tag=se&keywords=aeropress&qid=1707949164&sprefix=aeropre%2Caps%2C329&sr=8-5" },
-                { "name": "Trader Joes Beans", "image": "trader_joes_coffee.jpg", "link": "https://www.traderjoes.com/home/products/pdp/fair-trade-organic-sumatra-coffee-074457" },
-                { "name": "Peets Beans", "image": "peets.jpeg", "link": "https://www.amazon.com/Peets-Coffee-Medium-Roast-Whole/dp/B086ZFPJZB/ref=sr_1_9?crid=11BCO8X0JL5NC&dib=eyJ2IjoiMSJ9.KYU1ucZ4ddVZVwuPuUQj2eSzjtIWD-Yj8Le8U0_JYFGZN1aXobVsxFFCqAtZU4GjO8vz8oBpVqjGl-RrSG9K97b0i0fbSlo7oYnVRMcDZL5Ry6w9fIpGrqjvcIGMAO48v5HMVuxc8Or3bbaPycnwJn3VAHP-mdidRhkfV_Z0mit1ZGqUNmTKZzYXqM7ad6IfKSGJn3Ei18nM0Dnx-ea5lNt0j9DxfnfqFRsncW8pC_J3-x1RVvD5_L51ak2E-RP-CvBWUURx84r1CjWhbLONnuCsikyQcIssZ89yzi70N3I.elL315dAyJ3VU2j_J7-FIIvK7M4qFMFw5hll3Unf1r4&dib_tag=se&keywords=peet%27s+coffee+beans&qid=1707947010&sprefix=peetscoffee+beans%2Caps%2C333&sr=8-9" }],
-    "boardgames": [{ "name": "Werewolf One Night", "image": "werewolf.jpg", "link": "https://www.amazon.com/Bezier-Games-ONUWBEZ-Ultimate-Werewolf/dp/B00HS7GG5G/ref=sr_1_2?crid=JPM1EHD7PWCV&dib=eyJ2IjoiMSJ9.tKbT2DmcQhXwuAAWfHXcx4BJXLRCYY6EpVCnIYfG2UQF1PlM2Su0C7urL4iXCMV6SN1ILyBSVmRNA9EpSgycHGEFcE6lASFNmjcO7ZggDmBVgK3-EuNxqRTgGFrmL_v7H0xUU7XJnUn8jdU2qujlNOfWsKQWMeUoe5qrYItlf6bZE63S9OG7EVGPSN5H2U2YPoZkwYNJjq4ItvRZRAuKvii6HQBCM52rwNC3-VsGQ6YseU8crK6LhKoM_zPai54ZrMF2N-_bmE0pKTj9674UdVACC6VDKanJ9byc0YC30Mw.oh4lbiLcbIf7sbgpAJ-xxOyU8He0CkFmYbgyeeYfMH4&dib_tag=se&keywords=werewolf+one+night&qid=1707949892&sprefix=werewolf+one+nig%2Caps%2C308&sr=8-2" },
-                    { "name": "Codenames", "image": "codenames.jpg", "link": "https://www.amazon.com/Codenames-bundle-Czech-Games-items/dp/B07BLJWDLD/ref=sr_1_4?crid=13A1AINF1CS2Q&dib=eyJ2IjoiMSJ9.lWPs2SwlTuel9IJ9_8O4emxzBLde3rBYBQ9dhwbrn9vCeiOhnXLV1s_6DcUSYpfpzHt0VhJL4dzV6zLR1KjyXycQMvPKaD0oxtZ6y-28eYBQdr5mDwk0flpfplA9Rsk-ke5lsR7tkU6vH3hBa46hl5dUOj2I-foMv1PY9OH7u0ifPiPgnTM4HD_QWCnH2qtsttyiQ-wiobCegBV_r3Ymm5XXEURyRg5u_htHDfKd9u1DwiEtnZ47jOdSA695eYVvDBPgDSOc1R8Yfe5ytl7ZGDghFL0VGELqDB9cVG8MT9I.PwRoc4uZij59iOG8k-m_NvzwI7MxzXP68qOprzAVLWk&dib_tag=se&keywords=codenames&qid=1707949982&sprefix=codenam%2Caps%2C343&sr=8-4" },
-                    { "name": "Monopoly Deal Cards", "image": "monopoly_card.jpg", "link": "https://www.amazon.com/Monopoly-Quick-Playing-Christmas-Stocking-Stuffers/dp/B07H5HFTWC/ref=sr_1_1?crid=3FHIHXWC39GS3&dib=eyJ2IjoiMSJ9.zBG07s8lhkfhJreUR3UNV4m6TkdbVOOoFBcBltEUWs7OcOYLCB8djoZzNB3jTJjW3zwF1sOMBSCFHL2mQXU3K6tARM0siXk4tYLQtZmkZQA0i4zkgqdvxNmBTmhAm3eHgClIFtAg_pdGc8PR09jHfjs_g9I7UVwzDhqMtFL2TRWbeLDQiQFOzSXQomLr9aFiU_p9gjC3-u4ZLb1hG0LfUI7rhSNYZR84V-00fik5fTzRgvncZga2ApEip-n6jhK2GYzbqpCvMIlYwriL178I8LC011tvdo6CCystPHLB9A4.gVZAa-RgQpVuEh8j8P_DTEJ6kb4HXIiS2zFhDquybiM&dib_tag=se&keywords=monopoly+card&qid=1707950079&sprefix=monopoly+car%2Caps%2C284&sr=8-1" },
-                    { "name": "Settlers of Catan", "image": "catan.jpg", "link": "https://www.amazon.com/Adventure-Players-Average-Playtime-Minutes/dp/B00U26V4VQ/ref=sr_1_1?crid=1OK71JJN3EQHU&dib=eyJ2IjoiMSJ9.b60caXWhYA8tSt1SaZcN04H8MopIFhxcEz5cjaJfnnji7ayt53sZw4vFchnb6kIgnx7o0an5ylq7WqU8FFqfCCT4GdePOYvoD_kOpTu6IMXfKyq0fKDF6DWRFndt0B2VejOXqOotNLrS6ouTBUEEU1hi7HwPtfGuzpIgYSFjQEtYap11dfbnJmxdXiXfEr4SuoH5uXYLowESb0Fs_yGoHFsMGaeYam0rLHMgjbaakQRPVd_oAMebXg-7S_MyGylRvyjIQdOw0BA1RUv8Fv8y6DHvSXc1r_pCVagV58HTjLc.27I-3I9vD-E5HOJVVe4TOTit1mqMaGq8OnqMgmF-l18&dib_tag=se&keywords=settlers+of+catan&qid=1707950166&sprefix=settlers+of+cat%2Caps%2C284&sr=8-1" },
-                    { "name": "Ticket To Ride", "image": "ticket_to_ride.jpg", "link": "https://www.amazon.com/Days-Wonder-DO7201-Ticket-Ride/dp/0975277324" },
-                    { "name": "Clue", "image": "clue.jpg", "link": "https://www.amazon.com/Reimagined-Players-Mystery-Detective-Family/dp/B0B5FLTTT5/ref=sr_1_4?crid=3CGDJ0S558I90&dib=eyJ2IjoiMSJ9.3LEsrZsYiUW3n3QfO_ETu5O0rXAgCPJQ1soYMcCK0BmbYoKFozRMMmHI2sU8nEOXKZFkqcv_AJvxQ0vO67zTAwaVaSPvhwf1a2XIU5NNKlD7GFtQ4p07PciEB9mPyosRIuaUtJzgJzOHNxUPPvW7gpccZ8jQ1XdZKSI79DtH_SEPWybhf1--jDoIb-kxRXtN77UcGViapuhm1USOnDacBjG32zFiSRl9F_YdoHbUhLkThClzwwDYV9oFZSp-BWKAUeEttlWobj-fx8ogFdZ3TVjpaGuEoJafDLXfIsOHy4U.pG0H8IYJCD3nv3k4v9XUTEk_kY9d4W2X8rRWDzHNXu0&dib_tag=se&keywords=clue+board+game&qid=1707950238&s=toys-and-games&sprefix=clue+board+ga%2Ctoys-and-games%2C278&sr=1-4" },
-                    { "name": "Jenga", "image": "jenga.jpg", "link": "https://www.amazon.com/Hasbro-Gaming-Hardwood-Stacking-Stuffers/dp/B00ABA0ZOA/ref=sr_1_4?crid=141T0EFVJEH5V&dib=eyJ2IjoiMSJ9.4KmPOs5pLMsvlwE-GqFiMkJcAT7knchJAd2H0NBsEjF1qwIwrLJkNATejVlwuF-vuApLd4yY_Xndzd2qFPjvhftzMfBv2ywIczbM4_E204mSLO7foHWXXhqJyWJ6CxpLSBj4etNiGTW8AgpQDb0Uq9W_xTSnecRn5304iZY6PCeFgpP6b7eqKKc9dtBwhSBSjciQj8PxQS_x1WAoFPUxqwfwn68upfRv8DIZTlwfviNAmrZuFzte2Nmcmvu82l4ynikKSvgTdF_mqVqyI_x5Cueth865X-QsvAJWQHXIhoo.hfnU_OkEwyNJ4xeNpQPIlsFpr18FnQfznpQeBO9bJ-8&dib_tag=se&keywords=jenga&qid=1707950281&s=toys-and-games&sprefix=jen%2Ctoys-and-games%2C307&sr=1-4" },
-                    { "name": "Exploding Kittens", "image": "exploding.jpg", "link": "https://www.amazon.com/Exploding-Kittens-LLC-EKG-ORG1-1-Card/dp/B010TQY7A8/ref=sr_1_1?crid=1FWU7PKQLRMNR&dib=eyJ2IjoiMSJ9.J919_IqZInOUspGhZibxMBi6U0-Cbd9k_k93DlUDW0KwRvMC4bkdTjtVFnCTXL3sMH1OuqX7qT_mG2MGs7tGRrLDhzsFOHbiASYGFCvZjfUKDL1AI1wAWd93rfj5gUC3ipCPiLA7DQiVR7o_d8qTi3z7iC9UmlxHprHn6CJHFl5gzBnr80IAtnu_RCYFexBDrw2d4TwXAeGYAnrYi9XN5EDwBIgtJjjJkHRC2nodbw2A5OdN-MPK0UyqmpbEi282LqggM76QF8kwdbDNh_NO7AilmRBCh6uEADjRygwLmHk.5VH-zibk4jUl6C1RzmDF01Ira8gc33HeDIVffRFdIU4&dib_tag=se&keywords=exploding+kittens&qid=1707950304&s=toys-and-games&sprefix=exploding+kitten%2Ctoys-and-games%2C276&sr=1-1" },
-                    { "name": "Cards Against Humanity", "image": "cards_against.jpeg", "link": "https://www.amazon.com/Cards-Against-Humanity-LLC-CAHUS/dp/B004S8F7QM/ref=sr_1_4?crid=3PYUQBE2Z3U9B&dib=eyJ2IjoiMSJ9.YHrBSny8NbLXtd4fsnwAD08PxvvKqIF6c0d3MDGjp38ZGBC5CRRBJQoJv5JPKJub3o97Y8jhrK1DNtyX_MEGa-37JFmfAU2bqAGOlqlkTCDkfLVQ9i19XUZtwnaI7FJlDu55sfOS9GfbCLZRZptd0CHlpkpDmITlVZuv41Qm5sXMsakFY_FX6hZbUuLUVjsRya--s29g6ISQ7c4519fNbAk5ByHGFf3DsCWxj4s-6I7iY57wVgVhGWF_xAFyRElx4gHqUldz6e3kvKzoyDGRANsWBv5HypgqOyLtBXvfzpU.aJw-A9AvN2DspVgM1elROa98Q4R1eBhm9mjlchOkiCo&dib_tag=se&keywords=cards+against&qid=1707950358&s=toys-and-games&sprefix=cards+again%2Ctoys-and-games%2C275&sr=1-4" }],
-    "pc": [{ "name": "AMD Ryzen 5 3600", "image": "amd_ryzen.jpg", "link": "https://www.amazon.com/dp/B07STGGQ18?tag=pcpapi-20&linkCode=ogi&th=1&psc=1" },
-            { "name": "Gigabyte B550 AORUS", "image": "gigabyte_b550.jpg", "link": "https://www.amazon.com/dp/B08KGVH7YC?tag=pcpapi-20&linkCode=ogi&th=1&psc=1" },
-            { "name": "Silicon Power 16 Gb RAM", "image": "silicon_power.jpg", "link": "https://www.amazon.com/dp/B08QV1V17R?tag=pcpapi-20&linkCode=ogi&th=1&psc=1" },
-            { "name": "Samsung 980 SSD 1 Tb", "image": "samsung_980.webp", "link": "https://www.amazon.com/dp/B08V83JZH4?tag=pcpapi-20&linkCode=ogi&th=1&psc=1" },
-            { "name": "Nvidia 4060 GPU", "image": "4060.jpg", "link": "https://www.amazon.com/dp/B0C8BPW1SP?tag=pcpapi-20&linkCode=ogi&th=1&psc=1" },
-            { "name": "Corsair RM750e PSU", "image": "corsair_rm750e.jpg", "link": "https://www.amazon.com/dp/B0BYR1BXC6?tag=pcpapi-20&linkCode=ogi&th=1" },
-            { "name": "Corsair 4000D Case", "image": "corsair_4000d.avif", "link": "https://www.amazon.com/dp/B08C7BGV3D?tag=pcpapi-20&linkCode=ogi&th=1&psc=1" },
-            { "name": "Asus TUF Monitor", "image": "asus_tuf.png", "link": "https://www.amazon.com/dp/B07WQ4FXY9?tag=pcpapi-20&linkCode=ogi&th=1" },
-            { "name": "Logitech MK270 Set", "image": "logitech.jpg", "link": "https://www.amazon.com/Logitech-MK270-Wireless-Keyboard-Mouse/dp/B079JLY5M5/ref=sr_1_4?crid=1ZHEXQ7STTES7&dib=eyJ2IjoiMSJ9.VQIzKwovrjYE2qWXhGwgb405g3iDtrULlDD0Cdzr-pTpx5vZG100Jvlp0C2w-zU5-Y7vfz-zNSkiyQhjHgF-epj5_9SZQ5YwyQysL8lSKim1X5Dn8UkXtqxy66v2Tdx8r7_nM9ktl92g5Ssb5iWwWszG3BouAR2PfFZj_rLsYCKoIs5WrzE4cPc62QAu7u8LnUQq65CDgmUHxx7PboYiDQR7R4QmgDh1wylJ5Dovw1o.Q4Cv0vf8e0lp5pxf0p4pidw_d6WtaNxGq0ggqFXyu6c&dib_tag=se&keywords=keyboard&qid=1707894100&sprefix=ke%2Caps%2C402&sr=8-4&th=1" }],
-    "skincare": [{ "name": "Cerave Hydrating Cleanser", "image": "cerave_cleanser.jpeg", "link": "https://www.amazon.com/CeraVe-Hydrating-Facial-Cleanser-Fragrance/dp/B01MSSDEPK/ref=sr_1_1?crid=1LPPPNULWQ7H0&dib=eyJ2IjoiMSJ9.eLnFeu0RFaEMjQtbvjXecFc18dYIs9IAuzZkt49QxQGHZpSNs3K40JhwroX7ptpcmBhQTUMmrBBJHEHX6ZnCYcfAunlexuQT-oU5EqAT74QIlLeSTH0c88TeftT0JyUxJoK3Uw7Z-e0ZsQSHg2lD9dTmFoqFseJqIumGowSfh07yL7flXJJYh0sTVaZRbUQ22WMFqiH0TRTtS82Tpieksmi7lDgRfR4kf6tpUFIHUVq2OdHiRayb5CkLseT3WLlUmOVYV7UyU2Snc-2sQENK077Z-SzofEXLy8iQg1pYWY4.-9gh5gP1l4QVc1FQD_vqEt9moYSbkuxx3VTCvDSeQTg&dib_tag=se&keywords=cerave+hydrating+cleanser&qid=1707950434&rdc=1&sprefix=cerave+hydring+cleanser%2Caps%2C276&sr=8-1" },
-                 { "name": "Cerave Foaming Cleanser", "image": "cerave_foaming.webp", "link": "https://www.amazon.com/CeraVe-Foaming-Facial-Cleanser-Washing/dp/B01N1LL62W/ref=sr_1_2?crid=3EANHQ4JISB5K&dib=eyJ2IjoiMSJ9.M5Ph_Rcr8lcHmMruM32nJD-LRz9sKxXFUb3MQCIWaujQVCvxh_p96Fmkl0IPMSVcIclbld64iEIojSAZNrNxlIL8hQFfwgYLqsCbgMe7Hrdw6DujLxjRyRzzd362VXeCG1R2BQ4DcolCQU4oOIg40sTkOyEUw3cQheRBnc3ix15Y5r8AZd2uKREeHA6lDMoLE6pv9NihQ26JsT5ldiImldQS5M-2Gt1BfYgmOqJNzp5yy1LN_5XUzIxTJ_-wd8GmCda24uUlPTnwJ3SYNoulN1lJlbgBCf8cMQJ0tauWgdo.rFS-Vy9eZCDawv3hyDfoV2krYj5Z0hG8MPAGGvgOL5c&dib_tag=se&keywords=cerave+cleanser&qid=1707950574&rdc=1&sprefix=cerave+clea%2Caps%2C286&sr=8-2" },
-                 { "name": "Cerave Moisturizer SPF30", "image": "cerave_moisturizer.webp", "link": "https://www.amazon.com/CeraVe-Facial-Moisturizing-Lotion-AM/dp/B00F97FHAW/ref=sr_1_1?crid=2F03CEHROOEI0&dib=eyJ2IjoiMSJ9.8xP4QseiRhNSTeeL64sZJ2cJQmf2oPz2f1LScYdgRAJI3avjuHDH2dh8rA1zOrvBT9RqL_Qi6GRJcKgQacc1jCXc_q8hddZ-SquEzkHS_6866MKFFeYIOhNa84hZ5Ow8WRCvLynHZGjZCUgyLVB7bAa2OIY5mzU-FL6QxuJ5kDvxETPXgZkv7tLx7UvpyLZ1605yeL3W-MEOVWGG480ecySGM8qaiKILH4JCDUnoOtR8MUiF_uZh7mhnuHl9TTG2gvKZJjEik66tzCQOHJ0OYJlIsCZEW7lA9QHDxklsCQI.pRPHEa-VJ1LLNXHP1HEFNguveqHN_dGYKPdQFFy3FlU&dib_tag=se&keywords=cerave+moisturizer+spf&qid=1707894282&rdc=1&sprefix=cerave+moisturizer+sp%2Caps%2C276&sr=8-1" },
-                 { "name": "Thayers Rose Toner", "image": "thayers.jpg", "link": "https://www.amazon.com/Thayers-Natural-Remedies-Alcohol-Free-Petal/dp/B077D3MXVF/ref=sr_1_2?crid=26UHGQNAXNDU7&dib=eyJ2IjoiMSJ9.HaRCxIcswi-SPztZLX3Zg-YjY_NxF3M_usGHZwxT3nO3_iM5PYfRCOnO-GJW_amH_RUF6OXxKj4A-npcKljBVvhD03GESV1QNLlpBt0AeZdz5WvgQqxniwI2XeO_DpwbdUDXdSi7G6PCVi0fP-cNGKjHJxeXg6Oq9DrXZ33nsZBYIsafywaKBWbo7PZNjwYIK23IYfpuc-1kqv8zxHJUCGMbzmuRRsCPrXFNmfoAgfg_5TneTtOXg32PvOxW9RXBlvSPX0PRDLLKWCWF71OKNd4oZEMPdsARaxSMJQGRi6c.hEqZCFCRObgvG7NaSWZ5L1PCYYeenhUOJciZbH6mu3Q&dib_tag=se&keywords=thayers+rose+facial+toner&qid=1707950494&sprefix=thayers+rose+facial+ton%2Caps%2C279&sr=8-2" }],
-    "hometools": [{ "name": "Dewalt Drills", "image": "dewalt_drills.webp", "link": "https://www.amazon.com/DEWALT-DCK240C2-Lithium-Driver-Impact/dp/B09M394NQ3/ref=sr_1_2?crid=2T0CP8PW7HXSK&dib=eyJ2IjoiMSJ9.iC1VAVCMo8FIDU2ULyDBZEfsGvC5p89towLCRhfLKXPQCEsxvQUO4pxMczq3Y8T8M2FEsta6u29AXvJqSTlh7UfjtqymYFkL-02ky5nVU3H4GbldyM8YLsS_Q1lijtBFIjfBgFZyRl3GwTlo1D49-PhCXf7RfgN8aSC0nnNMsqsjbOnXuOfafPHOjBlJ9oV-udNnfckLO71kDsO3psGb2_9NXJhMZSxpzAHzwH_GIzZAbDA0X0Ug5RvaFzzND77YvV9IAFNAC7wS76OVQOrU3HTOcZL1spFiAm74gSHV5vA.qG7uAHKuu5hLjcuwhCeb52MPaGCEP2piRNpkNZ7uhsU&dib_tag=se&keywords=dewalt%2Bdrill%2Bset&qid=1707946400&sprefix=dewalt%2Bdrill%2B%2Caps%2C312&sr=8-2&th=1" },
-                  { "name": "Dewalt Screw Bits", "image": "dewalt_screwdriver.jpg", "link": "https://www.amazon.com/DEWALT-DW2166-Piece-Screwdriving-Tough/dp/B002JWSNIS/ref=sr_1_1?crid=25NRCSQ53C2L2&dib=eyJ2IjoiMSJ9.rxu65W2bmetFk5d4yo0WnaApCPXWMcPgzrrjvDKpmtogxmBMMpGoIQPKfng1DOEwjd9sml29XNfKNQF-l9UuVz9qQIhfxbLFBQO2ZQlRfXDXJ1fzfJNheT_ejkii7Z9p30vey8Mra_ZaOcv88kK66ZXEcuekTQjSNHL839U38Dls3qDXEsfnyLd8NtQclG5hjLNjbIwseOp3e_CayeC70d4r5ElFo8DDOK76VYOc5ymRBYrfT1sObTMFMeBwMXrofAHu694BKE7gGpVEtOWVkEN6dVWMKMFH7mGQgi4KW8A.r6pkWD9p7mpPD-v43guRsdzVa6MAC2n1Cr6AGd17wXk&dib_tag=se&keywords=dewalt%2Bscrewdriver%2Bbit%2Bset&qid=1707946908&s=hi&sprefix=dewalt%2Bscrewdriver%2Bbit%2B%2Ctools%2C306&sr=1-1&th=1" },
-                  { "name": "Dewalt Drill Bits", "image": "dewalt_bits.webp", "link": "https://www.amazon.com/DEWALT-DW1354-14-Piece-Titanium-Yellow/dp/B0045PQ762?th=1" },
-                  { "name": "Dewalt Tool Kit", "image": "dewalt_tools.jpg", "link": "https://www.amazon.com/DEWALT-Mechanics-Socket-108-Piece-DWMT73801/dp/B00U0P0GHM/ref=sr_1_2?crid=1TL2Z8UVLYYZ5&dib=eyJ2IjoiMSJ9.UnToSzJjiXBYB9d-SamrKEC9tTKf2vZsVMTSty2RURUTnxHcdoMkmAs_jQ5CWjl5gBvGAzecsM071yMnHQzK2xz47ivXgYXNgoBR0yCKmdzBAhUOky2f8eKbHBDsyN3_IAMI_qKoWvgd-8pDY4644JPzCYZsiY89sImRsrc7wrq6kPMrlrbzimgR5L67DVZBcwLZTbZCb_K77EWCO_YR5jh-xjflp3PZFC5v-1rxuzakz0aHk776NS5KzdEowVSQVmlP8JSPc8rabbvAIlC_xVeA-w6tx69mBjItL7MFGx8.YDR5_3PPQXxWQvQk17-ioGZq6liDqVzvB80o0DiYAfA&dib_tag=se&keywords=wrench%2Bpliers%2Bsocket&qid=1707945920&sprefix=wrench%2Bpliers%2Bsock%2Caps%2C285&sr=8-2&th=1" },
-                  { "name": "Plumbing Snake Augur", "image": "plumbing_snake.jpg", "link": "https://www.amazon.com/Plumbing-Adapter-Flexible-Manually-Bathroom/dp/B088FVNC2F/ref=sr_1_5?crid=2K4A34180SATQ&dib=eyJ2IjoiMSJ9.JzNKN_ZJDxV5HpiXXQEsw_Sg48cw_rLvQKjwNig_EHNKTW-WrMFAbBXfkr13bBt1fEDZL45L1RWRsCQct754ni5AlWxKxZv3SzElBSd50JdW5bHTv5vnYocTJ1KTc4ChWeeBoFEefCVmDZYIO0zyygNjBTyWR8s877YcYED2H1CBb1srEtDKkeCcI4l36lfoScvEfx8Vq0_zxkGM9wRT_ntCTXDP79QfAgSj9ljAKLsblxdi98V0FtyGC9paoi0Cx1zEHDyjqGKlGft5nyrFVmGs1sSM2YE7JwueKe_T0no.doNELYqrLZFF52qSHRLCWfP9pSKZZpSR26D1Y9UZtXY&dib_tag=se&keywords=plumbing%2Bsnake&qid=1707894461&sprefix=plumbing%2Bsna%2Caps%2C303&sr=8-5&th=1" },
-                  { "name": "Louisville Ladder FS2005", "image": "ladder.jpg", "link": "https://www.amazon.com/Louisville-Ladder-Fiberglass-250-Pound-FS2005/dp/B000KL0ZZE/ref=sr_1_15?crid=11TK4CKNTUIR5&dib=eyJ2IjoiMSJ9.q4QQCczhU7XIRySnpBcTDSJRLOwgjQrfxzWorYYSyWgOEYcru6XqIrEKd_6UKFY7yoAjrsSkjux0UQ6-6Gxktb7DeHUhzGvqpDUo0VJq4frnQiixWhduFOKWMZUCJPwItsyyqSdHmj5U7PoQo4nDQ-3tnSSjnb4JuamRu4ZKO6zqsK5ZPE2FzsunUkLUR3W9_nUGs9sampNVDj_29BkYPftkIgfit0321uzbM9VBlJZlRomIXNU8QjM3XwQUM1pdQl7cLTBiUEJLHb4WzjVMeOwz44afJaOL9Uvdgm1z3Ow.2I38PThjtpQdm8xuXPuUhjyTj_-aOSwVrcKjojE-iVs&dib_tag=se&keywords=ladder&qid=1707894508&sprefix=ladd%2Caps%2C280&sr=8-15" },
-                  { "name": "Greenworks 40v 16\" Mower", "image": "greenworks.jpg", "link": "https://www.amazon.com/GreenWorks-25322-Mower-Battery-Included/dp/B00BBQVL5U/ref=sr_1_1?crid=2D0RCAKGWU32B&dib=eyJ2IjoiMSJ9.cMmccs3dMT0d_FPJRq9e2kWk7jVl0-GWHnQNu2wYuYWpYAuHWIRPNyhypjdlDXT7iieF4CnqCF5Ky6l_3mvkqD1shrjjJUwgnHpvnAbiqF8HQ3M9lQX9k9Gi7-yDXNnwYAuqfXGoKxOa7cBa4AJFlpIso4Vc7Ytzu8MJwUT-5-YxJWD0sii1uTVqi5wjJ3a8cxRtP8tg2uXDfGhkzFDxGN9QJeOQ9fB28Ohp_DKxjYA.GWeCneJ6vWuPQ6QpEjPM6tZ6Y3BcRbAFofK51ZbwaSY&dib_tag=se&keywords=electric%2Blawn%2Bmower&qid=1707894594&sprefix=electric%2Blawn%2Bmo%2Caps%2C279&sr=8-1&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0&th=1" },
-                  { "name": "Worx Lawn Edger", "image": "worx_edger.jpeg", "link": "https://www.amazon.com/WORX-WG896-Electric-Trencher-Orange/dp/B00Q6EH7DW/ref=sr_1_1?crid=6ZRAZ8PFY13H&dib=eyJ2IjoiMSJ9.KIzrAT-xmHjc99qOmTEOXXd98BdayLJH-qogdXkcvO7DNdbnpp1cTGWpn1AzIkLvXcUIrJuAz07mRAasxJDTnWaIdGTInoP4gQMDbCD_WDVSVWw-gDJK9ty5IiCW8FMgT1gpyebuqSX3sfDsO_eBZW79gPBr46g-AmVdzmPHCStzs3doZrD3TgQlnObsQiC32rvUChTr8ih5taCkZV-INVhcPVxmQVA43eUrNTh5EQI.yFP2LtX3WsjqdUi2v2QlwVZnF2gp3Fmp4VIPQz0pNsE&dib_tag=se&keywords=electric%2Bedger&qid=1707894674&sprefix=electric%2Bedg%2Caps%2C329&sr=8-1&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0&th=1" },
-                  { "name": "Workpro Pliers", "image": "workpro_pliers.jpg", "link": "https://www.amazon.com/WORKPRO-W001329A-6-Piece-Pliers-Wrench/dp/B07G9LKCML" }],
-     "cooking": [{ "name": "Cast Iron Dutch Oven", "image": "lodge_oven.jpg", "link": "https://www.amazon.com/Lodge-Manufacturing-Company-EC6D32-Enameled/dp/B0764492S9/ref=sr_1_4?crid=33ELDAX3C1NC6&dib=eyJ2IjoiMSJ9.kpAqvBLpIV-q3sgYVcuJYCITstRYfVboQu7dPvUC53ohjH7rrekjojoqM3wnZVz9LpF7kPxSXhEDf3O_OsdqZEmod5P7BvhBkp_vn33ro8gVfdGiutAX2UaW7blfbIhyLX1H_I5lIEH02JHYLZQ8HH6Tty2xm0pZfEuWu17STXOKKVdrk1mdL4xd755W30xstP1sZm3G2mY7VW6T7A3qj7IP90Omc5euDDZOkb2eTiK2VrpfIe9-npz0ykwQ_MOn0eUygsfytnx0eR5bfFl-IvonFpP2MmOrV5KCX2hXfoM.S3N3LnFymMQkuE2EfBnx10pKrrH_Wal-7qFJ1cCtUNM&dib_tag=se&keywords=lodge%2Bdutch%2Boven&qid=1708153307&sprefix=lodge%2Bdutch%2Boven%2Bamazon%2Bbasics%2Caps%2C267&sr=8-4&th=1" },
-                  { "name": "Cast Iron Skillet", "image": "lodge_skillet.webp", "link": "https://www.amazon.com/Lodge-Skillet-Pre-Seasoned-Ready-Stove/dp/B00006JSUA/ref=sr_1_4?crid=31SKNFLJ85BMJ&dib=eyJ2IjoiMSJ9.uO0DAO_DTQI6IqoDRyFuM1unGU-UQ2bG_UgThYoiiJGhzYN3So7lyxBPQwVgaNRgwgDxWSMCMGOZS4hcEXpDIqkbhxmVshigyK-lykATuPdTgeuz3DMtP9GcPDgImg4CIDv9lPJQb2hBUTaGH86YHCuyPRLZlkBLzxx_eCvTUdYGKjp1DHWVvW-PEuwjn-tYvQcTNDQKpEcAOEmKT66dQhmkHGR_2EnAuMo8d5-72Ejp1xc38TeBZLjVtG-mI8EETvj7-vr157yARN2NFHgyS0hB4ZFd1X2muT--4jkwf5M.JbIwuZA-7q36n5xibXb3-FuS31n9iriQeHv4Jw1OElY&dib_tag=se&keywords=lodge%2Bcast%2Biron&qid=1708154506&sprefix=lodge%2Bcast%2Bir%2Caps%2C315&sr=8-4&th=1" },
-                  { "name": "Stainless Steel Saute Pan", "image": "saute_pan.jpg", "link": "https://www.amazon.com/Calphalon-2029634-saute-pan-Silver/dp/B07MM3RWMN/ref=sr_1_12_mod_primary_new?crid=GKPGZSDCGC01&dib=eyJ2IjoiMSJ9.6zuGgWfMUi3NRe8Ku9U3Vnxa_3JYlVMokCP57UnegGz8Raal7nsoqYDjw-Sp8W7ztrvRQS_t4VrkSJ2r0u1D0D9qQPjUml6in6jnIc89HGkJ_U2jKVrpO2N8glWuycjcMUZMp8X1fubzc1iPLQAnxmYjFXmd7rvp-6Te7QwUISJAuFBitqXd0vy_fMVNDyTDV-Nlq0msMwneulXOWu4UASjuSeqx5Wrhp3gCj-94vxp1JbiVHuTf2ZGQciD3MwKwF8-6UwY60-0ayPw-98OHsqTahu3TiiXvVvIGbV41yNg.eTY0Fsp8-CIHTwjf7rhT2K4KFuQnRb_04-NWIZDgGaQ&dib_tag=se&keywords=saute%2Bpan%2Bstainless%2Bsteel&qid=1708154598&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=saute%2Bpan%2Bstainless%2Bste%2Caps%2C291&sr=8-12&th=1" },
-                  { "name": "Stainless Steel Sauce Pan (saucier)", "image": "tramontina_sauce_pan.jpg", "link": "https://www.amazon.com/Tramontina-80116-022DS-Induction-Ready-NSF-Certified/dp/B00JAQ4DNU/ref=sr_1_11?crid=2V90L6EG4DPBB&dib=eyJ2IjoiMSJ9.EmyJqLT7NeyLdVNYr6kWMZ73rvwmogPeUg4ud6ehyDiut-Ih_68xaMky06fEQ-NM52Wcs9uolGbV3V9CPA86GHlFFtOEVMM5A4r1vYOOcV6BfMCtBKd5QfeJqNJovlOGTheXqEexwnALZKgVc920GXpsl01V3kqYEqOQ2-cUIVmdum2N6bnzDTzScxr2m7mjlksEvF4U4z_L_GwtVOTqIS8Q00kuFvsm1OOXsBDtZ5N1faa_rvJEIH_Kt7JyDMzyII4jsFtfa5yjLWJAYXlxGZSEA-zyOgrtOIs4bcV-xkg.0BdlMJZNEZOMp7hWCZ04tVCxUQDcO5mc3dG8z3SNXFk&dib_tag=se&keywords=sauce%2Bpan%2Bsaucier%2Bstainless%2Bsteel&qid=1708154651&sprefix=sauce%2Bpan%2Bsauci%2Bstainless%2Bsteel%2Caps%2C306&sr=8-11&th=1" },
-                  { "name": "Wooden Spoons", "image": "wooden_spoons.jpg", "link": "https://www.amazon.com/Riveira-Apartment-Essentials-Nonstick-Housewarming/dp/B0823FQKH6/ref=sr_1_8?crid=1I6H1S04D6HW2&dib=eyJ2IjoiMSJ9.IZAv1sBHtBiZ02GRv6VmK2h8NAHoHT2lAyrzRrOMUyu7cOdABujGr5CgfUcqIKUegxzKdWcOPwgY1rKIHOS0lmbSGnJNF_11cZIQr-fuAV_cOO03GFYQryH3FS8vQitj1Alhp6Dxf8csLEzMIQwdCk14nLSEQVj5KEMZRqFZgYjne34SeFkw-HS6mU-AU6RTJPXlyw08x2MvtWHIzdoc4pPjC3XADxExkHp_JNVMwGQr0ejMkZTyoPhyBmIrqy3uI6Gq6bInky7E9oGQ_CUy3PtekAK6kWcfW-cPx38U334.ifRXL6dRaZTDU1IJo04zV6u5W9lt77MOgNp4vMB-vKw&dib_tag=se&keywords=wooden+spoons&qid=1708155932&sprefix=wooden+spoon%2Caps%2C322&sr=8-8" },
-                  { "name": "Wooden Cutting Board", "image": "cutting_board.jpg", "link": "https://www.amazon.com/Luxury-Cutting-Boards-Kitchen-Reversible/dp/B0BBGLQRQ5/ref=sr_1_13?crid=15TQRFTHUGD9N&dib=eyJ2IjoiMSJ9.GqFdFpGbnY8ceIM6hO6z-b0Q8RH73Zpfnm1pNvP2-cUscbDIQUg7dNyW_5UtkE1Qu1Jjg_MJsyUOUx_rME0HdAlOViFKEq9jBKHEMAJ1YUErfJ6BB4LzEOIHgKWuk0ntmj5i4IeLf4dklWoy4Xdd_QhXzrPZxUWOs6bs5Mzgzo5DpT68nF-w5dxNXSuXypP1-gr0D5dwoqkEvX5T9_SV7DqU9DZkaWZ0pzOBO_XYQnbkXeMHISLcPf2NI--L73GoKhU-oiuPK6w9zGqVvERoiyBsGI1xLU9rMRpI4GRgvJ4.yzCkD4AVvGCpXsSE1nZk4SmH6jI8ZlBPQMquc0dIBZI&dib_tag=se&keywords=cutting%2Bboard&qid=1708156015&sprefix=cutting%2Bboar%2Caps%2C290&sr=8-13&th=1" },
-                  { "name": "Victorinox Straight Pearing Knife", "image": "pearing_knife.jpg", "link": "https://www.amazon.com/Victorinox-4-Inch-Classic-Paring-Straight/dp/B005LRYE36/ref=sr_1_5_pp?crid=2RSKOEPCCYTIS&dib=eyJ2IjoiMSJ9.HYExs59VNVqW84vy8pw3gv1_Zn1IIXG_RkcPOPRgMDh8vrKzm81xOv3zFmAjl0295kvoTJXmvojARRD4-DzEMcP5_XlS523ia7PtAfedU_Dd9WB92pGIup_8a6e3WrwEoXghiZjwqt2OoAEN9oVTtDn7V-jLhzExqcY59vkzzudlA-tTE8es56Hn-sJU6bVBzk5aRB4d-wIDaGiBUtfpITA4BODQKph5yCbVnDW9qmx1XpRiMiACCVGrcHYuzqHJQoSBm1hkYFM9WYjN_EF2pILGjU39UJopYF4CoceXVzk.RBybKmex0SxnVdpn-th89mX0pMfewJd1CV7t4fTZ458&dib_tag=se&keywords=victorinox&qid=1708155710&sprefix=victorini%2Caps%2C315&sr=8-5" },
-                  { "name": "Victorinox Chef's Knife", "image": "victorinox_chefs_knife.jpg", "link": "https://www.amazon.com/Victorinox-Fibrox-Chefs-Knife-8-Inch/dp/B008M5U1C2/ref=sr_1_10?crid=2RSKOEPCCYTIS&dib=eyJ2IjoiMSJ9.HYExs59VNVqW84vy8pw3gv1_Zn1IIXG_RkcPOPRgMDh8vrKzm81xOv3zFmAjl0295kvoTJXmvojARRD4-DzEMcP5_XlS523ia7PtAfedU_Dd9WB92pGIup_8a6e3WrwEoXghiZjwqt2OoAEN9oVTtDn7V-jLhzExqcY59vkzzudlA-tTE8es56Hn-sJU6bVBzk5aRB4d-wIDaGiBUtfpITA4BODQKph5yCbVnDW9qmx1XpRiMiACCVGrcHYuzqHJQoSBm1hkYFM9WYjN_EF2pILGjU39UJopYF4CoceXVzk.RBybKmex0SxnVdpn-th89mX0pMfewJd1CV7t4fTZ458&dib_tag=se&keywords=victorinox&qid=1708155710&sprefix=victorini%2Caps%2C315&sr=8-10" },
-                  { "name": "Knife Sharpener", "image": "knife_sharpener.jpg", "link": "https://www.amazon.com/Victorinox-Fibrox-Chefs-Knife-8-Inch/dp/B008M5U1C2/ref=sr_1_10?crid=2RSKOEPCCYTIS&dib=eyJ2IjoiMSJ9.HYExs59VNVqW84vy8pw3gv1_Zn1IIXG_RkcPOPRgMDh8vrKzm81xOv3zFmAjl0295kvoTJXmvojARRD4-DzEMcP5_XlS523ia7PtAfedU_Dd9WB92pGIup_8a6e3WrwEoXghiZjwqt2OoAEN9oVTtDn7V-jLhzExqcY59vkzzudlA-tTE8es56Hn-sJU6bVBzk5aRB4d-wIDaGiBUtfpITA4BODQKph5yCbVnDW9qmx1XpRiMiACCVGrcHYuzqHJQoSBm1hkYFM9WYjN_EF2pILGjU39UJopYF4CoceXVzk.RBybKmex0SxnVdpn-th89mX0pMfewJd1CV7t4fTZ458&dib_tag=se&keywords=victorinox&qid=1708155710&sprefix=victorini%2Caps%2C315&sr=8-10" }],
-        "classicbooks": [{ "name": "Count of Monte Cristo", "image": "count_monte.jpg", "link": "https://www.amazon.com/Count-Monte-Cristo-Penguin-Classics/dp/0140449264/ref=sr_1_1?crid=2AB8NEMYAE3ZE&dib=eyJ2IjoiMSJ9.DPnL0KeV83O27UtujwaMu3boNcGUnq3J27sdvViuFUG454qVv-Q3lQTZQJar3ytJASyvZiDESyDR_bGJTDGwDiabXs2HiPyWol1PFvk669rMiK9ved7AkOgqwaa1fdlYt3T1oJIWQXHoCT2BEDRmM3NzCYFZPyvwoTmbZk4l8_TWbIOHwtutC_5BvEUiK_66p4ktmjApTbpcTjw3LMJ0sU9PUx8OTmUdL9n8Mkc2DBs.LXhQJqElz_IzZQarIYBbu6JcUbkpwYCaUnkiIMKyVTU&dib_tag=se&keywords=count+monte&qid=1708583190&sprefix=count+monte%2Caps%2C322&sr=8-1" },
-                  { "name": "1984", "image": "1984.jpg", "link": "https://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934/ref=sr_1_1?crid=GR93610MO4JO&dib=eyJ2IjoiMSJ9.j8z-cLWRUg8sbRPWeuw4s8mxoYTEa3BWmsOVgbUqG24WjL3D6UKOrhTV4QBcH6N2ZOsuxAZLiCLf8mEe7LJfZDUVwtZE_d6b3RhZqIMIFId10EMSpxLEk1Cn5wiRSM1_1PBZjFD-2LeqbiN6d8GxMMMXbCTKsjYo8aCByqQdCpzrOIkk_WaeAuKmvm_QSh-gnxVK8ap_fnj5YXlVa-eakfACnkFnz65-Q6nF0dfxgYJL-WILmTATDpvKdpDbPU32hy9wNbLWphy-njLrBWpbZmDPhY1mjM4HskRcX_9BmwA.pAFD8zZ1cEdQoxBuirIeiaTkVKOqUmSZk2URfqa4m30&dib_tag=se&keywords=1984&qid=1708583213&sprefix=198%2Caps%2C285&sr=8-1" },
-                  { "name": "Animal Farm", "image": "animal_farm.jpg", "link": "https://www.amazon.com/Animal-Farm-George-Orwell/dp/0451526341/ref=sr_1_1?crid=1LKHMFL7N7PPX&dib=eyJ2IjoiMSJ9.y8JaCRHml3AP41U__NvzcC91Bn2iz7C67_2_q5Ny8CmPAu4ugY0o6uEQ4cTUfHNOCE94SXudXUjE67W-4vOtyXuyAI73JvcR2w8haWbcJasyUu3CGqvOv313julQRJMffd4ZD8y7Y2fLjlGbDyzXBFa90EnePcYX-MJM8l1GxQafIyjZyjNk9lVVf1Jkwm4jFI3UBsuZgV-Voh7CiFL5w3ZGW4O6S2HGT3OVw-eWPs8.NScDJa0uXGdWNURHoMvHNrkvY5XHfmsHl5iYXQ7JaDQ&dib_tag=se&keywords=animal+farm&qid=1708583281&sprefix=animal+fa%2Caps%2C284&sr=8-1" },
-                  { "name": "Pride and Prejudice", "image": "pride_prejudice.jpg", "link": "https://www.amazon.com/Pride-Prejudice-Jane-Austen/dp/0141439513/ref=sr_1_1?crid=2ZSGSP4YXATU1&dib=eyJ2IjoiMSJ9.q9yCtay7oZl1aNo9hTzdI3KoaXUWbIT5xXTs_9OoCfp45b7SbnrSpG7a1fzc6Gf1BBiXO3yALiP5fgDzE7pBtLLo14pxDFgbLgTHvhYzGZAM8VbM97v7gw4cFC2oK5l2jI8G48VEp_nS3qjOWTY40jvSJZzmhreXkwIb6Z86zjvyX65hzmp8JMhAgkgGQmw2Syd1bi2dfrJmd7X0uwn_gaBQxYBUTssmZ9welDG2xys.b-K6EYaUKKF8ftICn4oC-Lw1BUtUN7ODPKRyrIdpiPc&dib_tag=se&keywords=pride+prejudice&qid=1708583306&sprefix=pride+prejudi%2Caps%2C294&sr=8-1" },
-                  { "name": "Crime and Punishment", "image": "crime_punishment.jpg", "link": "https://www.amazon.com/Crime-Punishment-Volokhonsky-Translation-Classics/dp/0679734503/ref=sr_1_1?crid=1KQBVCDJZ7GWW&dib=eyJ2IjoiMSJ9.Nx3jC6yWJ2xhP0qz57PedNj2_n1ndSL38ZPuVQcDKH1fQ8d3u3IBHTwC1Stz-6MomY1En_mtx80GjxLUkblCtsezLAxfCsvmiQTk16MKxN1VCf8hP0Mh5-DsXYHJnWWQ0sEHvkTnsAizMQ92uG-yFr3RqygaQmOggtsEd8MkKM0RLnwn6mSpzcCT9-irn1cHvPei_kMZxPsGPemhn6fNoQj4CE-1qHTalssOZ1SWP5Q.ebh-G_DWzTh9LL54CtFd8KpPmeKybY9TRHg5tzSTsR8&dib_tag=se&keywords=crime+punishment&qid=1708583373&sprefix=crime+punishm%2Caps%2C313&sr=8-1" },
-                  { "name": "Anna Karenina", "image": "anna_karenina.jpg", "link": "https://www.amazon.com/Anna-Karenina-Leo-Tolstoy/dp/0143035002/ref=sr_1_1?crid=13D1QIOSFASM8&dib=eyJ2IjoiMSJ9.8clEEUiJuyYEw-dDL6XZigtY5mWoKqXn1lhFy3ImtWcJrqlGiE6mLfnuQgtyPCAAtanZbT2aHXZl7o95azIapowQRTAMBhLp-u6TyBc0u5SsLoifCLszPWIXQGSZ5eq9lsh_dl6ang39Fvi9tULdHz1palS8AJPqq1vnkliRSemIDVQNsVqmTQVd9mZfrSmo0vyimJq2VPp7ZP-aztLBtqnwMvNX181j8nN4uaL6m_o.oFeu7zPwqEyhZnwEeeDJN6WGHUtK4i9PEri5rMpVp3w&dib_tag=se&keywords=anna+karenina&qid=1708583446&sprefix=anna+karenin%2Caps%2C294&sr=8-1" },
-                  { "name": "Meditations", "image": "meditations.jpg", "link": "https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_2?crid=2N0V8DT78EZS9&dib=eyJ2IjoiMSJ9.2qAg66fwdNgvoJLE7NczqUbH4l3rrgt-qOtw7gOAtoEoU-GDgAAVzrGfPriAj-a0x7asovGUuLImt3utJ1WHL3NT5R3T-2QG6pz9g2Dk7biaNi-sAppkkK4Woy4XwQXFLGFtpfbcal-U8Zrly4qG2z1rzn1icVDiVKJZeSlCnSSg86nRkFJ9peV1lxfYgu6h0-s_VkYSy8gSTNYv9n3B37_nRiAKRdPSdj2gdBpVRww.yBmOh8PCOY6X7XNj-uEhdKOV3Hu7itzdkuSrnhuJ0w4&dib_tag=se&keywords=meditations+book&qid=1708583592&sprefix=meditations+boo%2Caps%2C313&sr=8-2" },
-                  { "name": "Diary of a Young Girl", "image": "diary_young.jpg", "link": "https://www.amazon.com/Diary-Young-Girl-Definitive/dp/0553577123/ref=sr_1_1?crid=1Y9I09PTKOBL6&dib=eyJ2IjoiMSJ9.gh1FT8cCapGfI_f6UmYUvPSZSDOlYdjoK4U8oA55itHmy69LgxYdQPmwOgv9P4ky44HNvXrr8jYEHlWW5pYRNtw3wrxuklnzpjuK3Ub6WL8LilngEfhOspaqV_WIIHokQeWH8UX8DONd5uGhwa4UzXrpsFWxZqnXfXjqdm7B5kHWPB9Mq_Y-N-fagFq_ohBqbn3XOVFf_0-AlLZpCJjEbZPM5ER2GpHDvt5xTOuhqqs.nKqP0bwTdtVZRqiWyRuPft5nkgfxhBhvYAKMm8PJBlc&dib_tag=se&keywords=diary+of+a+young+girl+book&qid=1708583626&sprefix=diary+of+a+young+girlbook%2Caps%2C278&sr=8-1" },
-                  { "name": "Picture of Dorian Gray", "image": "picture_dorian.jpg", "link": "https://www.amazon.com/Picture-Dorian-Gray-Oscar-Wilde/dp/0141439572/ref=sr_1_1?crid=97SZIFBWXGQQ&dib=eyJ2IjoiMSJ9.H2ynYa-KShCWJZg0w6hiCEfY3zJ_QgVT0SIF-mDBq3Oae6A3H13atzVb5p-MnExZd0gUUm_ugmZKAq6cr91u1GeNKaO4d-emkf5qY-0Gt_bcWniCyxrkpFbfM77vZ4VIyw7Pelw_M-LDdTx49-DVW16e2NMyJJcyi0HVWFnXYsTnwK2E57jjUWwl8XnoYsXgd_OiVbIQid8L6Y2tJr1BPG2kMiEgJu0d7_2QGsaC6-M.aVVZuu792EabagcBgKOZIUKfISXtqNnwXgnu2-DX9Wc&dib_tag=se&keywords=picture+dorian+book&qid=1708583689&sprefix=picture+dorian+book%2Caps%2C303&sr=8-1" },
-                  { "name": "Inferno / The Divine Comedy", "image": "inferno.jpg", "link": "https://www.amazon.com/Dantes-Inferno-Dante-Alighieri/dp/1490309780/ref=sr_1_1?crid=FSBR3LARE5K2&dib=eyJ2IjoiMSJ9.4BxxpzS5mxCazH2t1qxPnnLXHsqIe9p1RvDTNcGPCCgXLTO6vAmZxYgPln7S8Q-u95sQBixSvTr7qg6AKsSxFHuNcTugibzKIDIyrbngmooPaADpuzL4GE9apBiaTtkpNj8R3Tj_uxMhpvrjkoi8De0SmirDv6lgvuWM_VEPTONbb9EzIrmkRz-NYy17_ge7-vFG201vNEKsLceff1I-34bbsJ91787XPV_9rm9ZP2M.pDDr-wbakACNQTg_FnnwqklYYiE6ArEMq8Nwgk3shOQ&dib_tag=se&keywords=dante+inferno+book&qid=1708583785&sprefix=dante+inferno+book%2Caps%2C305&sr=8-1" },
-                  { "name": "The Republic", "image": "republic.jpg", "link": "https://www.amazon.com/Republic-Penguin-Classics-Plato/dp/0140455116/ref=sr_1_1?crid=2B9N8Y5V0E7B7&dib=eyJ2IjoiMSJ9.4a5cascBpkMIdBFI2i8dTiEbzNZc4dQr_vv2RXPW8cF6a-XC2Yl9wtDBo6jpUy9CumG1suPtlyr_MZiT2bG-4NXrZCSESPxToazOoUbSY6GLXTKm2kaU0SxXM8OSHV2vvXy12lwtnFWVc9Ix3k6hWD0pMHk1oNrhEzQ76UGSapNcngYzHLs2QIy3LCuSB3WSSYC8TGUSJ_soH0eqPzXnulqX4rgsQgMrgNNaY-_bDso.oUQsiNyoj1fTnsP2pwncidpk4pghXhqBpsoL_xQeVsA&dib_tag=se&keywords=plato+republic+book&qid=1708583832&sprefix=plato+repub+book%2Caps%2C315&sr=8-1" },
-                  { "name": "Odyssey", "image": "odyssey.jpg", "link": "https://www.amazon.com/Odyssey-Homer/dp/0393356256/ref=sr_1_2?crid=1UCX2MYZAWHV8&dib=eyJ2IjoiMSJ9.VSvdahgCg6_Yy4KMrXXSylVPSlYR9OqskXxVT0_csIOQoqt9NNThIXBzMSekxx1uk8gAfi7XPVS3iFvVVZnZSbJz3sR93yltlOI-WJHEMYKcYyHJJh5l6G56qQMfLZNJnja_eNUHNPfSorsyGW37Sz2Rpe-lL5APUhoKyQhcgr5epIHpBQE8kSAaSdvmTMZADyIa9lAU6aW3beTOuL2qsVTar4_sf6N0g3cW_UtQ9I2Om-tUAAKaWjzEcqPfGtVhS95zzRXU7pC_O0NZpVs8u2wuddsXU628cQ1TqArUPWo.GxrV-OEThybMIXdCfYj6lvKoDYr6g0-uerv6yTXsJZ0&dib_tag=se&keywords=odyssey+book&qid=1708583853&sprefix=odysse+book%2Caps%2C324&sr=8-2" }],
-        "selfimprovementbooks": [{ "name": "Thinking Fast and Slow", "image": "thinking_fast.jpg", "link": "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/ref=sr_1_1?crid=2K6GDKTW95REG&dib=eyJ2IjoiMSJ9.KP7SbRzcre9DpN2LWPIgYeuUQQSnHrRQrcy8gnDT93CnhuDrc79CBDxQEzhqORNEd6-eFtZOaMhob0xWGKahczyjV9zE_5_LpCU19F47D6RxnP7pYY0FK0Sb3Oda6eSkKIcKDwckGXL743-WJ0BN8rXA6BQhxD2owRaia8TZ2dcEzF5O14T6fMs0WIoeaOLjmpamdkgU1xskS-tUumPOH3FzsTrPwElBGgiiW5jeIaA.KoGzK_Nrs8pAdheMfIjFtldqLVI79z-xwd-NdT_IiD4&dib_tag=se&keywords=thinking+fast+and+slow&qid=1708582936&sprefix=thinking+fast+and+sl%2Caps%2C328&sr=8-1" },
-                  { "name": "How to Win Friends and Influence People", "image": "how_to_win.jpg", "link": "https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034/ref=sr_1_1?crid=247HOI80W312L&dib=eyJ2IjoiMSJ9.7c9Fi1iXXCEpHRcIbSnSFKIPe5JpOBabXaf81mUC6sN-HOemErAZ2U2xvHuxS1qsiNC1X_Za6irouFXgeGx40asG90LtuJzCyc6rKSb_jcmCq8nNdJ6WJYZoU4lkF_gY8VI-hZ0plP3Tk3TC7SM3PZRle0S1ncBrCNwUTB1m7zIQWuamo_85w7yKDqYzjX4g6E0Tyzdhp7zKTuEu4CG7j0Sfuf3yd3TBkCUHLRTthRk.nPG7qEo1P0GHHezKb6TaFkhABm4y9jYLQ46HlUxeuNQ&dib_tag=se&keywords=how+to+win+friends&qid=1708582916&sprefix=how+to+win+frien%2Caps%2C385&sr=8-1" },
-                  { "name": "Deep Work", "image": "deep_work.jpg", "link": "https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692/ref=sr_1_1?crid=3LG3JZHO4XGHG&dib=eyJ2IjoiMSJ9.ZU4VTSenX12Bm-lCpPgA1mdMdj3-xQ1td4O4o8qRXd2cDLScWmsbzMnK1rg_MVfmEQRZfuEWdaMO4UQbyG2N35fT6HtSePfEyrZbMa_D4WUNTTl46mTw9Bq5b5GkEzXR6v0oudlJ3WPiqYXzLGcFwtPJZ85yp8cchCeoMsZ5Chpqa0jHPHCzDDGkjNXUbGUPaOxL2ad_4aWjHopVrV1GqE7-XUkJjZIe86-avJyxwsA.cefT2c36gnGkwdPsPAR-AMxMygSxSEQmLTRsJ4PNctA&dib_tag=se&keywords=deep+work&qid=1708582899&sprefix=deep+wo%2Caps%2C313&sr=8-1" },
-                  { "name": "Atomic Habits", "image": "atomic_habits.jpg", "link": "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299/ref=sr_1_1?crid=9CTHU4KTKNEC&dib=eyJ2IjoiMSJ9.dURutuaYTcfS6ltiTTzg_6ZfEsLdu7IwGT2K0iPStcyf5Pqc_TwOeyeUafkDP7GN9amkIg8RrwONv0RqKyJm3j-HmVtQZmkMsroP5JKwgyWH6bxB5RyqWzVFuWzeF1VJaRBD8C0pIt8fGHbax7tr87bk07zcwnx5pZbNO42-3TvBMf7nxa7BrEseK6E2FzFgxZtrkCUWGSKQNXHg507yRXZbJTzH7U_JPP9C83Akc-I.D6YWPKnJQx2nMhXEnn937wyp9X71OweffSIs_rMtGvw&dib_tag=se&keywords=atomic+habits&qid=1708582875&sprefix=atomic+habi%2Caps%2C292&sr=8-1" },
-                  { "name": "Power of Now", "image": "power_of_now.jpg", "link": "https://www.amazon.com/Power-Now-Guide-Spiritual-Enlightenment/dp/1577314808/ref=sr_1_1?crid=2FLYMSRYWIGY6&dib=eyJ2IjoiMSJ9.vdf12P3waUhB9F-DlLRcjuoivM1M00zq0nLHSAbBwkuy16WujAENaZMb6pGKuSgPDcJTXT-Tr8gX9YDtGyGqKrTZo9XnbafP2iXc0aj4OhZbNlfIMuuLR93x4xGRCPYFc-CtR-TBjKw95fHB9aK300oB8cHs9SQEGxkgHr77DaYq5B6OWNlYQ7l_1ASVmPmPH8pDHNLlinDeeXbALKp68CjcpSmUVBXWtqVgsKuQ_4k.1Irv29h_H0bBP7y_Ax5jt2faN0cZLdiWgUEoqhE3QUc&dib_tag=se&keywords=power+of+now&qid=1708582853&sprefix=power+of+n%2Caps%2C303&sr=8-1" },
-                  { "name": "12 Rules for Life", "image": "12_rules_for_life.jpg", "link": "https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021/ref=sr_1_1?crid=3AZZLOOPJOWX2&dib=eyJ2IjoiMSJ9.MjdhHI8BO938f2lkvgyVQOn9NnIvXwH7zo1Ix5p7cp7E96i6dB-38F1JhytoH7cb-7lAOjq-4FpOYr8GIvahTFy4KhQygf3hvnEeF0oLfokaA9_J0qWbECTnfujRny33kWHKqm2_OJ8_6sBJQJEv1CKc-0e5qNv25oT6KmXcZ_VU1T0N3kQp_NYQsRyjbOm58eDQidma6AmLYja_0VKPcznT82wOeKwtOif_qtxsmok.P5cW2SunaU9D7MkDe3tUvvS7OLcEjQaecPNs9HRquIg&dib_tag=se&keywords=12+rules+for+life&qid=1708582832&sprefix=12+rules+for+l%2Caps%2C281&sr=8-1" },
-                  { "name": "Man's Search for Meaning", "image": "mans_search_for_meaning.jpg", "link": "https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/0807014273/ref=sr_1_1?crid=3U75S26QA9DAY&dib=eyJ2IjoiMSJ9.phUc2adLzv8edJKcJfYGiYmYQA_wfSFAPr6oNqdjFnYqCl7kYeLgbdCcSVb14tb0Ulm6NViEX-dgEWGmRnR5enINo5jRT2cBcl5GUUFKbCB1CvfeWCD_2nyq1QqgqvG2mZ_hFmLGdo28EmY6lshyidGxK5514tzYBh1dtTNrYigBCORtTBDkoIF37kKZmMWTZ6TLqduKpqdSI-FRUJhO4I-oa7wy0Nt11kdaIvZcvzw.dOo50raXD6Da_emKOuF4teT4opT-Nv89wlMl8jG3Hbc&dib_tag=se&keywords=mans+search+for+meaning&qid=1708582804&sprefix=mans+search+for+meani%2Caps%2C330&sr=8-1" },
-                  { "name": "Never Split the Difference", "image": "never_split_the_difference.jpg", "link": "https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805/ref=sr_1_1?crid=2M157EPLDV5GI&dib=eyJ2IjoiMSJ9.QdA3pHXSgifFwoirF2BldnR1KXrX3Sdm74kBAeGYcNDDmekRu1D3m9ungC4e9GtVdo-FwvpFU1s_T3w_Evi9bGM_5HOL_XXF-JiLhD5VktBj6U5t_sIFz-agVscx5-l5dJu9gYj4dDuAP9P69H0HXq71bnF4xSUXNzHLNhjjeycSKBnnEP4U_Ceiyoh7gJh0TVd5vCOZZLurpU7LRP5cYAfyVsjnK6VOl4PtCCzk3WY.ZBIW4nCnQ9ACYxLHqgyfrC5Isf-CtpsAy0LEsK1fE_k&dib_tag=se&keywords=never+split+difference&qid=1708582782&sprefix=never+split+differen%2Caps%2C286&sr=8-1" },
-                  { "name": "48 Laws of Power", "image": "48_laws_of_power.jpg", "link": "https://www.amazon.com/48-Laws-Power-Robert-Greene/dp/0140280197/ref=sr_1_1?crid=17481I91V2UWD&dib=eyJ2IjoiMSJ9.WZi98WVYGzlQ2eEXQ23wwvenjNwKr3Kn0TNtTccB_vpqjVcImA-RdBJ3VBzjrcKagRE-9cni3QrZiPpAKW6y9W8JxsLEQOvTP_niGKxLogiMAvNlLsmRcJbGGx48RQoTUhVjxrcGv7637iLqfACDOSDN05Obm8NBLNvOxs7gbom0GDDIw8isEEGz1P1Bf1OvgOIGLj08xjh-bGKd69vaBO36GkpnTza-a6Yy_8xo7IU.sdYrcrKVbz5OpduUPJIU74Lz72htj3dcU1Je19Tb7Q8&dib_tag=se&keywords=48+laws+of+power&qid=1708582763&sprefix=48+laws+of+po%2Caps%2C298&sr=8-1" },
-                  { "name": "Creativity, Inc.", "image": "creativity_inc.jpg", "link": "https://www.amazon.com/Creativity-Inc-Expanded-Overcoming-Inspiration/dp/0593594649/ref=sr_1_1?crid=3OD5H7FOHU3XI&dib=eyJ2IjoiMSJ9.Ga33QekNnDJStz7w_lPvgze2AGhDvWb6HMY7vU4GmHZOy_fMgsgnHkiuoveF1voa4PMwmjHmrRS8qf7-4-K3CjHuxqun-z_RoaQTPoAOndUCs5C3Zffc6frHpjwSuLl4BeO7h4DJA7_qIrloXVqv1WkbsQLMH9CiRk2YG90y6YNHTGxSvnVkY0HOsAaE1RqdwhB-MxkMSL84ROmfQoJTZg5A7_UP0VLYmC347XU6q30.f4PngGeTKsitdYXHcVSZlFiYhHGwW6EyhqcLETASr3Y&dib_tag=se&keywords=creativity+inc&qid=1708582742&sprefix=creativity+i%2Caps%2C317&sr=8-1" },
-                  { "name": "Nonviolent Communication", "image": "nonviolent_communication.jpg", "link": "https://www.amazon.com/Nonviolent-Communication-Language-Life-Changing-Relationships/dp/189200528X/ref=sr_1_1?crid=2KFM10EXS4L5&dib=eyJ2IjoiMSJ9.4CKvScfAZtEejUEz_mMobr0zQ8W87ZJZcLrsdwgikGc1yweexcXVBw_MJNIHg29zMNFXjWr0RAuiSxNAVKRspCXRNlO404QpP1HqFLRzz6OO4uUJ9JggY2grLoG5TlJApVE37JWD2B0AKq9qK8D_aC5yhXaK374EhiNGWwJDYqXVSArd5YMB7K0M9ulaaC3ibb6aE2uPTruobjjlhna1guF24vSBzf6MzYhcF4nK1CI.Co4xwAxESZK-VW20UL0hF7dJwu8pGvQB6Tu64d4dAOQ&dib_tag=se&keywords=nonviolent+communication&qid=1708582711&sprefix=nonviolent+communicat%2Caps%2C281&sr=8-1" },
-                  { "name": "Can't Hurt Me", "image": "cant_hurt_me.jpg", "link": "https://www.amazon.com/Cant-Hurt-Me-Master-Your/dp/1544512279/ref=sr_1_1?crid=2S42H60KANO3F&dib=eyJ2IjoiMSJ9.YM-4L_1b9QCG49acOEJ4DIASbTPlkFt7PLR_6yJ9KCFmQD7BhwdvCESbWQAeUBsvh-iAsxzPf3Yc3K1gfXcqt1O0RLuOD2Ohsw_VayFL1yym_NHCgb2ZhLLYskyEjjf_cAvEg9zJWw9ir6uFcGmUcR9t5oSWxFd-3Zgy0ILuChbwo4yLVRBPN40eiUoUX65bexDJMfsmvuZIN8GGuNUDfc5r2SSxKeJOYHknRIS-khg.Y84Y2MziG2-mW5VDil9BmHANl7Li2KuF4aJXPzgwljI&dib_tag=se&keywords=cant+hurt+me&qid=1708582660&sprefix=cant+hurt+%2Caps%2C324&sr=8-1" }],
-        "scifibooks": [{ "name": "Cryptonomicon", "image": "cryptonomicon.jpg", "link": "https://www.amazon.com/Cryptonomicon-Neal-Stephenson/dp/0380788624/ref=sr_1_1?crid=32I5C8U28JX1&dib=eyJ2IjoiMSJ9.zefEBDXIkLzS7eoUzBdcY4FDcHNKmqjmW5oBOuBUxMY0QfSUEAXovN8KGp7k6u0h0cV_wTgzRhiNcV0UYaLrE2NwgFPq6-sKUvwOkyeuMkrA2qd-S-gmDH7sjRXAWLr4iyJaEAhwsnZwMyIfbT-6OvHRUSWRta_Gsf4QXqdCPrna8v7YzdwNB_OPpPDCmCFTQqVbM9kMc_9YyZg3RrFpAiUP1NJSSGeSBNvks4ideqI.8FtBwmrCGvrOENRpe82vO278tt8q-oMIioQ1AWocpWI&dib_tag=se&keywords=cryptonomicon+book&qid=1708584416&sprefix=cryptonomicon+book%2Caps%2C320&sr=8-1" },
-                  { "name": "3 Body Problem", "image": "three_body.jpg", "link": "https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032/ref=sr_1_1?crid=1E3BFFZPS7TQZ&dib=eyJ2IjoiMSJ9.Y9N_Veg8BK2xRzIzQqqDjrYkkJ6bDJchKd98ui9H_0x0DqVqfngDGLfLQ2yKQuyFmQ3m0Fl_iazpvqLAC9T5QzEMF4c53bK5x4HkTzoQumOo0_Ruwjyi1aIPLVm1nVLQuDYL3KJPHqbVkxOAdWqNqy3TMVzhn9nCBv3-0g_ipTTW2KIqHEA4qnlnPR27uRNfzTEIyBcKwXfUz0KsiyeuO8trMYaQ5A-weRQGYg2Mbmk.fjPAwVgmS8kAKQWD9yzjy1sn9i3GBhSt60HjfxZFS84&dib_tag=se&keywords=three+body+book&qid=1708584541&sprefix=three+body+book%2Caps%2C344&sr=8-1" },
-                  { "name": "Dune", "image": "dune.jpeg", "link": "https://www.amazon.com/Dune-Chronicles-Book-1/dp/0441013597/ref=sr_1_1?crid=3JOUGB3G6DU4W&dib=eyJ2IjoiMSJ9.zaZzED0zfaOD49lJ_-96hMHXThunsYfMy4SooOq3LmyuzHKjOVyoJy0mE0fu2FArce5XnRaogPFUpYp_i3udE5kHbui1J749_6RNc35mL8yCa56q387QbnKSDGFid1fmlqkzOfCnL6LTPWDeqJZOvqhpqJI7MbxzdWqq0J2KkHqfqD7-_KDd-lZlvF0Jxk_mCx7Y3K7fkOY-1PaiTV1eqmHACE4sGdPyXB5nTfUL0bM.DLfpRjAtS3WrhunYkmXT9CmVnYuFRjnLX2QtDNm5M0A&dib_tag=se&keywords=dune+book&qid=1708584560&sprefix=du+book%2Caps%2C304&sr=8-1" },
-                  { "name": "Hitchhiker's Guide", "image": "hitchhikers.jpg", "link": "https://www.amazon.com/Hitchhikers-Guide-Galaxy-Douglas-Adams/dp/0345418913/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.e4djRrdKKoleW0QQULbpgWYPvGS24HLMzHbA6eZMJzdqB-p88GUOTHW83bVgeQpc2nOTaW_Niwz0lt02zJznpiAmzwGkT_nXQ3dIiF3ZB4xb86cJXQF5ln-qHv7KGIkd0ReC1PSjaXF7wvwspzuh9L0ZMCp49C4Phxum2ADam7qz_iIhyNSZF16tM4EiwAIKQQklqBspjvM7N6I76hoVAdajhUab0K5YenS1gEPCQ3w.FbL8q_0vJoyTXVugFUIowugx1z_07KPklH8oYa8i4fk&qid=1708584629&sr=8-2" },
-                  { "name": "Foundation", "image": "foundation.jpg", "link": "https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354/ref=sr_1_1?crid=3FJHB37BC7OML&dib=eyJ2IjoiMSJ9.S06s4SE06WET9NSOYqpdndSgdpC9k4_Qhp3FYRbhgZjopUm0C64CUpyHwnGipE60opreSBwwhwJTXaBXkhawu2sdYIO_lj6RZBjD353ndeB_w3O112NEWA1-bkaGOs0LVy8HHP29h_V0-1dqH27HRHeHPwrrUABgzQ3nCEItJaZM7uHRQcefJzyCz8_abWXGdHZNbiRoT6Vqbgl7gPloD8DxE4obIJBtUNrWgquoV5w.FWnKe38_Pj0G1tQZUtC5qgogerpqdfdJbbRJ_AmesT4&dib_tag=se&keywords=foundation+book&qid=1708584714&sprefix=foundation+boo%2Caps%2C286&sr=8-1" },
-                  { "name": "Brave New World", "image": "brave_new_world.jpg", "link": "https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523/ref=sr_1_1?crid=261V3JTBQ1GWY&dib=eyJ2IjoiMSJ9.LtN0ywD7uDMGDeDLLoC6CRL-G_1giZiUIM04E_GaNP-G_wnrht6bJNxDQzE72zTK8f-9CyKqriRLHKByZQUZKRTYoFduwWQwBUUwpSFxdaVCsjIUzzMmicbB-CTKlE4naQQpIbuoYNR9HQpZ-7IBsud3mB-YyFE6yXX1L9Ul9ndgZsybjK0kcGPVBRsOPpLhLjhbxvvktMuzrZZwC34RYZQdPHbtgYFe6gbLPdu9RBA.By8IEU5P-IhfIuciFtVxwjKca7TCSTBlNr-OZdmtoio&dib_tag=se&keywords=brave+new+world+book&qid=1708585162&sprefix=brave+new+wor+book%2Caps%2C354&sr=8-1" },
-                  { "name": "The Martian", "image": "martian.jpg", "link": "https://www.amazon.com/Martian-Andy-Weir/dp/0553418025/ref=sr_1_1?crid=3RVH04PR5IAKM&dib=eyJ2IjoiMSJ9.4YgDB6vZjBnG85UQ3M5xnQ9Q5haD_znDAJaxHGTbuXRKhsLaFPXb_yUwj1mWq7Qxl25dgoCS5WLsg3NygqmgTob-xqAI2d04XHqc8q3mYqVWtDWmmrTr9curcS8F_14LCDrhdvtXukimlZZm47pnF8XYli6uV33G0kARfHUggTR_M7b2W3YHOLqQaDMxEdAtxM9uFc_pTyGOkawrsZ5JnfdEncXzmW0J_1gyqj7QU1o.9eKbcd9zKDvIb-kQY1p7dGgz2UtjdStquUxHG2e2LL0&dib_tag=se&keywords=the+martian+book&qid=1708585181&sprefix=the+marti+book%2Caps%2C305&sr=8-1" },
-                  { "name": "Ready Player One", "image": "ready_player_one.jpg", "link": "https://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/0307887448/ref=sr_1_1?crid=1R0Y2WGLICWJ0&dib=eyJ2IjoiMSJ9.AdToOY6PESvysO5_mxVQKAeBqGFqj0ojWBS3OZH4rEOLkUGC9eGjwf1iok0GxavR8SalpFzM8NoYe1jWjHWL8l5-IA8l3FzaAa8qjOnt9mjDDFRDkehXxp-5zgTzZKWyWFu1FoV4WRnrrCYx7En8gbYo_D7F_g3sJEIfmiT98AmJxe-flPCLhhxvZD_jTi7iEwO5C1s9kAelChh8twJpVFGXXad_tFQI_kj5Ekx58Q0.C_iigtY9LFI8SX0ZwezZOb4s8p0oA0RcHHKsbXQWG2U&dib_tag=se&keywords=ready+player+one+book&qid=1708585242&sprefix=ready+player+one+book%2Caps%2C305&sr=8-1" },
-                  { "name": "Neuromancer", "image": "neuromancer.jpeg", "link": "https://www.amazon.com/Neuromancer-William-Gibson/dp/0441007465/ref=sr_1_1?crid=19IG9YIXMZ1ZV&dib=eyJ2IjoiMSJ9.ArlChDCsKlOJy77lHBKtdqgVGLQyBiIWhiuMJDlV78yK4gG4tMY1z1L_LUpfjmHBnWuprQJLPkxgQJVd5cMLjrqwf6mKdfEp0AK5HB62Z4pYIO9BT6eAdnX7XQU2E_exzyEF_RwfQD-7IwYOA6-L2DyK71axibPlJdNNn1PfK1zNo1uL5rB8bw3gO0iPbwaD5uVMySRBlzt_nvrnNP38dPfT2RF1jLRC9rrrsJGID-Q.-f6pRsL6ypel-dGpCh8xu577QUsFTFs-MFlCpopyUrg&dib_tag=se&keywords=neuromancer+book&qid=1708585313&sprefix=neuromancer+book%2Caps%2C295&sr=8-1" }],
-     "mensfashion": [{ "name": "Flannel", "image": "flannel.jpg", "link": "https://www.amazon.com/Wrangler-Authentics-Sleeve-Sherpa-Cabernet/dp/B0CJCTHP56/ref=sr_1_8?crid=UZZA244V5CTJ&dib=eyJ2IjoiMSJ9.h1HuSQJbWC7BjJdQONGKaZRzC1zmAbKuEu5UNQYZWSa42aFhAYnbP1n7T-OQ3V7-ZVYLlckbM_LY4MdU3Cyb6I1lRfx-Mg0dJ7FsJJmBogmT_7rs9J3xW6OVR9Iybupzuu-xSFHrXPqf2TzjJ2ox6RprIw6wAu983BaHSAcRYt1aP4ibnTFTKFIymZl95UibLgX0th2YyGfnJaLKfdW4aDq2_Xm2Ukz0atuzWtfAxfcCyR-M38FBSPTPIur5rHDHj72gPxYCP1SqsGJkY5qmrM9fuXe6mbVSJo9arJTLMMQ.mriSmCcCfNqCZqm2MihxgJnwduGqjDc1raufmrT5RsI&dib_tag=se&keywords=flannel+mens&qid=1708125964&sprefix=flannel+m%2Caps%2C296&sr=8-8" },
-                  { "name": "Henley", "image": "henley.jpg", "link": "https://www.amazon.com/Wrangler-Authentics-Sleeve-Waffle-Henley/dp/B01L8GRTH6/ref=sr_1_2?crid=UUN8V015F7DY&dib=eyJ2IjoiMSJ9.Yzz1yr4wx7_fqZT-_YDPNwXPXNiisrqUucMxu2L2kPnj-9nAy80ybURgqZlEMeCjcgV_AmcTfbkXY3aQqyKBH7YBn-gA2MLquBoJg7fk4u3gjAKP4sYfjkq9FUnXbc1ssFC9cm42GCXWOTaGkOF_XscP9NyE6hrEFHs1HKdYpf1SG-oZoyCdT8-j9-mp2Q23KXpfPmJZVJyZnEWeUUwGFC1YOJlVZx00DBVzzrL9pCmHROKaThIkLlnSSdB7HqPYHqRqeD-7eG3kJDbv7-2TPlD40tiFY_-Evh-DabrRpuM.iELNUZ0Vo7Zzx0CgLsSzW7DYa2wv4nmovygrx3w7jXI&dib_tag=se&keywords=henley+mens&qid=1708126113&sprefix=henl+mens%2Caps%2C381&sr=8-2" },
-                  { "name": "White T shirt", "image": "white_t.jpg", "link": "https://www.amazon.com/Hanes-mens-tagless-Undershirt-White/dp/B00LSRU1QW/ref=sr_1_6?crid=29BZH2FJ29BSJ&dib=eyJ2IjoiMSJ9.KnVESOar9u1rSnTECi_cgkYz-O7O_3U1qbF3D8p3ePhvjq1SrYpEhC1_c2zjBbnNKD6oyiO9R2lETc9IvSLEMsvx67aNImK_vYsDraATEtxOy7_0VQYQDTA_2s5rykXwE-QBarDAShw1KeY0JZZUuHWTaH1hIa9tbJLYyjBTGJj9z9FWpnYlT3mKe500YBvl0V6XTU18GMK1TtAaNwIG8yx3ZGOBKpUk34lTAT6CHsvCRDMbnQTFvCAOJLYW17C84Pt6vWYqYenMMRYju6G2dZXLPybRSDc-8WpuJPNEpyY.U2zeDguSNRWkf1jzSVjFVi8mYM_jCa6QV51viSydeBU&dib_tag=se&keywords=white+t+shirt+v+neck+mens&qid=1708127601&sprefix=white+t+shirt+v+neck+m%2Caps%2C296&sr=8-6" },
-                  { "name": "Levi's Blue Jeans", "image": "levis.jpg", "link": "https://www.amazon.com/Levis-Original-Shrink-Jeans-33WX32L/dp/B0018OFUUC/ref=sr_1_12?crid=M5KM9P6LS422&dib=eyJ2IjoiMSJ9.Y8GQ7rL4WQhS_HUPYQy3HjITmQsSXymzvUbqmSufEJI--2BEx4aJyOavzrA1Kz1ivAphd76-8cZzrHr3s25GXG9ueyQiKCmJ4_RLHc-2GfbZ5a4jL_rd3N-Wv90ORamJVQg0_Lc4rw7vlknVWLHbTH6mOBm5kxiZ1ENKeUhX1zc-dDRjNbREDPCABkcRGsox507MHAqXQxeJ2akcwhBpFSOJ-YXCRCHL96yYBKWgNdXiqgP7602LRkXBl_3_tmtnLwEd4usrnk5q0T090i_Qe7B1ZaGSV8vk4Xkdc8koJuA.Oxd2V9XmOkbgB0SMUIwvkkJa7ABBN57xrKN__j65wus&dib_tag=se&keywords=501+levis+jeans&qid=1708127947&sprefix=501+levis+je%2Caps%2C311&sr=8-12" },
-                  { "name": "Vans Shoes", "image": "vans_authentic.webp", "link": "https://www.amazon.com/Vans-Authentic-Unisex-Adults-Sneakers/dp/B07L25QQ46/ref=sr_1_6?crid=306FNNYL0KSLY&dib=eyJ2IjoiMSJ9.aWV-S3aainDXJ7yYdzxGYxLRdl-_71IV7gQNH4XnsIw40eYDylJ3Q5jgRFrLHtOULlXJohNpLs7QKQec8drSCvHr-DMUcmqD7NKzc6FzeytNr-RYHHlt6ZVWm1p8NnzB4Ng8dPmuey0B-ccPebnoBJ18K83Ok6cYXfHuivGrhNl5x5npD7WuwP5VVGdGS-AdYWf_PWT4VyppeHo1F9zAKUB6IQwifIoF8Z70ZrbYDDRulbfsF-SQ0ja9sG7NpVZLeLwopiGuAkKOuivvPjkVz0UU1fEVZjejYl7HRDmUI7k.j558xfUhxhIgvh_SZpxnz5lg1uKBPn009sGzAdB64j4&dib_tag=se&keywords=vans%2Bshoes%2Bmen&qid=1708128103&sprefix=vans%2Bshoes%2Bm%2Caps%2C366&sr=8-6&th=1" },
-                  { "name": "Sherpa Trucker Jacket", "image": "sherpa_trucker_jacket.webp", "link": "https://www.amazon.com/Levis-Sherpa-Jacket-Juniper-Rinse/dp/B077TCHH7F/ref=sr_1_3?crid=ORNGWNU7WT4C&dib=eyJ2IjoiMSJ9.Ie23Ckufco5j4UWHwnvLDJ20p_6z9nTwICjXtngjulsxTX5Eh1SOtyVYpJrL61JdZGCzhBZIV8miSfXjaQ94qhcsM0kHQG4f4wDAqdbHTnOHoUYvcQ8tyLkXbSOXXznZPa-chtziHSItf01Z64oWiwmpLMpIDEhv52o4rY5z01zTmmgGuddk5RDxQdMQ7bulmfRNa7mJdnU06vUHWzN8MUS4ZIVXBqIJaPd5msyvNFIcr7o9YkZ9ybzwYkTHeq_-bjk84yCUM7o9hQM5kcM0uF5zL13j-jdi8jG4HuvLu_M.A2veMUCOJwSuTCBfS8N96X1-LzM7c5ARXOxbX0jKv1o&dib_tag=se&keywords=levis+sherpa+jacket+men&qid=1708128185&sprefix=levis+sherpa+jacket+men%2Caps%2C334&sr=8-3" },
-                  { "name": "High Black Socks", "image": "dickies_socks.jpeg", "link": "https://www.amazon.com/Dickies-Multi-Pack-Dri-Tech-Moisture-Control/dp/B008M5S09S/ref=sr_1_1?crid=33UFDK8B4D83H&dib=eyJ2IjoiMSJ9.5u-UfggGQCtJc9HLI4QJ9jwor8XMoF58l5Pzyx7GWVT_irZwcAE9DXUhF8dzoqXJy9JniHKZFYhWEPMJNaQLnTUODzVU84e836G-_AOIgJnl-UF4Dp6Y_KkK09GGc7SprKD0GUniC3DfUMh9ozCJwGq3r8AqxLlYgsxCEEu_Ywlwf9OjLjtnjPmi6-XLazZkFI9NnesriM-Zl_d3smU947-jnnxGZD_BCY0kfylaLrBN2UVXqrTg6QFBac648tf6QxMTFYipgWxMSqaYUSmAnlDb75f4VcwqyPic64uT3-Y.bgow0vlJwmqUjWqQYdtAE2O3VXTvg69d6UB-OPHI06Q&dib_tag=se&keywords=mens+high+black+socks+dickies&qid=1708128329&sprefix=mens+high+black+socks+dick%2Caps%2C300&sr=8-1" },
-                  { "name": "Boxer Briefs", "image": "calvin_boxer_briefs.jpeg", "link": "https://www.amazon.com/Calvin-Klein-Modal-Briefs-Medium/dp/B07ZJ3HRDX/ref=sr_1_23?crid=NCGTXPQA7PGO&dib=eyJ2IjoiMSJ9.GsFrhHmXJsSA5k3Uk-KCyx7lR1HZurXcYa25BzQ8feBKkssQgzNaugFoK-udfHxCCsmXrqOFI8UbjGL-x6gyezNi1N5GrOsigNRJ6m9j7Pk1JvYFIlaR4op8yYNK-JR_cnqB130EiRFNC6Bk-DvQ36OCDUaXvuf2KiMVhRjBNJ6_kJzfaB8LBHsYrQpTnspVBDjd6-TfbVSa8EiNo7lcujtJVuwDWi__FR5navUcjYhgQHsgxEnErFJhR8W-OmpoMDe94acXigk4Iy_T3vW0lIoXTf6bkza6H9zgDpsEdiQ.IxASD10gQ8F2kCPs-fgkhK_kcIQXCl0U5BsNKmN_9EE&dib_tag=se&keywords=calvin+klein+boxers+men&qid=1708128480&sprefix=calvin+kleins+boxers+me%2Caps%2C297&sr=8-23" }]
+  "homebar": [
+    {
+      "name": "Wild Turkey Bourbon",
+      "image": "wild_turkey.webp",
+      "link": "https://www.totalwine.com/spirits/bourbon/wild-turkey-101/p/1862750?s=1115&igrules=true"
+    },
+    {
+      "name": "Monkey Shoulder Scotch",
+      "image": "monkey_shoulder.webp",
+      "link": "https://www.totalwine.com/spirits/scotch/blended-scotch/monkey-shoulder-scotch-whisky/p/127093750?s=1115&igrules=true"
+    },
+    {
+      "name": "Plantation 3 Rum",
+      "image": "plantation_3.webp",
+      "link": "https://www.totalwine.com/spirits/rum/silver-rum/plantation-3-stars-artisanal-rum/p/173123750?s=1115&igrules=true"
+    },
+    {
+      "name": "Gran Centenario Tequila",
+      "image": "gran_centenario.webp",
+      "link": "https://www.totalwine.com/spirits/tequila/blancosilver/gran-centenario-plata-tequila/p/97668750?s=1115&igrules=true"
+    },
+    {
+      "name": "Beefeater Gin",
+      "image": "beefeater.webp",
+      "link": "https://www.totalwine.com/spirits/gin/beefeater/p/3639750"
+    },
+    {
+      "name": "Stoli Vodka",
+      "image": "stoli.webp",
+      "link": "https://www.totalwine.com/spirits/vodka/vodka/stoli-premium/p/3720175-1"
+    },
+    {
+      "name": "Cointreau Triple Sec",
+      "image": "cointreau.webp",
+      "link": "https://www.totalwine.com/spirits/liqueurscordialsschnapps/citrus-triple-sec/orange/cointreau-liqueur/p/532750"
+    },
+    {
+      "name": "Cocchi Sweet Vermouth",
+      "image": "cocchi.webp",
+      "link": "https://www.totalwine.com/spirits/amaro-aperitif-vermouth/vermouth/sweet/cocchi-vermouth-di-torino/p/116922750"
+    },
+    {
+      "name": "Dolin Dry Vermouth",
+      "image": "dolin.webp",
+      "link": "https://www.totalwine.com/spirits/amaro-aperitif-vermouth/vermouth/dry/dolin-vermouth-de-chambery-dry/p/106922375-1"
+    },
+    {
+      "name": "Angostura bitters",
+      "image": "bitters.webp",
+      "link": "https://www.totalwine.com/accessories-more/mixers-water-soda/bitters/angostura-bitters/p/2961804?s=1115&igrules=true"
+    },
+    {
+      "name": "Lime Juice",
+      "image": "lime_juice.jpg",
+      "link": "https://www.amazon.com/365-Everyday-Value-Organic-Concentrate/dp/B074H8KLVL/ref=sr_1_3?crid=1FSPVAA8PP26T&dib=eyJ2IjoiMSJ9.rRgOvD2aPkAnq1hr3KE3cc_7rhgo1r-PHtOSmfhUOm_snba6a-5kAtlRO5DxUOiPLffblEaklaBaKHuMTXMvvKN8R4Z3SYAkMWJ-cXNmvHuISUJdU18dbuP5yDkswOWuoYp5lbCWHnBO8wZliomtpuosfjt9Rw9wLjfMB02gUrE1dzizfBJEhgIEuH_BmnJJIHaLsKAuOaQs66zMw4NKieI6JPInYRRvwSbRgCWSwUewfOvbDMufmnsKzs4KCvPwFu9qyKkOfWSkvCjtx6D9NKBbwi0B5vWorjoXzSmrfZE.qm1yPsaFKRbsfgt5MQZOUEsqZEsbtolpmLsULkRCH-w&dib_tag=se&keywords=lime+juice&qid=1707896772&sprefix=lime+ju%2Caps%2C338&sr=8-3"
+    },
+    {
+      "name": "Lemon Juice",
+      "image": "lemon_juice.jpg",
+      "link": "https://www.amazon.com/365-Everyday-Value-Organic-Concentrate/dp/B074J5WZS8/ref=sr_1_6?crid=3C6B2FGMP1ER4&dib=eyJ2IjoiMSJ9.ujcI8UbYRQPvNykufJGhrf3AhO4hLFjTKFD3uEaiBayHTJ1MQfi8RJG-BN4oIGg1xaurhVq3G1MYhQ88reRJ45hEWcyjC_uyAnJaU6XWuodBYnBXWi8WXZmsGzwIvzbzn4sWw_jLaeDaw_gTj9YtNFnEGvpMgCkmyWCu03TFGGvT7JTk1_LxNYgSQSepzxU-rHBJknqzZ_MRyAZ0EFCEr-HjohKkbGgBgYEGJR9pMSGEhrwlxwHmHx8E_UYdalaXkVU__6mutLnDYDG6KTlL4_Qn_n14svu9XoJjlOcKUlk.2jLmtLWBQfAtHvKxyuzskYQmp6Gw8mDEIqrEPP3avOY&dib_tag=se&keywords=lemon+juice&qid=1707896832&sprefix=lemon+juice%2Caps%2C329&sr=8-6"
+    },
+    {
+      "name": "Simple Syrup",
+      "image": "simple_syrup.webp",
+      "link": "https://www.totalwine.com/accessories-more/mixers-water-soda/syrups/simple-syrup/master-of-mixes-simple-syrup/p/113379233"
+    },
+    {
+      "name": "Bar tools set",
+      "image": "bar_tools.jpg",
+      "link": "https://www.amazon.com/Houdini-5-Pc-Perfect-Making-Serving/dp/B07ND3JL37?th=1"
+    },
+    {
+      "name": "Ice tray",
+      "image": "ice_tray.jpg",
+      "link": "https://www.amazon.com/Adoric-Silicone-Sphere-Whiskey-Reusable/dp/B07L4MLZT3/ref=sr_1_1?crid=1VG6G49CPNXVD&dib=eyJ2IjoiMSJ9.yTCSbLICFJKxDx8g32rcNXr3-lHi-9gyBJQpWODTZ_4TF5Br1wwiDF_rNEfiVoZfvN9o_bLh6tJjxrvahkGi2k5ew0Zh7Up_BHsGzwQS4DgDHr7Wi_n1mXv7pbjZ-tz4IVprnB_JCHCdi2-VgoUvMPsWJHkbQof798BTxJyWJbUSn3RX-R9SD3X7L12uL5l5yoODBk2-XL7aKwNDKbCBbY0ntdA_ZO0d7uj4qZ8WrohkWOIFGh6tsJXvv6TkuCZrBZELCqAwB5Od8aiCGd19V2WqcdU2rxUhD_QiV5A4iLg.xscMEgM369sSOSqx4bnI63-3qDSSQnK3j-pzV7x14_k&dib_tag=se&keywords=old+fashioned+ice&qid=1707897246&sprefix=old+fashioned+i%2Caps%2C287&sr=8-1"
+    },
+    {
+      "name": "Bogle Red Wine",
+      "image": "bogle.webp",
+      "link": "https://www.totalwine.com/wine/red-wine/red-blend/bogle-essential-red/p/124440750?s=1115&igrules=true"
+    },
+    {
+      "name": "Coors Beer",
+      "image": "coors.webp",
+      "link": "https://www.totalwine.com/beer/lager/americanstyle-lager/coors-banquet/p/132486126?_pxhc=1587804040172&bvstate=pg:6/ct:r"
+    }
+  ],
+  "whiskey": [
+    {
+      "name": "Wild Turkey 101",
+      "image": "wild_turkey.webp",
+      "link": "https://www.totalwine.com/spirits/bourbon/wild-turkey-101/p/1862750?s=1115&igrules=true"
+    },
+    {
+      "name": "Rittenhouse Rye",
+      "image": "rittenhouse.webp",
+      "link": "https://www.totalwine.com/spirits/american-whiskey/rye-whiskey/rittenhouse-rye-100/p/109259750"
+    },
+    {
+      "name": "Laphroiag 10",
+      "image": "laphroaig.webp",
+      "link": "https://www.totalwine.com/spirits/scotch/single-malt/laphroaig-10-yr/p/3697750"
+    },
+    {
+      "name": "Glenlivet 12",
+      "image": "glenlivet.webp",
+      "link": "https://www.totalwine.com/spirits/scotch/single-malt/glenlivet-12-yr/p/2792750"
+    },
+    {
+      "name": "Tullamore Dew",
+      "image": "tullamore.webp",
+      "link": "https://www.totalwine.com/spirits/irish-whiskey/tullamore-dew-irish-whiskey/p/7658750-1"
+    },
+    {
+      "name": "Buffalo Trace",
+      "image": "buffalo.webp",
+      "link": "https://www.totalwine.com/spirits/bourbon/small-batch-bourbon/buffalo-trace-kentucky-straight-bourbon-whiskey/p/102882750"
+    },
+    {
+      "name": "Johnnie Walker Black",
+      "image": "johnnie_black.webp",
+      "link": "https://www.totalwine.com/spirits/scotch/blended-scotch/johnnie-walker-black-label/p/636750"
+    }
+  ],
+  "weightlifting": [
+    {
+      "name": "Squat",
+      "image": "squat.jpg",
+      "link": "https://stronglifts.com/squat/"
+    },
+    {
+      "name": "Bench Press",
+      "image": "benchpress.jpg",
+      "link": "https://stronglifts.com/bench-press/"
+    },
+    {
+      "name": "Deadlift",
+      "image": "deadlift.jpg",
+      "link": "https://stronglifts.com/deadlift/"
+    },
+    {
+      "name": "Overhead Press",
+      "image": "overhead.jpg",
+      "link": "https://stronglifts.com/overhead-press/"
+    },
+    {
+      "name": "Barbell Row",
+      "image": "barbell_row.jpg",
+      "link": "https://stronglifts.com/barbell-row/"
+    }
+  ],
+  "skateboard": [
+    {
+      "name": "Baker Deck 8.25\"",
+      "image": "baker.jpg",
+      "link": "https://www.amazon.com/Baker-Brand-Logo-Deck-White/dp/B00U2G2OO2/ref=sr_1_1?crid=12H3HNVUD4TCF&dib=eyJ2IjoiMSJ9.kqaQH3TGWgmBNn5Vny4d4nks6igYBVr6MnMZ3qVE0WdJGcgufjqoGMPorEYEQjkgEiJACuwxY65BizrSjbx8hyW8016lITViMJA4I51Qk7ADI3ekJtnrpLtu8m74hJuJcP-6RHCRL5lq1_SDlN-GMKiSU3DlOAywKcROl51hMupLk5kN_Fg5sd2HBlpwNkLtf195XjNbNlz5ETCx4OpawrMlKjN-M5rDThFgtI_G6WC3FNArIcuHq_6Lxj5M-1nmYeVa7LHTZwatxE4yhebdGVErShUrqjZZfnQC-0CkzaM.UNePB-gphGjm_sPWGGJJa4jKVW0rU5AbsMk0I03GDgI&dib_tag=se&keywords=baker+deck&qid=1707945227&sprefix=baker+de%2Caps%2C338&sr=8-1"
+    },
+    {
+      "name": "Independent Trucks 139",
+      "image": "independent.jpg",
+      "link": "https://www.amazon.com/Independent-Stage-11-Skateboard-trucks/dp/B06XCGNKYN/ref=sr_1_3?crid=47YAWFTYWQKH&dib=eyJ2IjoiMSJ9.bQLsEiZHR2v9Hc_KlLUlpkqQkeVmJProhSXad1oQXm7_O5vrIi4a6HmyVVPfb1c5jvCqOzlSoRZ5KesRAIrSVKH5vo5uPoF1Pe0VfZxDE0b1RuW6xJWvEvWn72LUqjg_7KyU8Z94i1iiJH5pLF28CCXVFd2hYH3SxQ2yTpjf3qpi9ugC0HzLH2x2Z-V3op9wSpk5iYfa6h1eZuOmsvYsEEAtBiSZJ1ti43gShm17E9c-DaQcPSoXsVkg6BsdAEBbu9Mz67Sc4XU-naxzFW09xc3Fx0k08wa-1YrBPVLlAqw.W8E5I1aUoDynEqgpNgMMHRpJ85AxqmpmLpLIC2sz8TM&dib_tag=se&keywords=independent%2Btrucks%2B139&qid=1707945140&sprefix=independent%2Btrucks%2B1%2Caps%2C312&sr=8-3&th=1&psc=1"
+    },
+    {
+      "name": "Spitfire F4 Wheels 53mm",
+      "image": "spitfire.webp",
+      "link": "https://www.amazon.com/Spitfire-Formula-Conical-Skateboard-Wheels/dp/B00OO8UL8A/ref=sr_1_2?crid=1ODT7HYN8OZ20&dib=eyJ2IjoiMSJ9.tw0mzfgqJSxZvphJ0JxtZurWig6cujLP6AFOE6JLKMSAk1EBE0HJYBxnKa0hS17OFQ4K2QtmdHgcaXFBMSxNAvQldm8hH6Y9thHi6jLMc71TwnN_3HRXV5I-q8lTjfI1XB1VVQKCMb4zglklXDlzdWq6awG8xTKJvw243CJI7nIVBXjDY8VDnvcKv0U_fPO-4GE5BF2MpAM-hrHXzGSiXzhPx22K_tkrmiiqaYMeHPalvEb58hlIviebR64a3Yepvu9LJUFOjkJawfPL7RK9s2ZFfFkwZXsTQqpf2pUDh9I.tEUpfuoLTIGZhebZOrFrGw-OKRrdv1wCR-aMxcU1fnE&dib_tag=se&keywords=spitfire+skateboard+wheels+formula+4&qid=1707944998&sprefix=spitfire+skateboard+wheels+formula+%2Caps%2C275&sr=8-2"
+    },
+    {
+      "name": "Bones Reds Bearings",
+      "image": "bones_reds.jpg",
+      "link": "https://www.amazon.com/Bones-Reds-Bearings/dp/B000FDRQ1S?th=1"
+    },
+    {
+      "name": "Mob Griptape",
+      "image": "mob_griptape.jpg",
+      "link": "https://www.amazon.com/Mob-Skateboard-Grip-Sheet-Black/dp/B002E0B2BK/ref=sr_1_2_mod_primary_new?crid=12H0SMZJ8TD7&dib=eyJ2IjoiMSJ9.k2KSQfy0rX2hnrQ0s5Qt_gOfG60HNqbPTye6W5pfXx36VVFYkrpD7zCH6mWjvV9EgtFjETj0Da6c3R8MC9HwABCLHfUqPKfZrkM-_hZ07mwRJyvZlJoBhpw7JJr2nM8awfCvVni-H45BT-EoRDJM2MWMb8eABjODknBJZjCtRAK9YYPTd3wJi_HW4doab5JwbzHn8RajiX-qNxVhtwiXXgmzp3Jpg3dvnhpG-erv7FdgMndgYnEuu-FO7atvzuNQ2o38Rh6C5Y9i12GtI9H-kIVN-Tdb_1UXZFffqo8bbNg.M21OMKkPAramXaSixXucmFrzLQraOir1BNLMC6ila6A&dib_tag=se&keywords=mob+griptape&qid=1707945398&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=mob+gripta%2Caps%2C303&sr=8-2"
+    },
+    {
+      "name": "Vans Old Skool Shoes",
+      "image": "vans.webp",
+      "link": "https://www.amazon.com/Vans-Unisex-Skool-Black-White/dp/B000R3UCB2/ref=sr_1_1?crid=2QWCZSJH86X3M&dib=eyJ2IjoiMSJ9.6wErHhd4c6AhJbu1mqd5Pqcly1UwUS7Jatb8GR86o4Q_Z88mYywEHmYn5OHqGh-m17ZGpIj_NquIWYgwnMiE_BnJHC7XZl8IExxK1Te_TaeYwGjF-FgkAoVhhIH8fQ2ytz37x0y7WUjvJfU9H60SVpI-I7Iu-CkbzW_7SOmKcn6UbUSB1sNU6K2mRnRna_pHlmx4esJRjLpAgXla1TpQ9II-bUjTmu8rKAtncMHX6ygZGktjUunaM2KgBeiumw4E1Ea83GXYGYHYZWX2Xy7eF2PzSkyA9Kddv_b2XjMPV6M.fRuEbk-yjjWCK6qRwIKxPuSpJP6di3G-9ERPvOnjnYw&dib_tag=se&keywords=vans+old+skool&qid=1707945588&sprefix=vans+old+skool%2Caps%2C296&sr=8-1"
+    },
+    {
+      "name": "Hardware bolts",
+      "image": "hardware_bolts.jpg",
+      "link": "https://www.amazon.com/INDEPENDENT-Genuine-Phillips-Hardware-Independent/dp/B00YFU5B6E/ref=sr_1_5?crid=MA695XW58APQ&dib=eyJ2IjoiMSJ9.aV8nnCvY90eJxRtBdjEABZ3GpuyVbRCl8L9IiSizRK7zFopZaZMttTXYjbmdwE77WC2Q1-ti5dAa385FA0309kIGhalF64M1LNH-W9GgB7eYBtvWcyUk2V79gHXipBlANPXFh3i3ez7Q8eb_AiJeZ9ET_e56FWWXsge3_tEuTCKITfKs4E4A_H-PmzEpl-cnhTgc-dxZTVw1O96Asi3zzOrS5nAvnOHmF-cKNKwl8duAnrQFp45fPThWhXT7Bg4DTvh3MuOdVXC6qXxPokc3-PK16jJdmx6c8JGqJW5eDpw.xHaoSE9nn0gJsNMQhgCgY3Qz5RgjJ7nNy9VCBwc90d0&dib_tag=se&keywords=skateboard+hardware&qid=1707945464&sprefix=skateboard+hardwa%2Caps%2C302&sr=8-5"
+    }
+  ],
+  "coffee": [
+    {
+      "name": "Ninja Drip Machine",
+      "image": "ninja_drip.jpg",
+      "link": "https://www.amazon.com/Ninja-12-Cup-Programmable-CE251-Stainless/dp/B07S98411N/ref=sr_1_1?crid=3LEQEN3HHOQ1A&dib=eyJ2IjoiMSJ9.yO8XWHEDk9SS6gyZnKcHYeVfagvFQrkvaxThl4IAwommrPwNFePgJzZBboUqBgrkChIITB8T9BLtnBHPXgxG0FuwxC5yqIAYA2eO4_9d8k3PyIXV3RKTSj-CT99H3ysERCqC4OAUDSrAij3aus99kH_MqcnHFRrJfGMaJows1i32OCBbfrLOmEulEyaiiDngbUCLKf8V9j9ioRB8DZPpuvZ7fdLB-oucE9UD29jumps9BMSUkcYSqJT8kGRZUvdy3BEgN-sRlBEaEJXApVh6CmPfsHsAsYvcq9aBlcCHorY.RLuR0LUEGjlhhDeJfovnFp1TfyDRR4A-e7qyHL_5Xr8&dib_tag=se&keywords=ninja+drip+coffee&qid=1707948684&sprefix=ninja+drip+coff%2Caps%2C384&sr=8-1&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc"
+    },
+    {
+      "name": "Filters",
+      "image": "coffee_filters.jpg",
+      "link": "https://www.amazon.com/Amazon-Basics-Basket-Coffee-Filters/dp/B0C4Z6SKCS/ref=sr_1_5?crid=17MY0UF7DJUAA&dib=eyJ2IjoiMSJ9.qen7cKYOPp-XMxxhaI5XtjQT_RvaInaEGBzYR0G5YcWXdIyITTXc09IWjSbf5HnP9xRJw-Frqr8v3m5i7n2-PfcKuNBXfSf0IKrlnwh3gWPgcB8slSpdWp6ZmhF3yYIAeENoza_S73qCjiXmZ52Y1WZ_APuSPrcU3vAgAklYzw_X83ZFzjp_EYBXFRvkZ9PHfO-ABjDRZJGUNO9NHS_DE7cn160klwom91Y8ElQX2xrx7JEFU_ip8k8SL2pp3JqJKQeSlvYU3Lx54d9dwGYMr8iWiEMRsHZ1yRhyBET9osI.nDr2s-dbbytVcFvpz5sjv1MrzcYSi_aSgDWwI0OxpiQ&dib_tag=se&keywords=coffee+filters&qid=1707948749&sprefix=coffee+filt%2Caps%2C301&sr=8-5"
+    },
+    {
+      "name": "De Longhi Espresso",
+      "image": "delonghi.avif",
+      "link": "https://www.amazon.com/DeLonghi-Espresso-Cappuccino-Stainless-EC260BK/dp/B08C96BG9H/ref=sr_1_2?crid=19HW2T4JM734G&dib=eyJ2IjoiMSJ9.7UFyqO51KQ0WTfNFxbnUpsiSaIxzQrmvSFunVMcJSMwA370-eUVwculolHmPSchW9EuIZRGsqeLnXwWqnLxgMTWgI-q974G3rQPJwCpl75umy0VbVb7xu6Dui64tHtx7Ns7LBoth4s_ChdT1x-nM7zobD8uCVvrWyWNdV-dEmG-ZaXTpR1jy1HCl05n0iPv6_vfOnSz3ahGFcGIsfoI6cJQ0pMaLIWjyVICInwf7kgzT-yN4DGm4PLWVM3oDSGcBCKKUJ0Uocw3YFAGNL--fw_ibH3DMGGgArGqmIboq17M.Yx1bIGoTDJ3084xECCsW6VSIr2-OKDuXy4cLj6TS9fw&dib_tag=se&keywords=de+longhi+espresso&qid=1707949146&sprefix=de+longhi+espres%2Caps%2C347&sr=8-2"
+    },
+    {
+      "name": "Aeropress",
+      "image": "aeropress.jpg",
+      "link": "https://www.amazon.com/AeroPress-Coffee-Espresso-Maker-Bitterness/dp/B000GXZ2GS/ref=sr_1_5?crid=1BBFLELX9UEYF&dib=eyJ2IjoiMSJ9.uNvA_16Ou8kOznTBoCfkwdWhelz_E-jOnw_11Spx_GoYrm47Uocr0Fs96_gIMmcE7fshP50oHdw-xCaVm4YHWSaUP9NJ1pwQGo5CvbVWJ5graOxWvMPzNyyhCh6IrNb1b4m1K_9v0kovDbANvix2CPS8MFrCikDyjKTAIs7EtfTBFl-GsMJ3XbOX9wEdkgikW03V-WwJO7B-hgsZUGKPrS71jOFQdzCRu-Y_SwPEKCEO3YW7OhcDxT6DZf4oqxX7EIza3qVxiT8JcLMjl1Xowmp-kce-hFTUSbRQPPTbt78.G3jiHPJhDGvHLf693rbmlIXaSMBAZX9mcYG01CDDfQg&dib_tag=se&keywords=aeropress&qid=1707949164&sprefix=aeropre%2Caps%2C329&sr=8-5"
+    },
+    {
+      "name": "Krups Grinder",
+      "image": "krups.webp",
+      "link": "https://www.amazon.com/AeroPress-Coffee-Espresso-Maker-Bitterness/dp/B000GXZ2GS/ref=sr_1_5?crid=1BBFLELX9UEYF&dib=eyJ2IjoiMSJ9.uNvA_16Ou8kOznTBoCfkwdWhelz_E-jOnw_11Spx_GoYrm47Uocr0Fs96_gIMmcE7fshP50oHdw-xCaVm4YHWSaUP9NJ1pwQGo5CvbVWJ5graOxWvMPzNyyhCh6IrNb1b4m1K_9v0kovDbANvix2CPS8MFrCikDyjKTAIs7EtfTBFl-GsMJ3XbOX9wEdkgikW03V-WwJO7B-hgsZUGKPrS71jOFQdzCRu-Y_SwPEKCEO3YW7OhcDxT6DZf4oqxX7EIza3qVxiT8JcLMjl1Xowmp-kce-hFTUSbRQPPTbt78.G3jiHPJhDGvHLf693rbmlIXaSMBAZX9mcYG01CDDfQg&dib_tag=se&keywords=aeropress&qid=1707949164&sprefix=aeropre%2Caps%2C329&sr=8-5"
+    },
+    {
+      "name": "Trader Joes Beans",
+      "image": "trader_joes_coffee.jpg",
+      "link": "https://www.traderjoes.com/home/products/pdp/fair-trade-organic-sumatra-coffee-074457"
+    },
+    {
+      "name": "Peets Beans",
+      "image": "peets.jpeg",
+      "link": "https://www.amazon.com/Peets-Coffee-Medium-Roast-Whole/dp/B086ZFPJZB/ref=sr_1_9?crid=11BCO8X0JL5NC&dib=eyJ2IjoiMSJ9.KYU1ucZ4ddVZVwuPuUQj2eSzjtIWD-Yj8Le8U0_JYFGZN1aXobVsxFFCqAtZU4GjO8vz8oBpVqjGl-RrSG9K97b0i0fbSlo7oYnVRMcDZL5Ry6w9fIpGrqjvcIGMAO48v5HMVuxc8Or3bbaPycnwJn3VAHP-mdidRhkfV_Z0mit1ZGqUNmTKZzYXqM7ad6IfKSGJn3Ei18nM0Dnx-ea5lNt0j9DxfnfqFRsncW8pC_J3-x1RVvD5_L51ak2E-RP-CvBWUURx84r1CjWhbLONnuCsikyQcIssZ89yzi70N3I.elL315dAyJ3VU2j_J7-FIIvK7M4qFMFw5hll3Unf1r4&dib_tag=se&keywords=peet%27s+coffee+beans&qid=1707947010&sprefix=peetscoffee+beans%2Caps%2C333&sr=8-9"
+    }
+  ],
+  "boardgames": [
+    {
+      "name": "Werewolf One Night",
+      "image": "werewolf.jpg",
+      "link": "https://www.amazon.com/Bezier-Games-ONUWBEZ-Ultimate-Werewolf/dp/B00HS7GG5G/ref=sr_1_2?crid=JPM1EHD7PWCV&dib=eyJ2IjoiMSJ9.tKbT2DmcQhXwuAAWfHXcx4BJXLRCYY6EpVCnIYfG2UQF1PlM2Su0C7urL4iXCMV6SN1ILyBSVmRNA9EpSgycHGEFcE6lASFNmjcO7ZggDmBVgK3-EuNxqRTgGFrmL_v7H0xUU7XJnUn8jdU2qujlNOfWsKQWMeUoe5qrYItlf6bZE63S9OG7EVGPSN5H2U2YPoZkwYNJjq4ItvRZRAuKvii6HQBCM52rwNC3-VsGQ6YseU8crK6LhKoM_zPai54ZrMF2N-_bmE0pKTj9674UdVACC6VDKanJ9byc0YC30Mw.oh4lbiLcbIf7sbgpAJ-xxOyU8He0CkFmYbgyeeYfMH4&dib_tag=se&keywords=werewolf+one+night&qid=1707949892&sprefix=werewolf+one+nig%2Caps%2C308&sr=8-2"
+    },
+    {
+      "name": "Codenames",
+      "image": "codenames.jpg",
+      "link": "https://www.amazon.com/Codenames-bundle-Czech-Games-items/dp/B07BLJWDLD/ref=sr_1_4?crid=13A1AINF1CS2Q&dib=eyJ2IjoiMSJ9.lWPs2SwlTuel9IJ9_8O4emxzBLde3rBYBQ9dhwbrn9vCeiOhnXLV1s_6DcUSYpfpzHt0VhJL4dzV6zLR1KjyXycQMvPKaD0oxtZ6y-28eYBQdr5mDwk0flpfplA9Rsk-ke5lsR7tkU6vH3hBa46hl5dUOj2I-foMv1PY9OH7u0ifPiPgnTM4HD_QWCnH2qtsttyiQ-wiobCegBV_r3Ymm5XXEURyRg5u_htHDfKd9u1DwiEtnZ47jOdSA695eYVvDBPgDSOc1R8Yfe5ytl7ZGDghFL0VGELqDB9cVG8MT9I.PwRoc4uZij59iOG8k-m_NvzwI7MxzXP68qOprzAVLWk&dib_tag=se&keywords=codenames&qid=1707949982&sprefix=codenam%2Caps%2C343&sr=8-4"
+    },
+    {
+      "name": "Monopoly Deal Cards",
+      "image": "monopoly_card.jpg",
+      "link": "https://www.amazon.com/Monopoly-Quick-Playing-Christmas-Stocking-Stuffers/dp/B07H5HFTWC/ref=sr_1_1?crid=3FHIHXWC39GS3&dib=eyJ2IjoiMSJ9.zBG07s8lhkfhJreUR3UNV4m6TkdbVOOoFBcBltEUWs7OcOYLCB8djoZzNB3jTJjW3zwF1sOMBSCFHL2mQXU3K6tARM0siXk4tYLQtZmkZQA0i4zkgqdvxNmBTmhAm3eHgClIFtAg_pdGc8PR09jHfjs_g9I7UVwzDhqMtFL2TRWbeLDQiQFOzSXQomLr9aFiU_p9gjC3-u4ZLb1hG0LfUI7rhSNYZR84V-00fik5fTzRgvncZga2ApEip-n6jhK2GYzbqpCvMIlYwriL178I8LC011tvdo6CCystPHLB9A4.gVZAa-RgQpVuEh8j8P_DTEJ6kb4HXIiS2zFhDquybiM&dib_tag=se&keywords=monopoly+card&qid=1707950079&sprefix=monopoly+car%2Caps%2C284&sr=8-1"
+    },
+    {
+      "name": "Settlers of Catan",
+      "image": "catan.jpg",
+      "link": "https://www.amazon.com/Adventure-Players-Average-Playtime-Minutes/dp/B00U26V4VQ/ref=sr_1_1?crid=1OK71JJN3EQHU&dib=eyJ2IjoiMSJ9.b60caXWhYA8tSt1SaZcN04H8MopIFhxcEz5cjaJfnnji7ayt53sZw4vFchnb6kIgnx7o0an5ylq7WqU8FFqfCCT4GdePOYvoD_kOpTu6IMXfKyq0fKDF6DWRFndt0B2VejOXqOotNLrS6ouTBUEEU1hi7HwPtfGuzpIgYSFjQEtYap11dfbnJmxdXiXfEr4SuoH5uXYLowESb0Fs_yGoHFsMGaeYam0rLHMgjbaakQRPVd_oAMebXg-7S_MyGylRvyjIQdOw0BA1RUv8Fv8y6DHvSXc1r_pCVagV58HTjLc.27I-3I9vD-E5HOJVVe4TOTit1mqMaGq8OnqMgmF-l18&dib_tag=se&keywords=settlers+of+catan&qid=1707950166&sprefix=settlers+of+cat%2Caps%2C284&sr=8-1"
+    },
+    {
+      "name": "Ticket To Ride",
+      "image": "ticket_to_ride.jpg",
+      "link": "https://www.amazon.com/Days-Wonder-DO7201-Ticket-Ride/dp/0975277324"
+    },
+    {
+      "name": "Clue",
+      "image": "clue.jpg",
+      "link": "https://www.amazon.com/Reimagined-Players-Mystery-Detective-Family/dp/B0B5FLTTT5/ref=sr_1_4?crid=3CGDJ0S558I90&dib=eyJ2IjoiMSJ9.3LEsrZsYiUW3n3QfO_ETu5O0rXAgCPJQ1soYMcCK0BmbYoKFozRMMmHI2sU8nEOXKZFkqcv_AJvxQ0vO67zTAwaVaSPvhwf1a2XIU5NNKlD7GFtQ4p07PciEB9mPyosRIuaUtJzgJzOHNxUPPvW7gpccZ8jQ1XdZKSI79DtH_SEPWybhf1--jDoIb-kxRXtN77UcGViapuhm1USOnDacBjG32zFiSRl9F_YdoHbUhLkThClzwwDYV9oFZSp-BWKAUeEttlWobj-fx8ogFdZ3TVjpaGuEoJafDLXfIsOHy4U.pG0H8IYJCD3nv3k4v9XUTEk_kY9d4W2X8rRWDzHNXu0&dib_tag=se&keywords=clue+board+game&qid=1707950238&s=toys-and-games&sprefix=clue+board+ga%2Ctoys-and-games%2C278&sr=1-4"
+    },
+    {
+      "name": "Jenga",
+      "image": "jenga.jpg",
+      "link": "https://www.amazon.com/Hasbro-Gaming-Hardwood-Stacking-Stuffers/dp/B00ABA0ZOA/ref=sr_1_4?crid=141T0EFVJEH5V&dib=eyJ2IjoiMSJ9.4KmPOs5pLMsvlwE-GqFiMkJcAT7knchJAd2H0NBsEjF1qwIwrLJkNATejVlwuF-vuApLd4yY_Xndzd2qFPjvhftzMfBv2ywIczbM4_E204mSLO7foHWXXhqJyWJ6CxpLSBj4etNiGTW8AgpQDb0Uq9W_xTSnecRn5304iZY6PCeFgpP6b7eqKKc9dtBwhSBSjciQj8PxQS_x1WAoFPUxqwfwn68upfRv8DIZTlwfviNAmrZuFzte2Nmcmvu82l4ynikKSvgTdF_mqVqyI_x5Cueth865X-QsvAJWQHXIhoo.hfnU_OkEwyNJ4xeNpQPIlsFpr18FnQfznpQeBO9bJ-8&dib_tag=se&keywords=jenga&qid=1707950281&s=toys-and-games&sprefix=jen%2Ctoys-and-games%2C307&sr=1-4"
+    },
+    {
+      "name": "Exploding Kittens",
+      "image": "exploding.jpg",
+      "link": "https://www.amazon.com/Exploding-Kittens-LLC-EKG-ORG1-1-Card/dp/B010TQY7A8/ref=sr_1_1?crid=1FWU7PKQLRMNR&dib=eyJ2IjoiMSJ9.J919_IqZInOUspGhZibxMBi6U0-Cbd9k_k93DlUDW0KwRvMC4bkdTjtVFnCTXL3sMH1OuqX7qT_mG2MGs7tGRrLDhzsFOHbiASYGFCvZjfUKDL1AI1wAWd93rfj5gUC3ipCPiLA7DQiVR7o_d8qTi3z7iC9UmlxHprHn6CJHFl5gzBnr80IAtnu_RCYFexBDrw2d4TwXAeGYAnrYi9XN5EDwBIgtJjjJkHRC2nodbw2A5OdN-MPK0UyqmpbEi282LqggM76QF8kwdbDNh_NO7AilmRBCh6uEADjRygwLmHk.5VH-zibk4jUl6C1RzmDF01Ira8gc33HeDIVffRFdIU4&dib_tag=se&keywords=exploding+kittens&qid=1707950304&s=toys-and-games&sprefix=exploding+kitten%2Ctoys-and-games%2C276&sr=1-1"
+    },
+    {
+      "name": "Cards Against Humanity",
+      "image": "cards_against.jpeg",
+      "link": "https://www.amazon.com/Cards-Against-Humanity-LLC-CAHUS/dp/B004S8F7QM/ref=sr_1_4?crid=3PYUQBE2Z3U9B&dib=eyJ2IjoiMSJ9.YHrBSny8NbLXtd4fsnwAD08PxvvKqIF6c0d3MDGjp38ZGBC5CRRBJQoJv5JPKJub3o97Y8jhrK1DNtyX_MEGa-37JFmfAU2bqAGOlqlkTCDkfLVQ9i19XUZtwnaI7FJlDu55sfOS9GfbCLZRZptd0CHlpkpDmITlVZuv41Qm5sXMsakFY_FX6hZbUuLUVjsRya--s29g6ISQ7c4519fNbAk5ByHGFf3DsCWxj4s-6I7iY57wVgVhGWF_xAFyRElx4gHqUldz6e3kvKzoyDGRANsWBv5HypgqOyLtBXvfzpU.aJw-A9AvN2DspVgM1elROa98Q4R1eBhm9mjlchOkiCo&dib_tag=se&keywords=cards+against&qid=1707950358&s=toys-and-games&sprefix=cards+again%2Ctoys-and-games%2C275&sr=1-4"
+    }
+  ],
+  "pc": [
+    {
+      "name": "AMD Ryzen 5 3600",
+      "image": "amd_ryzen.jpg",
+      "link": "https://www.amazon.com/dp/B07STGGQ18?tag=pcpapi-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "name": "Gigabyte B550 AORUS",
+      "image": "gigabyte_b550.jpg",
+      "link": "https://www.amazon.com/dp/B08KGVH7YC?tag=pcpapi-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "name": "Silicon Power 16 Gb RAM",
+      "image": "silicon_power.jpg",
+      "link": "https://www.amazon.com/dp/B08QV1V17R?tag=pcpapi-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "name": "Samsung 980 SSD 1 Tb",
+      "image": "samsung_980.webp",
+      "link": "https://www.amazon.com/dp/B08V83JZH4?tag=pcpapi-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "name": "Nvidia 4060 GPU",
+      "image": "4060.jpg",
+      "link": "https://www.amazon.com/dp/B0C8BPW1SP?tag=pcpapi-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "name": "Corsair RM750e PSU",
+      "image": "corsair_rm750e.jpg",
+      "link": "https://www.amazon.com/dp/B0BYR1BXC6?tag=pcpapi-20&linkCode=ogi&th=1"
+    },
+    {
+      "name": "Corsair 4000D Case",
+      "image": "corsair_4000d.avif",
+      "link": "https://www.amazon.com/dp/B08C7BGV3D?tag=pcpapi-20&linkCode=ogi&th=1&psc=1"
+    },
+    {
+      "name": "Asus TUF Monitor",
+      "image": "asus_tuf.png",
+      "link": "https://www.amazon.com/dp/B07WQ4FXY9?tag=pcpapi-20&linkCode=ogi&th=1"
+    },
+    {
+      "name": "Logitech MK270 Set",
+      "image": "logitech.jpg",
+      "link": "https://www.amazon.com/Logitech-MK270-Wireless-Keyboard-Mouse/dp/B079JLY5M5/ref=sr_1_4?crid=1ZHEXQ7STTES7&dib=eyJ2IjoiMSJ9.VQIzKwovrjYE2qWXhGwgb405g3iDtrULlDD0Cdzr-pTpx5vZG100Jvlp0C2w-zU5-Y7vfz-zNSkiyQhjHgF-epj5_9SZQ5YwyQysL8lSKim1X5Dn8UkXtqxy66v2Tdx8r7_nM9ktl92g5Ssb5iWwWszG3BouAR2PfFZj_rLsYCKoIs5WrzE4cPc62QAu7u8LnUQq65CDgmUHxx7PboYiDQR7R4QmgDh1wylJ5Dovw1o.Q4Cv0vf8e0lp5pxf0p4pidw_d6WtaNxGq0ggqFXyu6c&dib_tag=se&keywords=keyboard&qid=1707894100&sprefix=ke%2Caps%2C402&sr=8-4&th=1"
+    }
+  ],
+  "skincare": [
+    {
+      "name": "Cerave Hydrating Cleanser",
+      "image": "cerave_cleanser.jpeg",
+      "link": "https://www.amazon.com/CeraVe-Hydrating-Facial-Cleanser-Fragrance/dp/B01MSSDEPK/ref=sr_1_1?crid=1LPPPNULWQ7H0&dib=eyJ2IjoiMSJ9.eLnFeu0RFaEMjQtbvjXecFc18dYIs9IAuzZkt49QxQGHZpSNs3K40JhwroX7ptpcmBhQTUMmrBBJHEHX6ZnCYcfAunlexuQT-oU5EqAT74QIlLeSTH0c88TeftT0JyUxJoK3Uw7Z-e0ZsQSHg2lD9dTmFoqFseJqIumGowSfh07yL7flXJJYh0sTVaZRbUQ22WMFqiH0TRTtS82Tpieksmi7lDgRfR4kf6tpUFIHUVq2OdHiRayb5CkLseT3WLlUmOVYV7UyU2Snc-2sQENK077Z-SzofEXLy8iQg1pYWY4.-9gh5gP1l4QVc1FQD_vqEt9moYSbkuxx3VTCvDSeQTg&dib_tag=se&keywords=cerave+hydrating+cleanser&qid=1707950434&rdc=1&sprefix=cerave+hydring+cleanser%2Caps%2C276&sr=8-1"
+    },
+    {
+      "name": "Cerave Foaming Cleanser",
+      "image": "cerave_foaming.webp",
+      "link": "https://www.amazon.com/CeraVe-Foaming-Facial-Cleanser-Washing/dp/B01N1LL62W/ref=sr_1_2?crid=3EANHQ4JISB5K&dib=eyJ2IjoiMSJ9.M5Ph_Rcr8lcHmMruM32nJD-LRz9sKxXFUb3MQCIWaujQVCvxh_p96Fmkl0IPMSVcIclbld64iEIojSAZNrNxlIL8hQFfwgYLqsCbgMe7Hrdw6DujLxjRyRzzd362VXeCG1R2BQ4DcolCQU4oOIg40sTkOyEUw3cQheRBnc3ix15Y5r8AZd2uKREeHA6lDMoLE6pv9NihQ26JsT5ldiImldQS5M-2Gt1BfYgmOqJNzp5yy1LN_5XUzIxTJ_-wd8GmCda24uUlPTnwJ3SYNoulN1lJlbgBCf8cMQJ0tauWgdo.rFS-Vy9eZCDawv3hyDfoV2krYj5Z0hG8MPAGGvgOL5c&dib_tag=se&keywords=cerave+cleanser&qid=1707950574&rdc=1&sprefix=cerave+clea%2Caps%2C286&sr=8-2"
+    },
+    {
+      "name": "Cerave Moisturizer SPF30",
+      "image": "cerave_moisturizer.webp",
+      "link": "https://www.amazon.com/CeraVe-Facial-Moisturizing-Lotion-AM/dp/B00F97FHAW/ref=sr_1_1?crid=2F03CEHROOEI0&dib=eyJ2IjoiMSJ9.8xP4QseiRhNSTeeL64sZJ2cJQmf2oPz2f1LScYdgRAJI3avjuHDH2dh8rA1zOrvBT9RqL_Qi6GRJcKgQacc1jCXc_q8hddZ-SquEzkHS_6866MKFFeYIOhNa84hZ5Ow8WRCvLynHZGjZCUgyLVB7bAa2OIY5mzU-FL6QxuJ5kDvxETPXgZkv7tLx7UvpyLZ1605yeL3W-MEOVWGG480ecySGM8qaiKILH4JCDUnoOtR8MUiF_uZh7mhnuHl9TTG2gvKZJjEik66tzCQOHJ0OYJlIsCZEW7lA9QHDxklsCQI.pRPHEa-VJ1LLNXHP1HEFNguveqHN_dGYKPdQFFy3FlU&dib_tag=se&keywords=cerave+moisturizer+spf&qid=1707894282&rdc=1&sprefix=cerave+moisturizer+sp%2Caps%2C276&sr=8-1"
+    },
+    {
+      "name": "Thayers Rose Toner",
+      "image": "thayers.jpg",
+      "link": "https://www.amazon.com/Thayers-Natural-Remedies-Alcohol-Free-Petal/dp/B077D3MXVF/ref=sr_1_2?crid=26UHGQNAXNDU7&dib=eyJ2IjoiMSJ9.HaRCxIcswi-SPztZLX3Zg-YjY_NxF3M_usGHZwxT3nO3_iM5PYfRCOnO-GJW_amH_RUF6OXxKj4A-npcKljBVvhD03GESV1QNLlpBt0AeZdz5WvgQqxniwI2XeO_DpwbdUDXdSi7G6PCVi0fP-cNGKjHJxeXg6Oq9DrXZ33nsZBYIsafywaKBWbo7PZNjwYIK23IYfpuc-1kqv8zxHJUCGMbzmuRRsCPrXFNmfoAgfg_5TneTtOXg32PvOxW9RXBlvSPX0PRDLLKWCWF71OKNd4oZEMPdsARaxSMJQGRi6c.hEqZCFCRObgvG7NaSWZ5L1PCYYeenhUOJciZbH6mu3Q&dib_tag=se&keywords=thayers+rose+facial+toner&qid=1707950494&sprefix=thayers+rose+facial+ton%2Caps%2C279&sr=8-2"
+    }
+  ],
+  "hometools": [
+    {
+      "name": "Dewalt Drills",
+      "image": "dewalt_drills.webp",
+      "link": "https://www.amazon.com/DEWALT-DCK240C2-Lithium-Driver-Impact/dp/B09M394NQ3/ref=sr_1_2?crid=2T0CP8PW7HXSK&dib=eyJ2IjoiMSJ9.iC1VAVCMo8FIDU2ULyDBZEfsGvC5p89towLCRhfLKXPQCEsxvQUO4pxMczq3Y8T8M2FEsta6u29AXvJqSTlh7UfjtqymYFkL-02ky5nVU3H4GbldyM8YLsS_Q1lijtBFIjfBgFZyRl3GwTlo1D49-PhCXf7RfgN8aSC0nnNMsqsjbOnXuOfafPHOjBlJ9oV-udNnfckLO71kDsO3psGb2_9NXJhMZSxpzAHzwH_GIzZAbDA0X0Ug5RvaFzzND77YvV9IAFNAC7wS76OVQOrU3HTOcZL1spFiAm74gSHV5vA.qG7uAHKuu5hLjcuwhCeb52MPaGCEP2piRNpkNZ7uhsU&dib_tag=se&keywords=dewalt%2Bdrill%2Bset&qid=1707946400&sprefix=dewalt%2Bdrill%2B%2Caps%2C312&sr=8-2&th=1"
+    },
+    {
+      "name": "Dewalt Screw Bits",
+      "image": "dewalt_screwdriver.jpg",
+      "link": "https://www.amazon.com/DEWALT-DW2166-Piece-Screwdriving-Tough/dp/B002JWSNIS/ref=sr_1_1?crid=25NRCSQ53C2L2&dib=eyJ2IjoiMSJ9.rxu65W2bmetFk5d4yo0WnaApCPXWMcPgzrrjvDKpmtogxmBMMpGoIQPKfng1DOEwjd9sml29XNfKNQF-l9UuVz9qQIhfxbLFBQO2ZQlRfXDXJ1fzfJNheT_ejkii7Z9p30vey8Mra_ZaOcv88kK66ZXEcuekTQjSNHL839U38Dls3qDXEsfnyLd8NtQclG5hjLNjbIwseOp3e_CayeC70d4r5ElFo8DDOK76VYOc5ymRBYrfT1sObTMFMeBwMXrofAHu694BKE7gGpVEtOWVkEN6dVWMKMFH7mGQgi4KW8A.r6pkWD9p7mpPD-v43guRsdzVa6MAC2n1Cr6AGd17wXk&dib_tag=se&keywords=dewalt%2Bscrewdriver%2Bbit%2Bset&qid=1707946908&s=hi&sprefix=dewalt%2Bscrewdriver%2Bbit%2B%2Ctools%2C306&sr=1-1&th=1"
+    },
+    {
+      "name": "Dewalt Drill Bits",
+      "image": "dewalt_bits.webp",
+      "link": "https://www.amazon.com/DEWALT-DW1354-14-Piece-Titanium-Yellow/dp/B0045PQ762?th=1"
+    },
+    {
+      "name": "Dewalt Tool Kit",
+      "image": "dewalt_tools.jpg",
+      "link": "https://www.amazon.com/DEWALT-Mechanics-Socket-108-Piece-DWMT73801/dp/B00U0P0GHM/ref=sr_1_2?crid=1TL2Z8UVLYYZ5&dib=eyJ2IjoiMSJ9.UnToSzJjiXBYB9d-SamrKEC9tTKf2vZsVMTSty2RURUTnxHcdoMkmAs_jQ5CWjl5gBvGAzecsM071yMnHQzK2xz47ivXgYXNgoBR0yCKmdzBAhUOky2f8eKbHBDsyN3_IAMI_qKoWvgd-8pDY4644JPzCYZsiY89sImRsrc7wrq6kPMrlrbzimgR5L67DVZBcwLZTbZCb_K77EWCO_YR5jh-xjflp3PZFC5v-1rxuzakz0aHk776NS5KzdEowVSQVmlP8JSPc8rabbvAIlC_xVeA-w6tx69mBjItL7MFGx8.YDR5_3PPQXxWQvQk17-ioGZq6liDqVzvB80o0DiYAfA&dib_tag=se&keywords=wrench%2Bpliers%2Bsocket&qid=1707945920&sprefix=wrench%2Bpliers%2Bsock%2Caps%2C285&sr=8-2&th=1"
+    },
+    {
+      "name": "Plumbing Snake Augur",
+      "image": "plumbing_snake.jpg",
+      "link": "https://www.amazon.com/Plumbing-Adapter-Flexible-Manually-Bathroom/dp/B088FVNC2F/ref=sr_1_5?crid=2K4A34180SATQ&dib=eyJ2IjoiMSJ9.JzNKN_ZJDxV5HpiXXQEsw_Sg48cw_rLvQKjwNig_EHNKTW-WrMFAbBXfkr13bBt1fEDZL45L1RWRsCQct754ni5AlWxKxZv3SzElBSd50JdW5bHTv5vnYocTJ1KTc4ChWeeBoFEefCVmDZYIO0zyygNjBTyWR8s877YcYED2H1CBb1srEtDKkeCcI4l36lfoScvEfx8Vq0_zxkGM9wRT_ntCTXDP79QfAgSj9ljAKLsblxdi98V0FtyGC9paoi0Cx1zEHDyjqGKlGft5nyrFVmGs1sSM2YE7JwueKe_T0no.doNELYqrLZFF52qSHRLCWfP9pSKZZpSR26D1Y9UZtXY&dib_tag=se&keywords=plumbing%2Bsnake&qid=1707894461&sprefix=plumbing%2Bsna%2Caps%2C303&sr=8-5&th=1"
+    },
+    {
+      "name": "Louisville Ladder FS2005",
+      "image": "ladder.jpg",
+      "link": "https://www.amazon.com/Louisville-Ladder-Fiberglass-250-Pound-FS2005/dp/B000KL0ZZE/ref=sr_1_15?crid=11TK4CKNTUIR5&dib=eyJ2IjoiMSJ9.q4QQCczhU7XIRySnpBcTDSJRLOwgjQrfxzWorYYSyWgOEYcru6XqIrEKd_6UKFY7yoAjrsSkjux0UQ6-6Gxktb7DeHUhzGvqpDUo0VJq4frnQiixWhduFOKWMZUCJPwItsyyqSdHmj5U7PoQo4nDQ-3tnSSjnb4JuamRu4ZKO6zqsK5ZPE2FzsunUkLUR3W9_nUGs9sampNVDj_29BkYPftkIgfit0321uzbM9VBlJZlRomIXNU8QjM3XwQUM1pdQl7cLTBiUEJLHb4WzjVMeOwz44afJaOL9Uvdgm1z3Ow.2I38PThjtpQdm8xuXPuUhjyTj_-aOSwVrcKjojE-iVs&dib_tag=se&keywords=ladder&qid=1707894508&sprefix=ladd%2Caps%2C280&sr=8-15"
+    },
+    {
+      "name": "Greenworks 40v 16\" Mower",
+      "image": "greenworks.jpg",
+      "link": "https://www.amazon.com/GreenWorks-25322-Mower-Battery-Included/dp/B00BBQVL5U/ref=sr_1_1?crid=2D0RCAKGWU32B&dib=eyJ2IjoiMSJ9.cMmccs3dMT0d_FPJRq9e2kWk7jVl0-GWHnQNu2wYuYWpYAuHWIRPNyhypjdlDXT7iieF4CnqCF5Ky6l_3mvkqD1shrjjJUwgnHpvnAbiqF8HQ3M9lQX9k9Gi7-yDXNnwYAuqfXGoKxOa7cBa4AJFlpIso4Vc7Ytzu8MJwUT-5-YxJWD0sii1uTVqi5wjJ3a8cxRtP8tg2uXDfGhkzFDxGN9QJeOQ9fB28Ohp_DKxjYA.GWeCneJ6vWuPQ6QpEjPM6tZ6Y3BcRbAFofK51ZbwaSY&dib_tag=se&keywords=electric%2Blawn%2Bmower&qid=1707894594&sprefix=electric%2Blawn%2Bmo%2Caps%2C279&sr=8-1&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0&th=1"
+    },
+    {
+      "name": "Worx Lawn Edger",
+      "image": "worx_edger.jpeg",
+      "link": "https://www.amazon.com/WORX-WG896-Electric-Trencher-Orange/dp/B00Q6EH7DW/ref=sr_1_1?crid=6ZRAZ8PFY13H&dib=eyJ2IjoiMSJ9.KIzrAT-xmHjc99qOmTEOXXd98BdayLJH-qogdXkcvO7DNdbnpp1cTGWpn1AzIkLvXcUIrJuAz07mRAasxJDTnWaIdGTInoP4gQMDbCD_WDVSVWw-gDJK9ty5IiCW8FMgT1gpyebuqSX3sfDsO_eBZW79gPBr46g-AmVdzmPHCStzs3doZrD3TgQlnObsQiC32rvUChTr8ih5taCkZV-INVhcPVxmQVA43eUrNTh5EQI.yFP2LtX3WsjqdUi2v2QlwVZnF2gp3Fmp4VIPQz0pNsE&dib_tag=se&keywords=electric%2Bedger&qid=1707894674&sprefix=electric%2Bedg%2Caps%2C329&sr=8-1&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0&th=1"
+    },
+    {
+      "name": "Workpro Pliers",
+      "image": "workpro_pliers.jpg",
+      "link": "https://www.amazon.com/WORKPRO-W001329A-6-Piece-Pliers-Wrench/dp/B07G9LKCML"
+    }
+  ],
+  "cooking": [
+    {
+      "name": "Cast Iron Dutch Oven",
+      "image": "lodge_oven.jpg",
+      "link": "https://www.amazon.com/Lodge-Manufacturing-Company-EC6D32-Enameled/dp/B0764492S9/ref=sr_1_4?crid=33ELDAX3C1NC6&dib=eyJ2IjoiMSJ9.kpAqvBLpIV-q3sgYVcuJYCITstRYfVboQu7dPvUC53ohjH7rrekjojoqM3wnZVz9LpF7kPxSXhEDf3O_OsdqZEmod5P7BvhBkp_vn33ro8gVfdGiutAX2UaW7blfbIhyLX1H_I5lIEH02JHYLZQ8HH6Tty2xm0pZfEuWu17STXOKKVdrk1mdL4xd755W30xstP1sZm3G2mY7VW6T7A3qj7IP90Omc5euDDZOkb2eTiK2VrpfIe9-npz0ykwQ_MOn0eUygsfytnx0eR5bfFl-IvonFpP2MmOrV5KCX2hXfoM.S3N3LnFymMQkuE2EfBnx10pKrrH_Wal-7qFJ1cCtUNM&dib_tag=se&keywords=lodge%2Bdutch%2Boven&qid=1708153307&sprefix=lodge%2Bdutch%2Boven%2Bamazon%2Bbasics%2Caps%2C267&sr=8-4&th=1"
+    },
+    {
+      "name": "Cast Iron Skillet",
+      "image": "lodge_skillet.webp",
+      "link": "https://www.amazon.com/Lodge-Skillet-Pre-Seasoned-Ready-Stove/dp/B00006JSUA/ref=sr_1_4?crid=31SKNFLJ85BMJ&dib=eyJ2IjoiMSJ9.uO0DAO_DTQI6IqoDRyFuM1unGU-UQ2bG_UgThYoiiJGhzYN3So7lyxBPQwVgaNRgwgDxWSMCMGOZS4hcEXpDIqkbhxmVshigyK-lykATuPdTgeuz3DMtP9GcPDgImg4CIDv9lPJQb2hBUTaGH86YHCuyPRLZlkBLzxx_eCvTUdYGKjp1DHWVvW-PEuwjn-tYvQcTNDQKpEcAOEmKT66dQhmkHGR_2EnAuMo8d5-72Ejp1xc38TeBZLjVtG-mI8EETvj7-vr157yARN2NFHgyS0hB4ZFd1X2muT--4jkwf5M.JbIwuZA-7q36n5xibXb3-FuS31n9iriQeHv4Jw1OElY&dib_tag=se&keywords=lodge%2Bcast%2Biron&qid=1708154506&sprefix=lodge%2Bcast%2Bir%2Caps%2C315&sr=8-4&th=1"
+    },
+    {
+      "name": "Stainless Steel Saute Pan",
+      "image": "saute_pan.jpg",
+      "link": "https://www.amazon.com/Calphalon-2029634-saute-pan-Silver/dp/B07MM3RWMN/ref=sr_1_12_mod_primary_new?crid=GKPGZSDCGC01&dib=eyJ2IjoiMSJ9.6zuGgWfMUi3NRe8Ku9U3Vnxa_3JYlVMokCP57UnegGz8Raal7nsoqYDjw-Sp8W7ztrvRQS_t4VrkSJ2r0u1D0D9qQPjUml6in6jnIc89HGkJ_U2jKVrpO2N8glWuycjcMUZMp8X1fubzc1iPLQAnxmYjFXmd7rvp-6Te7QwUISJAuFBitqXd0vy_fMVNDyTDV-Nlq0msMwneulXOWu4UASjuSeqx5Wrhp3gCj-94vxp1JbiVHuTf2ZGQciD3MwKwF8-6UwY60-0ayPw-98OHsqTahu3TiiXvVvIGbV41yNg.eTY0Fsp8-CIHTwjf7rhT2K4KFuQnRb_04-NWIZDgGaQ&dib_tag=se&keywords=saute%2Bpan%2Bstainless%2Bsteel&qid=1708154598&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=saute%2Bpan%2Bstainless%2Bste%2Caps%2C291&sr=8-12&th=1"
+    },
+    {
+      "name": "Stainless Steel Sauce Pan (saucier)",
+      "image": "tramontina_sauce_pan.jpg",
+      "link": "https://www.amazon.com/Tramontina-80116-022DS-Induction-Ready-NSF-Certified/dp/B00JAQ4DNU/ref=sr_1_11?crid=2V90L6EG4DPBB&dib=eyJ2IjoiMSJ9.EmyJqLT7NeyLdVNYr6kWMZ73rvwmogPeUg4ud6ehyDiut-Ih_68xaMky06fEQ-NM52Wcs9uolGbV3V9CPA86GHlFFtOEVMM5A4r1vYOOcV6BfMCtBKd5QfeJqNJovlOGTheXqEexwnALZKgVc920GXpsl01V3kqYEqOQ2-cUIVmdum2N6bnzDTzScxr2m7mjlksEvF4U4z_L_GwtVOTqIS8Q00kuFvsm1OOXsBDtZ5N1faa_rvJEIH_Kt7JyDMzyII4jsFtfa5yjLWJAYXlxGZSEA-zyOgrtOIs4bcV-xkg.0BdlMJZNEZOMp7hWCZ04tVCxUQDcO5mc3dG8z3SNXFk&dib_tag=se&keywords=sauce%2Bpan%2Bsaucier%2Bstainless%2Bsteel&qid=1708154651&sprefix=sauce%2Bpan%2Bsauci%2Bstainless%2Bsteel%2Caps%2C306&sr=8-11&th=1"
+    },
+    {
+      "name": "Wooden Spoons",
+      "image": "wooden_spoons.jpg",
+      "link": "https://www.amazon.com/Riveira-Apartment-Essentials-Nonstick-Housewarming/dp/B0823FQKH6/ref=sr_1_8?crid=1I6H1S04D6HW2&dib=eyJ2IjoiMSJ9.IZAv1sBHtBiZ02GRv6VmK2h8NAHoHT2lAyrzRrOMUyu7cOdABujGr5CgfUcqIKUegxzKdWcOPwgY1rKIHOS0lmbSGnJNF_11cZIQr-fuAV_cOO03GFYQryH3FS8vQitj1Alhp6Dxf8csLEzMIQwdCk14nLSEQVj5KEMZRqFZgYjne34SeFkw-HS6mU-AU6RTJPXlyw08x2MvtWHIzdoc4pPjC3XADxExkHp_JNVMwGQr0ejMkZTyoPhyBmIrqy3uI6Gq6bInky7E9oGQ_CUy3PtekAK6kWcfW-cPx38U334.ifRXL6dRaZTDU1IJo04zV6u5W9lt77MOgNp4vMB-vKw&dib_tag=se&keywords=wooden+spoons&qid=1708155932&sprefix=wooden+spoon%2Caps%2C322&sr=8-8"
+    },
+    {
+      "name": "Wooden Cutting Board",
+      "image": "cutting_board.jpg",
+      "link": "https://www.amazon.com/Luxury-Cutting-Boards-Kitchen-Reversible/dp/B0BBGLQRQ5/ref=sr_1_13?crid=15TQRFTHUGD9N&dib=eyJ2IjoiMSJ9.GqFdFpGbnY8ceIM6hO6z-b0Q8RH73Zpfnm1pNvP2-cUscbDIQUg7dNyW_5UtkE1Qu1Jjg_MJsyUOUx_rME0HdAlOViFKEq9jBKHEMAJ1YUErfJ6BB4LzEOIHgKWuk0ntmj5i4IeLf4dklWoy4Xdd_QhXzrPZxUWOs6bs5Mzgzo5DpT68nF-w5dxNXSuXypP1-gr0D5dwoqkEvX5T9_SV7DqU9DZkaWZ0pzOBO_XYQnbkXeMHISLcPf2NI--L73GoKhU-oiuPK6w9zGqVvERoiyBsGI1xLU9rMRpI4GRgvJ4.yzCkD4AVvGCpXsSE1nZk4SmH6jI8ZlBPQMquc0dIBZI&dib_tag=se&keywords=cutting%2Bboard&qid=1708156015&sprefix=cutting%2Bboar%2Caps%2C290&sr=8-13&th=1"
+    },
+    {
+      "name": "Victorinox Straight Pearing Knife",
+      "image": "pearing_knife.jpg",
+      "link": "https://www.amazon.com/Victorinox-4-Inch-Classic-Paring-Straight/dp/B005LRYE36/ref=sr_1_5_pp?crid=2RSKOEPCCYTIS&dib=eyJ2IjoiMSJ9.HYExs59VNVqW84vy8pw3gv1_Zn1IIXG_RkcPOPRgMDh8vrKzm81xOv3zFmAjl0295kvoTJXmvojARRD4-DzEMcP5_XlS523ia7PtAfedU_Dd9WB92pGIup_8a6e3WrwEoXghiZjwqt2OoAEN9oVTtDn7V-jLhzExqcY59vkzzudlA-tTE8es56Hn-sJU6bVBzk5aRB4d-wIDaGiBUtfpITA4BODQKph5yCbVnDW9qmx1XpRiMiACCVGrcHYuzqHJQoSBm1hkYFM9WYjN_EF2pILGjU39UJopYF4CoceXVzk.RBybKmex0SxnVdpn-th89mX0pMfewJd1CV7t4fTZ458&dib_tag=se&keywords=victorinox&qid=1708155710&sprefix=victorini%2Caps%2C315&sr=8-5"
+    },
+    {
+      "name": "Victorinox Chef's Knife",
+      "image": "victorinox_chefs_knife.jpg",
+      "link": "https://www.amazon.com/Victorinox-Fibrox-Chefs-Knife-8-Inch/dp/B008M5U1C2/ref=sr_1_10?crid=2RSKOEPCCYTIS&dib=eyJ2IjoiMSJ9.HYExs59VNVqW84vy8pw3gv1_Zn1IIXG_RkcPOPRgMDh8vrKzm81xOv3zFmAjl0295kvoTJXmvojARRD4-DzEMcP5_XlS523ia7PtAfedU_Dd9WB92pGIup_8a6e3WrwEoXghiZjwqt2OoAEN9oVTtDn7V-jLhzExqcY59vkzzudlA-tTE8es56Hn-sJU6bVBzk5aRB4d-wIDaGiBUtfpITA4BODQKph5yCbVnDW9qmx1XpRiMiACCVGrcHYuzqHJQoSBm1hkYFM9WYjN_EF2pILGjU39UJopYF4CoceXVzk.RBybKmex0SxnVdpn-th89mX0pMfewJd1CV7t4fTZ458&dib_tag=se&keywords=victorinox&qid=1708155710&sprefix=victorini%2Caps%2C315&sr=8-10"
+    },
+    {
+      "name": "Knife Sharpener",
+      "image": "knife_sharpener.jpg",
+      "link": "https://www.amazon.com/Victorinox-Fibrox-Chefs-Knife-8-Inch/dp/B008M5U1C2/ref=sr_1_10?crid=2RSKOEPCCYTIS&dib=eyJ2IjoiMSJ9.HYExs59VNVqW84vy8pw3gv1_Zn1IIXG_RkcPOPRgMDh8vrKzm81xOv3zFmAjl0295kvoTJXmvojARRD4-DzEMcP5_XlS523ia7PtAfedU_Dd9WB92pGIup_8a6e3WrwEoXghiZjwqt2OoAEN9oVTtDn7V-jLhzExqcY59vkzzudlA-tTE8es56Hn-sJU6bVBzk5aRB4d-wIDaGiBUtfpITA4BODQKph5yCbVnDW9qmx1XpRiMiACCVGrcHYuzqHJQoSBm1hkYFM9WYjN_EF2pILGjU39UJopYF4CoceXVzk.RBybKmex0SxnVdpn-th89mX0pMfewJd1CV7t4fTZ458&dib_tag=se&keywords=victorinox&qid=1708155710&sprefix=victorini%2Caps%2C315&sr=8-10"
+    }
+  ],
+  "classicbooks": [
+    {
+      "name": "Count of Monte Cristo",
+      "image": "count_monte.jpg",
+      "link": "https://www.amazon.com/Count-Monte-Cristo-Penguin-Classics/dp/0140449264/ref=sr_1_1?crid=2AB8NEMYAE3ZE&dib=eyJ2IjoiMSJ9.DPnL0KeV83O27UtujwaMu3boNcGUnq3J27sdvViuFUG454qVv-Q3lQTZQJar3ytJASyvZiDESyDR_bGJTDGwDiabXs2HiPyWol1PFvk669rMiK9ved7AkOgqwaa1fdlYt3T1oJIWQXHoCT2BEDRmM3NzCYFZPyvwoTmbZk4l8_TWbIOHwtutC_5BvEUiK_66p4ktmjApTbpcTjw3LMJ0sU9PUx8OTmUdL9n8Mkc2DBs.LXhQJqElz_IzZQarIYBbu6JcUbkpwYCaUnkiIMKyVTU&dib_tag=se&keywords=count+monte&qid=1708583190&sprefix=count+monte%2Caps%2C322&sr=8-1"
+    },
+    {
+      "name": "1984",
+      "image": "1984.jpg",
+      "link": "https://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934/ref=sr_1_1?crid=GR93610MO4JO&dib=eyJ2IjoiMSJ9.j8z-cLWRUg8sbRPWeuw4s8mxoYTEa3BWmsOVgbUqG24WjL3D6UKOrhTV4QBcH6N2ZOsuxAZLiCLf8mEe7LJfZDUVwtZE_d6b3RhZqIMIFId10EMSpxLEk1Cn5wiRSM1_1PBZjFD-2LeqbiN6d8GxMMMXbCTKsjYo8aCByqQdCpzrOIkk_WaeAuKmvm_QSh-gnxVK8ap_fnj5YXlVa-eakfACnkFnz65-Q6nF0dfxgYJL-WILmTATDpvKdpDbPU32hy9wNbLWphy-njLrBWpbZmDPhY1mjM4HskRcX_9BmwA.pAFD8zZ1cEdQoxBuirIeiaTkVKOqUmSZk2URfqa4m30&dib_tag=se&keywords=1984&qid=1708583213&sprefix=198%2Caps%2C285&sr=8-1"
+    },
+    {
+      "name": "Animal Farm",
+      "image": "animal_farm.jpg",
+      "link": "https://www.amazon.com/Animal-Farm-George-Orwell/dp/0451526341/ref=sr_1_1?crid=1LKHMFL7N7PPX&dib=eyJ2IjoiMSJ9.y8JaCRHml3AP41U__NvzcC91Bn2iz7C67_2_q5Ny8CmPAu4ugY0o6uEQ4cTUfHNOCE94SXudXUjE67W-4vOtyXuyAI73JvcR2w8haWbcJasyUu3CGqvOv313julQRJMffd4ZD8y7Y2fLjlGbDyzXBFa90EnePcYX-MJM8l1GxQafIyjZyjNk9lVVf1Jkwm4jFI3UBsuZgV-Voh7CiFL5w3ZGW4O6S2HGT3OVw-eWPs8.NScDJa0uXGdWNURHoMvHNrkvY5XHfmsHl5iYXQ7JaDQ&dib_tag=se&keywords=animal+farm&qid=1708583281&sprefix=animal+fa%2Caps%2C284&sr=8-1"
+    },
+    {
+      "name": "Pride and Prejudice",
+      "image": "pride_prejudice.jpg",
+      "link": "https://www.amazon.com/Pride-Prejudice-Jane-Austen/dp/0141439513/ref=sr_1_1?crid=2ZSGSP4YXATU1&dib=eyJ2IjoiMSJ9.q9yCtay7oZl1aNo9hTzdI3KoaXUWbIT5xXTs_9OoCfp45b7SbnrSpG7a1fzc6Gf1BBiXO3yALiP5fgDzE7pBtLLo14pxDFgbLgTHvhYzGZAM8VbM97v7gw4cFC2oK5l2jI8G48VEp_nS3qjOWTY40jvSJZzmhreXkwIb6Z86zjvyX65hzmp8JMhAgkgGQmw2Syd1bi2dfrJmd7X0uwn_gaBQxYBUTssmZ9welDG2xys.b-K6EYaUKKF8ftICn4oC-Lw1BUtUN7ODPKRyrIdpiPc&dib_tag=se&keywords=pride+prejudice&qid=1708583306&sprefix=pride+prejudi%2Caps%2C294&sr=8-1"
+    },
+    {
+      "name": "Crime and Punishment",
+      "image": "crime_punishment.jpg",
+      "link": "https://www.amazon.com/Crime-Punishment-Volokhonsky-Translation-Classics/dp/0679734503/ref=sr_1_1?crid=1KQBVCDJZ7GWW&dib=eyJ2IjoiMSJ9.Nx3jC6yWJ2xhP0qz57PedNj2_n1ndSL38ZPuVQcDKH1fQ8d3u3IBHTwC1Stz-6MomY1En_mtx80GjxLUkblCtsezLAxfCsvmiQTk16MKxN1VCf8hP0Mh5-DsXYHJnWWQ0sEHvkTnsAizMQ92uG-yFr3RqygaQmOggtsEd8MkKM0RLnwn6mSpzcCT9-irn1cHvPei_kMZxPsGPemhn6fNoQj4CE-1qHTalssOZ1SWP5Q.ebh-G_DWzTh9LL54CtFd8KpPmeKybY9TRHg5tzSTsR8&dib_tag=se&keywords=crime+punishment&qid=1708583373&sprefix=crime+punishm%2Caps%2C313&sr=8-1"
+    },
+    {
+      "name": "Anna Karenina",
+      "image": "anna_karenina.jpg",
+      "link": "https://www.amazon.com/Anna-Karenina-Leo-Tolstoy/dp/0143035002/ref=sr_1_1?crid=13D1QIOSFASM8&dib=eyJ2IjoiMSJ9.8clEEUiJuyYEw-dDL6XZigtY5mWoKqXn1lhFy3ImtWcJrqlGiE6mLfnuQgtyPCAAtanZbT2aHXZl7o95azIapowQRTAMBhLp-u6TyBc0u5SsLoifCLszPWIXQGSZ5eq9lsh_dl6ang39Fvi9tULdHz1palS8AJPqq1vnkliRSemIDVQNsVqmTQVd9mZfrSmo0vyimJq2VPp7ZP-aztLBtqnwMvNX181j8nN4uaL6m_o.oFeu7zPwqEyhZnwEeeDJN6WGHUtK4i9PEri5rMpVp3w&dib_tag=se&keywords=anna+karenina&qid=1708583446&sprefix=anna+karenin%2Caps%2C294&sr=8-1"
+    },
+    {
+      "name": "Meditations",
+      "image": "meditations.jpg",
+      "link": "https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/ref=sr_1_2?crid=2N0V8DT78EZS9&dib=eyJ2IjoiMSJ9.2qAg66fwdNgvoJLE7NczqUbH4l3rrgt-qOtw7gOAtoEoU-GDgAAVzrGfPriAj-a0x7asovGUuLImt3utJ1WHL3NT5R3T-2QG6pz9g2Dk7biaNi-sAppkkK4Woy4XwQXFLGFtpfbcal-U8Zrly4qG2z1rzn1icVDiVKJZeSlCnSSg86nRkFJ9peV1lxfYgu6h0-s_VkYSy8gSTNYv9n3B37_nRiAKRdPSdj2gdBpVRww.yBmOh8PCOY6X7XNj-uEhdKOV3Hu7itzdkuSrnhuJ0w4&dib_tag=se&keywords=meditations+book&qid=1708583592&sprefix=meditations+boo%2Caps%2C313&sr=8-2"
+    },
+    {
+      "name": "Diary of a Young Girl",
+      "image": "diary_young.jpg",
+      "link": "https://www.amazon.com/Diary-Young-Girl-Definitive/dp/0553577123/ref=sr_1_1?crid=1Y9I09PTKOBL6&dib=eyJ2IjoiMSJ9.gh1FT8cCapGfI_f6UmYUvPSZSDOlYdjoK4U8oA55itHmy69LgxYdQPmwOgv9P4ky44HNvXrr8jYEHlWW5pYRNtw3wrxuklnzpjuK3Ub6WL8LilngEfhOspaqV_WIIHokQeWH8UX8DONd5uGhwa4UzXrpsFWxZqnXfXjqdm7B5kHWPB9Mq_Y-N-fagFq_ohBqbn3XOVFf_0-AlLZpCJjEbZPM5ER2GpHDvt5xTOuhqqs.nKqP0bwTdtVZRqiWyRuPft5nkgfxhBhvYAKMm8PJBlc&dib_tag=se&keywords=diary+of+a+young+girl+book&qid=1708583626&sprefix=diary+of+a+young+girlbook%2Caps%2C278&sr=8-1"
+    },
+    {
+      "name": "Picture of Dorian Gray",
+      "image": "picture_dorian.jpg",
+      "link": "https://www.amazon.com/Picture-Dorian-Gray-Oscar-Wilde/dp/0141439572/ref=sr_1_1?crid=97SZIFBWXGQQ&dib=eyJ2IjoiMSJ9.H2ynYa-KShCWJZg0w6hiCEfY3zJ_QgVT0SIF-mDBq3Oae6A3H13atzVb5p-MnExZd0gUUm_ugmZKAq6cr91u1GeNKaO4d-emkf5qY-0Gt_bcWniCyxrkpFbfM77vZ4VIyw7Pelw_M-LDdTx49-DVW16e2NMyJJcyi0HVWFnXYsTnwK2E57jjUWwl8XnoYsXgd_OiVbIQid8L6Y2tJr1BPG2kMiEgJu0d7_2QGsaC6-M.aVVZuu792EabagcBgKOZIUKfISXtqNnwXgnu2-DX9Wc&dib_tag=se&keywords=picture+dorian+book&qid=1708583689&sprefix=picture+dorian+book%2Caps%2C303&sr=8-1"
+    },
+    {
+      "name": "Inferno / The Divine Comedy",
+      "image": "inferno.jpg",
+      "link": "https://www.amazon.com/Dantes-Inferno-Dante-Alighieri/dp/1490309780/ref=sr_1_1?crid=FSBR3LARE5K2&dib=eyJ2IjoiMSJ9.4BxxpzS5mxCazH2t1qxPnnLXHsqIe9p1RvDTNcGPCCgXLTO6vAmZxYgPln7S8Q-u95sQBixSvTr7qg6AKsSxFHuNcTugibzKIDIyrbngmooPaADpuzL4GE9apBiaTtkpNj8R3Tj_uxMhpvrjkoi8De0SmirDv6lgvuWM_VEPTONbb9EzIrmkRz-NYy17_ge7-vFG201vNEKsLceff1I-34bbsJ91787XPV_9rm9ZP2M.pDDr-wbakACNQTg_FnnwqklYYiE6ArEMq8Nwgk3shOQ&dib_tag=se&keywords=dante+inferno+book&qid=1708583785&sprefix=dante+inferno+book%2Caps%2C305&sr=8-1"
+    },
+    {
+      "name": "The Republic",
+      "image": "republic.jpg",
+      "link": "https://www.amazon.com/Republic-Penguin-Classics-Plato/dp/0140455116/ref=sr_1_1?crid=2B9N8Y5V0E7B7&dib=eyJ2IjoiMSJ9.4a5cascBpkMIdBFI2i8dTiEbzNZc4dQr_vv2RXPW8cF6a-XC2Yl9wtDBo6jpUy9CumG1suPtlyr_MZiT2bG-4NXrZCSESPxToazOoUbSY6GLXTKm2kaU0SxXM8OSHV2vvXy12lwtnFWVc9Ix3k6hWD0pMHk1oNrhEzQ76UGSapNcngYzHLs2QIy3LCuSB3WSSYC8TGUSJ_soH0eqPzXnulqX4rgsQgMrgNNaY-_bDso.oUQsiNyoj1fTnsP2pwncidpk4pghXhqBpsoL_xQeVsA&dib_tag=se&keywords=plato+republic+book&qid=1708583832&sprefix=plato+repub+book%2Caps%2C315&sr=8-1"
+    },
+    {
+      "name": "Odyssey",
+      "image": "odyssey.jpg",
+      "link": "https://www.amazon.com/Odyssey-Homer/dp/0393356256/ref=sr_1_2?crid=1UCX2MYZAWHV8&dib=eyJ2IjoiMSJ9.VSvdahgCg6_Yy4KMrXXSylVPSlYR9OqskXxVT0_csIOQoqt9NNThIXBzMSekxx1uk8gAfi7XPVS3iFvVVZnZSbJz3sR93yltlOI-WJHEMYKcYyHJJh5l6G56qQMfLZNJnja_eNUHNPfSorsyGW37Sz2Rpe-lL5APUhoKyQhcgr5epIHpBQE8kSAaSdvmTMZADyIa9lAU6aW3beTOuL2qsVTar4_sf6N0g3cW_UtQ9I2Om-tUAAKaWjzEcqPfGtVhS95zzRXU7pC_O0NZpVs8u2wuddsXU628cQ1TqArUPWo.GxrV-OEThybMIXdCfYj6lvKoDYr6g0-uerv6yTXsJZ0&dib_tag=se&keywords=odyssey+book&qid=1708583853&sprefix=odysse+book%2Caps%2C324&sr=8-2"
+    }
+  ],
+  "selfimprovementbooks": [
+    {
+      "name": "Thinking Fast and Slow",
+      "image": "thinking_fast.jpg",
+      "link": "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/ref=sr_1_1?crid=2K6GDKTW95REG&dib=eyJ2IjoiMSJ9.KP7SbRzcre9DpN2LWPIgYeuUQQSnHrRQrcy8gnDT93CnhuDrc79CBDxQEzhqORNEd6-eFtZOaMhob0xWGKahczyjV9zE_5_LpCU19F47D6RxnP7pYY0FK0Sb3Oda6eSkKIcKDwckGXL743-WJ0BN8rXA6BQhxD2owRaia8TZ2dcEzF5O14T6fMs0WIoeaOLjmpamdkgU1xskS-tUumPOH3FzsTrPwElBGgiiW5jeIaA.KoGzK_Nrs8pAdheMfIjFtldqLVI79z-xwd-NdT_IiD4&dib_tag=se&keywords=thinking+fast+and+slow&qid=1708582936&sprefix=thinking+fast+and+sl%2Caps%2C328&sr=8-1"
+    },
+    {
+      "name": "How to Win Friends and Influence People",
+      "image": "how_to_win.jpg",
+      "link": "https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034/ref=sr_1_1?crid=247HOI80W312L&dib=eyJ2IjoiMSJ9.7c9Fi1iXXCEpHRcIbSnSFKIPe5JpOBabXaf81mUC6sN-HOemErAZ2U2xvHuxS1qsiNC1X_Za6irouFXgeGx40asG90LtuJzCyc6rKSb_jcmCq8nNdJ6WJYZoU4lkF_gY8VI-hZ0plP3Tk3TC7SM3PZRle0S1ncBrCNwUTB1m7zIQWuamo_85w7yKDqYzjX4g6E0Tyzdhp7zKTuEu4CG7j0Sfuf3yd3TBkCUHLRTthRk.nPG7qEo1P0GHHezKb6TaFkhABm4y9jYLQ46HlUxeuNQ&dib_tag=se&keywords=how+to+win+friends&qid=1708582916&sprefix=how+to+win+frien%2Caps%2C385&sr=8-1"
+    },
+    {
+      "name": "Deep Work",
+      "image": "deep_work.jpg",
+      "link": "https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692/ref=sr_1_1?crid=3LG3JZHO4XGHG&dib=eyJ2IjoiMSJ9.ZU4VTSenX12Bm-lCpPgA1mdMdj3-xQ1td4O4o8qRXd2cDLScWmsbzMnK1rg_MVfmEQRZfuEWdaMO4UQbyG2N35fT6HtSePfEyrZbMa_D4WUNTTl46mTw9Bq5b5GkEzXR6v0oudlJ3WPiqYXzLGcFwtPJZ85yp8cchCeoMsZ5Chpqa0jHPHCzDDGkjNXUbGUPaOxL2ad_4aWjHopVrV1GqE7-XUkJjZIe86-avJyxwsA.cefT2c36gnGkwdPsPAR-AMxMygSxSEQmLTRsJ4PNctA&dib_tag=se&keywords=deep+work&qid=1708582899&sprefix=deep+wo%2Caps%2C313&sr=8-1"
+    },
+    {
+      "name": "Atomic Habits",
+      "image": "atomic_habits.jpg",
+      "link": "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299/ref=sr_1_1?crid=9CTHU4KTKNEC&dib=eyJ2IjoiMSJ9.dURutuaYTcfS6ltiTTzg_6ZfEsLdu7IwGT2K0iPStcyf5Pqc_TwOeyeUafkDP7GN9amkIg8RrwONv0RqKyJm3j-HmVtQZmkMsroP5JKwgyWH6bxB5RyqWzVFuWzeF1VJaRBD8C0pIt8fGHbax7tr87bk07zcwnx5pZbNO42-3TvBMf7nxa7BrEseK6E2FzFgxZtrkCUWGSKQNXHg507yRXZbJTzH7U_JPP9C83Akc-I.D6YWPKnJQx2nMhXEnn937wyp9X71OweffSIs_rMtGvw&dib_tag=se&keywords=atomic+habits&qid=1708582875&sprefix=atomic+habi%2Caps%2C292&sr=8-1"
+    },
+    {
+      "name": "Power of Now",
+      "image": "power_of_now.jpg",
+      "link": "https://www.amazon.com/Power-Now-Guide-Spiritual-Enlightenment/dp/1577314808/ref=sr_1_1?crid=2FLYMSRYWIGY6&dib=eyJ2IjoiMSJ9.vdf12P3waUhB9F-DlLRcjuoivM1M00zq0nLHSAbBwkuy16WujAENaZMb6pGKuSgPDcJTXT-Tr8gX9YDtGyGqKrTZo9XnbafP2iXc0aj4OhZbNlfIMuuLR93x4xGRCPYFc-CtR-TBjKw95fHB9aK300oB8cHs9SQEGxkgHr77DaYq5B6OWNlYQ7l_1ASVmPmPH8pDHNLlinDeeXbALKp68CjcpSmUVBXWtqVgsKuQ_4k.1Irv29h_H0bBP7y_Ax5jt2faN0cZLdiWgUEoqhE3QUc&dib_tag=se&keywords=power+of+now&qid=1708582853&sprefix=power+of+n%2Caps%2C303&sr=8-1"
+    },
+    {
+      "name": "12 Rules for Life",
+      "image": "12_rules_for_life.jpg",
+      "link": "https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021/ref=sr_1_1?crid=3AZZLOOPJOWX2&dib=eyJ2IjoiMSJ9.MjdhHI8BO938f2lkvgyVQOn9NnIvXwH7zo1Ix5p7cp7E96i6dB-38F1JhytoH7cb-7lAOjq-4FpOYr8GIvahTFy4KhQygf3hvnEeF0oLfokaA9_J0qWbECTnfujRny33kWHKqm2_OJ8_6sBJQJEv1CKc-0e5qNv25oT6KmXcZ_VU1T0N3kQp_NYQsRyjbOm58eDQidma6AmLYja_0VKPcznT82wOeKwtOif_qtxsmok.P5cW2SunaU9D7MkDe3tUvvS7OLcEjQaecPNs9HRquIg&dib_tag=se&keywords=12+rules+for+life&qid=1708582832&sprefix=12+rules+for+l%2Caps%2C281&sr=8-1"
+    },
+    {
+      "name": "Man's Search for Meaning",
+      "image": "mans_search_for_meaning.jpg",
+      "link": "https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/0807014273/ref=sr_1_1?crid=3U75S26QA9DAY&dib=eyJ2IjoiMSJ9.phUc2adLzv8edJKcJfYGiYmYQA_wfSFAPr6oNqdjFnYqCl7kYeLgbdCcSVb14tb0Ulm6NViEX-dgEWGmRnR5enINo5jRT2cBcl5GUUFKbCB1CvfeWCD_2nyq1QqgqvG2mZ_hFmLGdo28EmY6lshyidGxK5514tzYBh1dtTNrYigBCORtTBDkoIF37kKZmMWTZ6TLqduKpqdSI-FRUJhO4I-oa7wy0Nt11kdaIvZcvzw.dOo50raXD6Da_emKOuF4teT4opT-Nv89wlMl8jG3Hbc&dib_tag=se&keywords=mans+search+for+meaning&qid=1708582804&sprefix=mans+search+for+meani%2Caps%2C330&sr=8-1"
+    },
+    {
+      "name": "Never Split the Difference",
+      "image": "never_split_the_difference.jpg",
+      "link": "https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805/ref=sr_1_1?crid=2M157EPLDV5GI&dib=eyJ2IjoiMSJ9.QdA3pHXSgifFwoirF2BldnR1KXrX3Sdm74kBAeGYcNDDmekRu1D3m9ungC4e9GtVdo-FwvpFU1s_T3w_Evi9bGM_5HOL_XXF-JiLhD5VktBj6U5t_sIFz-agVscx5-l5dJu9gYj4dDuAP9P69H0HXq71bnF4xSUXNzHLNhjjeycSKBnnEP4U_Ceiyoh7gJh0TVd5vCOZZLurpU7LRP5cYAfyVsjnK6VOl4PtCCzk3WY.ZBIW4nCnQ9ACYxLHqgyfrC5Isf-CtpsAy0LEsK1fE_k&dib_tag=se&keywords=never+split+difference&qid=1708582782&sprefix=never+split+differen%2Caps%2C286&sr=8-1"
+    },
+    {
+      "name": "48 Laws of Power",
+      "image": "48_laws_of_power.jpg",
+      "link": "https://www.amazon.com/48-Laws-Power-Robert-Greene/dp/0140280197/ref=sr_1_1?crid=17481I91V2UWD&dib=eyJ2IjoiMSJ9.WZi98WVYGzlQ2eEXQ23wwvenjNwKr3Kn0TNtTccB_vpqjVcImA-RdBJ3VBzjrcKagRE-9cni3QrZiPpAKW6y9W8JxsLEQOvTP_niGKxLogiMAvNlLsmRcJbGGx48RQoTUhVjxrcGv7637iLqfACDOSDN05Obm8NBLNvOxs7gbom0GDDIw8isEEGz1P1Bf1OvgOIGLj08xjh-bGKd69vaBO36GkpnTza-a6Yy_8xo7IU.sdYrcrKVbz5OpduUPJIU74Lz72htj3dcU1Je19Tb7Q8&dib_tag=se&keywords=48+laws+of+power&qid=1708582763&sprefix=48+laws+of+po%2Caps%2C298&sr=8-1"
+    },
+    {
+      "name": "Creativity, Inc.",
+      "image": "creativity_inc.jpg",
+      "link": "https://www.amazon.com/Creativity-Inc-Expanded-Overcoming-Inspiration/dp/0593594649/ref=sr_1_1?crid=3OD5H7FOHU3XI&dib=eyJ2IjoiMSJ9.Ga33QekNnDJStz7w_lPvgze2AGhDvWb6HMY7vU4GmHZOy_fMgsgnHkiuoveF1voa4PMwmjHmrRS8qf7-4-K3CjHuxqun-z_RoaQTPoAOndUCs5C3Zffc6frHpjwSuLl4BeO7h4DJA7_qIrloXVqv1WkbsQLMH9CiRk2YG90y6YNHTGxSvnVkY0HOsAaE1RqdwhB-MxkMSL84ROmfQoJTZg5A7_UP0VLYmC347XU6q30.f4PngGeTKsitdYXHcVSZlFiYhHGwW6EyhqcLETASr3Y&dib_tag=se&keywords=creativity+inc&qid=1708582742&sprefix=creativity+i%2Caps%2C317&sr=8-1"
+    },
+    {
+      "name": "Nonviolent Communication",
+      "image": "nonviolent_communication.jpg",
+      "link": "https://www.amazon.com/Nonviolent-Communication-Language-Life-Changing-Relationships/dp/189200528X/ref=sr_1_1?crid=2KFM10EXS4L5&dib=eyJ2IjoiMSJ9.4CKvScfAZtEejUEz_mMobr0zQ8W87ZJZcLrsdwgikGc1yweexcXVBw_MJNIHg29zMNFXjWr0RAuiSxNAVKRspCXRNlO404QpP1HqFLRzz6OO4uUJ9JggY2grLoG5TlJApVE37JWD2B0AKq9qK8D_aC5yhXaK374EhiNGWwJDYqXVSArd5YMB7K0M9ulaaC3ibb6aE2uPTruobjjlhna1guF24vSBzf6MzYhcF4nK1CI.Co4xwAxESZK-VW20UL0hF7dJwu8pGvQB6Tu64d4dAOQ&dib_tag=se&keywords=nonviolent+communication&qid=1708582711&sprefix=nonviolent+communicat%2Caps%2C281&sr=8-1"
+    },
+    {
+      "name": "Can't Hurt Me",
+      "image": "cant_hurt_me.jpg",
+      "link": "https://www.amazon.com/Cant-Hurt-Me-Master-Your/dp/1544512279/ref=sr_1_1?crid=2S42H60KANO3F&dib=eyJ2IjoiMSJ9.YM-4L_1b9QCG49acOEJ4DIASbTPlkFt7PLR_6yJ9KCFmQD7BhwdvCESbWQAeUBsvh-iAsxzPf3Yc3K1gfXcqt1O0RLuOD2Ohsw_VayFL1yym_NHCgb2ZhLLYskyEjjf_cAvEg9zJWw9ir6uFcGmUcR9t5oSWxFd-3Zgy0ILuChbwo4yLVRBPN40eiUoUX65bexDJMfsmvuZIN8GGuNUDfc5r2SSxKeJOYHknRIS-khg.Y84Y2MziG2-mW5VDil9BmHANl7Li2KuF4aJXPzgwljI&dib_tag=se&keywords=cant+hurt+me&qid=1708582660&sprefix=cant+hurt+%2Caps%2C324&sr=8-1"
+    }
+  ],
+  "scifibooks": [
+    {
+      "name": "Cryptonomicon",
+      "image": "cryptonomicon.jpg",
+      "link": "https://www.amazon.com/Cryptonomicon-Neal-Stephenson/dp/0380788624/ref=sr_1_1?crid=32I5C8U28JX1&dib=eyJ2IjoiMSJ9.zefEBDXIkLzS7eoUzBdcY4FDcHNKmqjmW5oBOuBUxMY0QfSUEAXovN8KGp7k6u0h0cV_wTgzRhiNcV0UYaLrE2NwgFPq6-sKUvwOkyeuMkrA2qd-S-gmDH7sjRXAWLr4iyJaEAhwsnZwMyIfbT-6OvHRUSWRta_Gsf4QXqdCPrna8v7YzdwNB_OPpPDCmCFTQqVbM9kMc_9YyZg3RrFpAiUP1NJSSGeSBNvks4ideqI.8FtBwmrCGvrOENRpe82vO278tt8q-oMIioQ1AWocpWI&dib_tag=se&keywords=cryptonomicon+book&qid=1708584416&sprefix=cryptonomicon+book%2Caps%2C320&sr=8-1"
+    },
+    {
+      "name": "3 Body Problem",
+      "image": "three_body.jpg",
+      "link": "https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032/ref=sr_1_1?crid=1E3BFFZPS7TQZ&dib=eyJ2IjoiMSJ9.Y9N_Veg8BK2xRzIzQqqDjrYkkJ6bDJchKd98ui9H_0x0DqVqfngDGLfLQ2yKQuyFmQ3m0Fl_iazpvqLAC9T5QzEMF4c53bK5x4HkTzoQumOo0_Ruwjyi1aIPLVm1nVLQuDYL3KJPHqbVkxOAdWqNqy3TMVzhn9nCBv3-0g_ipTTW2KIqHEA4qnlnPR27uRNfzTEIyBcKwXfUz0KsiyeuO8trMYaQ5A-weRQGYg2Mbmk.fjPAwVgmS8kAKQWD9yzjy1sn9i3GBhSt60HjfxZFS84&dib_tag=se&keywords=three+body+book&qid=1708584541&sprefix=three+body+book%2Caps%2C344&sr=8-1"
+    },
+    {
+      "name": "Dune",
+      "image": "dune.jpeg",
+      "link": "https://www.amazon.com/Dune-Chronicles-Book-1/dp/0441013597/ref=sr_1_1?crid=3JOUGB3G6DU4W&dib=eyJ2IjoiMSJ9.zaZzED0zfaOD49lJ_-96hMHXThunsYfMy4SooOq3LmyuzHKjOVyoJy0mE0fu2FArce5XnRaogPFUpYp_i3udE5kHbui1J749_6RNc35mL8yCa56q387QbnKSDGFid1fmlqkzOfCnL6LTPWDeqJZOvqhpqJI7MbxzdWqq0J2KkHqfqD7-_KDd-lZlvF0Jxk_mCx7Y3K7fkOY-1PaiTV1eqmHACE4sGdPyXB5nTfUL0bM.DLfpRjAtS3WrhunYkmXT9CmVnYuFRjnLX2QtDNm5M0A&dib_tag=se&keywords=dune+book&qid=1708584560&sprefix=du+book%2Caps%2C304&sr=8-1"
+    },
+    {
+      "name": "Hitchhiker's Guide",
+      "image": "hitchhikers.jpg",
+      "link": "https://www.amazon.com/Hitchhikers-Guide-Galaxy-Douglas-Adams/dp/0345418913/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.e4djRrdKKoleW0QQULbpgWYPvGS24HLMzHbA6eZMJzdqB-p88GUOTHW83bVgeQpc2nOTaW_Niwz0lt02zJznpiAmzwGkT_nXQ3dIiF3ZB4xb86cJXQF5ln-qHv7KGIkd0ReC1PSjaXF7wvwspzuh9L0ZMCp49C4Phxum2ADam7qz_iIhyNSZF16tM4EiwAIKQQklqBspjvM7N6I76hoVAdajhUab0K5YenS1gEPCQ3w.FbL8q_0vJoyTXVugFUIowugx1z_07KPklH8oYa8i4fk&qid=1708584629&sr=8-2"
+    },
+    {
+      "name": "Foundation",
+      "image": "foundation.jpg",
+      "link": "https://www.amazon.com/Foundation-Isaac-Asimov/dp/0553293354/ref=sr_1_1?crid=3FJHB37BC7OML&dib=eyJ2IjoiMSJ9.S06s4SE06WET9NSOYqpdndSgdpC9k4_Qhp3FYRbhgZjopUm0C64CUpyHwnGipE60opreSBwwhwJTXaBXkhawu2sdYIO_lj6RZBjD353ndeB_w3O112NEWA1-bkaGOs0LVy8HHP29h_V0-1dqH27HRHeHPwrrUABgzQ3nCEItJaZM7uHRQcefJzyCz8_abWXGdHZNbiRoT6Vqbgl7gPloD8DxE4obIJBtUNrWgquoV5w.FWnKe38_Pj0G1tQZUtC5qgogerpqdfdJbbRJ_AmesT4&dib_tag=se&keywords=foundation+book&qid=1708584714&sprefix=foundation+boo%2Caps%2C286&sr=8-1"
+    },
+    {
+      "name": "Brave New World",
+      "image": "brave_new_world.jpg",
+      "link": "https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0060850523/ref=sr_1_1?crid=261V3JTBQ1GWY&dib=eyJ2IjoiMSJ9.LtN0ywD7uDMGDeDLLoC6CRL-G_1giZiUIM04E_GaNP-G_wnrht6bJNxDQzE72zTK8f-9CyKqriRLHKByZQUZKRTYoFduwWQwBUUwpSFxdaVCsjIUzzMmicbB-CTKlE4naQQpIbuoYNR9HQpZ-7IBsud3mB-YyFE6yXX1L9Ul9ndgZsybjK0kcGPVBRsOPpLhLjhbxvvktMuzrZZwC34RYZQdPHbtgYFe6gbLPdu9RBA.By8IEU5P-IhfIuciFtVxwjKca7TCSTBlNr-OZdmtoio&dib_tag=se&keywords=brave+new+world+book&qid=1708585162&sprefix=brave+new+wor+book%2Caps%2C354&sr=8-1"
+    },
+    {
+      "name": "The Martian",
+      "image": "martian.jpg",
+      "link": "https://www.amazon.com/Martian-Andy-Weir/dp/0553418025/ref=sr_1_1?crid=3RVH04PR5IAKM&dib=eyJ2IjoiMSJ9.4YgDB6vZjBnG85UQ3M5xnQ9Q5haD_znDAJaxHGTbuXRKhsLaFPXb_yUwj1mWq7Qxl25dgoCS5WLsg3NygqmgTob-xqAI2d04XHqc8q3mYqVWtDWmmrTr9curcS8F_14LCDrhdvtXukimlZZm47pnF8XYli6uV33G0kARfHUggTR_M7b2W3YHOLqQaDMxEdAtxM9uFc_pTyGOkawrsZ5JnfdEncXzmW0J_1gyqj7QU1o.9eKbcd9zKDvIb-kQY1p7dGgz2UtjdStquUxHG2e2LL0&dib_tag=se&keywords=the+martian+book&qid=1708585181&sprefix=the+marti+book%2Caps%2C305&sr=8-1"
+    },
+    {
+      "name": "Ready Player One",
+      "image": "ready_player_one.jpg",
+      "link": "https://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/0307887448/ref=sr_1_1?crid=1R0Y2WGLICWJ0&dib=eyJ2IjoiMSJ9.AdToOY6PESvysO5_mxVQKAeBqGFqj0ojWBS3OZH4rEOLkUGC9eGjwf1iok0GxavR8SalpFzM8NoYe1jWjHWL8l5-IA8l3FzaAa8qjOnt9mjDDFRDkehXxp-5zgTzZKWyWFu1FoV4WRnrrCYx7En8gbYo_D7F_g3sJEIfmiT98AmJxe-flPCLhhxvZD_jTi7iEwO5C1s9kAelChh8twJpVFGXXad_tFQI_kj5Ekx58Q0.C_iigtY9LFI8SX0ZwezZOb4s8p0oA0RcHHKsbXQWG2U&dib_tag=se&keywords=ready+player+one+book&qid=1708585242&sprefix=ready+player+one+book%2Caps%2C305&sr=8-1"
+    },
+    {
+      "name": "Neuromancer",
+      "image": "neuromancer.jpeg",
+      "link": "https://www.amazon.com/Neuromancer-William-Gibson/dp/0441007465/ref=sr_1_1?crid=19IG9YIXMZ1ZV&dib=eyJ2IjoiMSJ9.ArlChDCsKlOJy77lHBKtdqgVGLQyBiIWhiuMJDlV78yK4gG4tMY1z1L_LUpfjmHBnWuprQJLPkxgQJVd5cMLjrqwf6mKdfEp0AK5HB62Z4pYIO9BT6eAdnX7XQU2E_exzyEF_RwfQD-7IwYOA6-L2DyK71axibPlJdNNn1PfK1zNo1uL5rB8bw3gO0iPbwaD5uVMySRBlzt_nvrnNP38dPfT2RF1jLRC9rrrsJGID-Q.-f6pRsL6ypel-dGpCh8xu577QUsFTFs-MFlCpopyUrg&dib_tag=se&keywords=neuromancer+book&qid=1708585313&sprefix=neuromancer+book%2Caps%2C295&sr=8-1"
+    }
+  ],
+  "mensfashion": [
+    {
+      "name": "Flannel",
+      "image": "flannel.jpg",
+      "link": "https://www.amazon.com/Wrangler-Authentics-Sleeve-Sherpa-Cabernet/dp/B0CJCTHP56/ref=sr_1_8?crid=UZZA244V5CTJ&dib=eyJ2IjoiMSJ9.h1HuSQJbWC7BjJdQONGKaZRzC1zmAbKuEu5UNQYZWSa42aFhAYnbP1n7T-OQ3V7-ZVYLlckbM_LY4MdU3Cyb6I1lRfx-Mg0dJ7FsJJmBogmT_7rs9J3xW6OVR9Iybupzuu-xSFHrXPqf2TzjJ2ox6RprIw6wAu983BaHSAcRYt1aP4ibnTFTKFIymZl95UibLgX0th2YyGfnJaLKfdW4aDq2_Xm2Ukz0atuzWtfAxfcCyR-M38FBSPTPIur5rHDHj72gPxYCP1SqsGJkY5qmrM9fuXe6mbVSJo9arJTLMMQ.mriSmCcCfNqCZqm2MihxgJnwduGqjDc1raufmrT5RsI&dib_tag=se&keywords=flannel+mens&qid=1708125964&sprefix=flannel+m%2Caps%2C296&sr=8-8"
+    },
+    {
+      "name": "Henley",
+      "image": "henley.jpg",
+      "link": "https://www.amazon.com/Wrangler-Authentics-Sleeve-Waffle-Henley/dp/B01L8GRTH6/ref=sr_1_2?crid=UUN8V015F7DY&dib=eyJ2IjoiMSJ9.Yzz1yr4wx7_fqZT-_YDPNwXPXNiisrqUucMxu2L2kPnj-9nAy80ybURgqZlEMeCjcgV_AmcTfbkXY3aQqyKBH7YBn-gA2MLquBoJg7fk4u3gjAKP4sYfjkq9FUnXbc1ssFC9cm42GCXWOTaGkOF_XscP9NyE6hrEFHs1HKdYpf1SG-oZoyCdT8-j9-mp2Q23KXpfPmJZVJyZnEWeUUwGFC1YOJlVZx00DBVzzrL9pCmHROKaThIkLlnSSdB7HqPYHqRqeD-7eG3kJDbv7-2TPlD40tiFY_-Evh-DabrRpuM.iELNUZ0Vo7Zzx0CgLsSzW7DYa2wv4nmovygrx3w7jXI&dib_tag=se&keywords=henley+mens&qid=1708126113&sprefix=henl+mens%2Caps%2C381&sr=8-2"
+    },
+    {
+      "name": "White T shirt",
+      "image": "white_t.jpg",
+      "link": "https://www.amazon.com/Hanes-mens-tagless-Undershirt-White/dp/B00LSRU1QW/ref=sr_1_6?crid=29BZH2FJ29BSJ&dib=eyJ2IjoiMSJ9.KnVESOar9u1rSnTECi_cgkYz-O7O_3U1qbF3D8p3ePhvjq1SrYpEhC1_c2zjBbnNKD6oyiO9R2lETc9IvSLEMsvx67aNImK_vYsDraATEtxOy7_0VQYQDTA_2s5rykXwE-QBarDAShw1KeY0JZZUuHWTaH1hIa9tbJLYyjBTGJj9z9FWpnYlT3mKe500YBvl0V6XTU18GMK1TtAaNwIG8yx3ZGOBKpUk34lTAT6CHsvCRDMbnQTFvCAOJLYW17C84Pt6vWYqYenMMRYju6G2dZXLPybRSDc-8WpuJPNEpyY.U2zeDguSNRWkf1jzSVjFVi8mYM_jCa6QV51viSydeBU&dib_tag=se&keywords=white+t+shirt+v+neck+mens&qid=1708127601&sprefix=white+t+shirt+v+neck+m%2Caps%2C296&sr=8-6"
+    },
+    {
+      "name": "Levi's Blue Jeans",
+      "image": "levis.jpg",
+      "link": "https://www.amazon.com/Levis-Original-Shrink-Jeans-33WX32L/dp/B0018OFUUC/ref=sr_1_12?crid=M5KM9P6LS422&dib=eyJ2IjoiMSJ9.Y8GQ7rL4WQhS_HUPYQy3HjITmQsSXymzvUbqmSufEJI--2BEx4aJyOavzrA1Kz1ivAphd76-8cZzrHr3s25GXG9ueyQiKCmJ4_RLHc-2GfbZ5a4jL_rd3N-Wv90ORamJVQg0_Lc4rw7vlknVWLHbTH6mOBm5kxiZ1ENKeUhX1zc-dDRjNbREDPCABkcRGsox507MHAqXQxeJ2akcwhBpFSOJ-YXCRCHL96yYBKWgNdXiqgP7602LRkXBl_3_tmtnLwEd4usrnk5q0T090i_Qe7B1ZaGSV8vk4Xkdc8koJuA.Oxd2V9XmOkbgB0SMUIwvkkJa7ABBN57xrKN__j65wus&dib_tag=se&keywords=501+levis+jeans&qid=1708127947&sprefix=501+levis+je%2Caps%2C311&sr=8-12"
+    },
+    {
+      "name": "Vans Shoes",
+      "image": "vans_authentic.webp",
+      "link": "https://www.amazon.com/Vans-Authentic-Unisex-Adults-Sneakers/dp/B07L25QQ46/ref=sr_1_6?crid=306FNNYL0KSLY&dib=eyJ2IjoiMSJ9.aWV-S3aainDXJ7yYdzxGYxLRdl-_71IV7gQNH4XnsIw40eYDylJ3Q5jgRFrLHtOULlXJohNpLs7QKQec8drSCvHr-DMUcmqD7NKzc6FzeytNr-RYHHlt6ZVWm1p8NnzB4Ng8dPmuey0B-ccPebnoBJ18K83Ok6cYXfHuivGrhNl5x5npD7WuwP5VVGdGS-AdYWf_PWT4VyppeHo1F9zAKUB6IQwifIoF8Z70ZrbYDDRulbfsF-SQ0ja9sG7NpVZLeLwopiGuAkKOuivvPjkVz0UU1fEVZjejYl7HRDmUI7k.j558xfUhxhIgvh_SZpxnz5lg1uKBPn009sGzAdB64j4&dib_tag=se&keywords=vans%2Bshoes%2Bmen&qid=1708128103&sprefix=vans%2Bshoes%2Bm%2Caps%2C366&sr=8-6&th=1"
+    },
+    {
+      "name": "Sherpa Trucker Jacket",
+      "image": "sherpa_trucker_jacket.webp",
+      "link": "https://www.amazon.com/Levis-Sherpa-Jacket-Juniper-Rinse/dp/B077TCHH7F/ref=sr_1_3?crid=ORNGWNU7WT4C&dib=eyJ2IjoiMSJ9.Ie23Ckufco5j4UWHwnvLDJ20p_6z9nTwICjXtngjulsxTX5Eh1SOtyVYpJrL61JdZGCzhBZIV8miSfXjaQ94qhcsM0kHQG4f4wDAqdbHTnOHoUYvcQ8tyLkXbSOXXznZPa-chtziHSItf01Z64oWiwmpLMpIDEhv52o4rY5z01zTmmgGuddk5RDxQdMQ7bulmfRNa7mJdnU06vUHWzN8MUS4ZIVXBqIJaPd5msyvNFIcr7o9YkZ9ybzwYkTHeq_-bjk84yCUM7o9hQM5kcM0uF5zL13j-jdi8jG4HuvLu_M.A2veMUCOJwSuTCBfS8N96X1-LzM7c5ARXOxbX0jKv1o&dib_tag=se&keywords=levis+sherpa+jacket+men&qid=1708128185&sprefix=levis+sherpa+jacket+men%2Caps%2C334&sr=8-3"
+    },
+    {
+      "name": "High Black Socks",
+      "image": "dickies_socks.jpeg",
+      "link": "https://www.amazon.com/Dickies-Multi-Pack-Dri-Tech-Moisture-Control/dp/B008M5S09S/ref=sr_1_1?crid=33UFDK8B4D83H&dib=eyJ2IjoiMSJ9.5u-UfggGQCtJc9HLI4QJ9jwor8XMoF58l5Pzyx7GWVT_irZwcAE9DXUhF8dzoqXJy9JniHKZFYhWEPMJNaQLnTUODzVU84e836G-_AOIgJnl-UF4Dp6Y_KkK09GGc7SprKD0GUniC3DfUMh9ozCJwGq3r8AqxLlYgsxCEEu_Ywlwf9OjLjtnjPmi6-XLazZkFI9NnesriM-Zl_d3smU947-jnnxGZD_BCY0kfylaLrBN2UVXqrTg6QFBac648tf6QxMTFYipgWxMSqaYUSmAnlDb75f4VcwqyPic64uT3-Y.bgow0vlJwmqUjWqQYdtAE2O3VXTvg69d6UB-OPHI06Q&dib_tag=se&keywords=mens+high+black+socks+dickies&qid=1708128329&sprefix=mens+high+black+socks+dick%2Caps%2C300&sr=8-1"
+    },
+    {
+      "name": "Boxer Briefs",
+      "image": "calvin_boxer_briefs.jpeg",
+      "link": "https://www.amazon.com/Calvin-Klein-Modal-Briefs-Medium/dp/B07ZJ3HRDX/ref=sr_1_23?crid=NCGTXPQA7PGO&dib=eyJ2IjoiMSJ9.GsFrhHmXJsSA5k3Uk-KCyx7lR1HZurXcYa25BzQ8feBKkssQgzNaugFoK-udfHxCCsmXrqOFI8UbjGL-x6gyezNi1N5GrOsigNRJ6m9j7Pk1JvYFIlaR4op8yYNK-JR_cnqB130EiRFNC6Bk-DvQ36OCDUaXvuf2KiMVhRjBNJ6_kJzfaB8LBHsYrQpTnspVBDjd6-TfbVSa8EiNo7lcujtJVuwDWi__FR5navUcjYhgQHsgxEnErFJhR8W-OmpoMDe94acXigk4Iy_T3vW0lIoXTf6bkza6H9zgDpsEdiQ.IxASD10gQ8F2kCPs-fgkhK_kcIQXCl0U5BsNKmN_9EE&dib_tag=se&keywords=calvin+klein+boxers+men&qid=1708128480&sprefix=calvin+kleins+boxers+me%2Caps%2C297&sr=8-23"
+    }
+  ]
 }

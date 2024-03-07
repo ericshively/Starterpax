@@ -3,49 +3,58 @@ import Description from "@/components/Description";
 import { CategoryFriendlyNames } from "@/data/categoryTypes";
 import categoryFriendlyNames from "@/data/categoryFriendlyNames.json";
 import { categoryDescriptions } from "@/components/Description";
-import type { Metadata, ResolvingMetadata } from 'next'
- 
+import type { Metadata, ResolvingMetadata } from "next";
+
 type Props = {
-  params: { category: string }
-  searchParams: { [key: string]: string | string[] | undefined }
-}
- 
+  params: { category: string };
+  searchParams: { [key: string]: string | string[] | undefined };
+};
+
 export async function generateMetadata(
   { params, searchParams }: Props,
-  parent: ResolvingMetadata
+  parent: ResolvingMetadata,
 ): Promise<Metadata> {
- 
   return {
-    title: (categoryFriendlyNames as CategoryFriendlyNames)[params.category] + " Starter Pack",
+    title:
+      (categoryFriendlyNames as CategoryFriendlyNames)[params.category] +
+      " Starter Pack",
     description: categoryDescriptions[params.category],
-  }
+  };
 }
 
 export async function generateStaticParams() {
-    const categories = [
-        "homebar",
-        "whiskey",
-        "weightlifting",
-        "skateboard",
-        "coffee",
-        "boardgames",
-        "pc",
-        "skincare",
-        "hometools",
-        "mensfashion",
-      ]
-   
-    return categories.map((category) => ({
-      slug: category,
-    }))
-  }
+  const categories = [
+    "homebar",
+    "whiskey",
+    "weightlifting",
+    "skateboard",
+    "coffee",
+    "boardgames",
+    "pc",
+    "skincare",
+    "hometools",
+    "mensfashion",
+  ];
 
-export default function CategoryPage({ params }: { params: { category: string } }) {
-    return (
-      <div>
-        <h1 className="text-center text-md lg:text-xl p-2 lg:p-4"> {(categoryFriendlyNames as CategoryFriendlyNames)[params.category]} Starter Pack </h1>
-        <ItemList categoryName={params.category}/>
-        <Description description={params.category}/>
-      </div>
-    )
+  return categories.map((category) => ({
+    slug: category,
+  }));
+}
+
+export default function CategoryPage({
+  params,
+}: {
+  params: { category: string };
+}) {
+  return (
+    <div>
+      <h1 className="text-center text-md lg:text-xl p-2 lg:p-4">
+        {" "}
+        {(categoryFriendlyNames as CategoryFriendlyNames)[params.category]}{" "}
+        Starter Pack{" "}
+      </h1>
+      <ItemList categoryName={params.category} />
+      <Description description={params.category} />
+    </div>
+  );
 }

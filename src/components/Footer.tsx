@@ -5,6 +5,14 @@ export default function Footer() {
         {" "}
         Questions, comments or concerns? Email eshkidd@gmail.com{" "}
       </center>
+      <center>
+        {" "}
+        See{" "}
+        <a href="https://exoroad.com" className="hover:text-white">
+          exoroad.com
+        </a>{" "}
+        for finding great places to live
+      </center>
     </footer>
   );
 }

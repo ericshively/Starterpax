@@ -1,4 +1,6 @@
-This is a Typescript, Next.js, React.js, TailwindCSS stack using Next13 app router React Server Components.
+This is a project to provide personal recommendations on a variety of hobbyist categories.
+
+Tech stack is: Typescript, Next.js, React.js, TailwindCSS using Next13 app router React Server Components.
 
 src/app for the main application code and /components for the JSX/TSX components the app router brings in.
 
